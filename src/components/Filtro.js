@@ -128,7 +128,7 @@ function Filtro() {
         <div className="relative w-[75%]">
           <div>
             <div className="flex justify-between items-center" id='impressora'>
-              <h2 className="text-[24px] text-[#0F5197] font-medium">
+              <h2 className="text-[24px] text-[#0F5197] font-medium" id='impressoras'>
                 IMPRESSORAS
               </h2>
               <span className="flex items-center text-[18px] font-light text-[#0F5197] gap-[20px]">
