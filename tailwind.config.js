@@ -36,16 +36,6 @@ module.exports = {
 
       },
 
-      colors: {
-        'comabeblue' : '#0F5197',
-        'comabeorange' : '#ECA918',
-        'titles' : '#343434',
-        'paragraphs' : '#575757',
-      },
-
-      boxShadow: {
-        'shadow-card' : '0px 3px 30px 5px rgba(0,0,0,0.1);',
-      },
 
 
     },
