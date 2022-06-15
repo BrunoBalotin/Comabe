@@ -556,48 +556,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: -1.3px !important;
 }
 
-.-bottom-\[80px\] {
-  bottom: -80px !important;
-}
-
-.bottom-5 {
-  bottom: 1.25rem !important;
-}
-
-.-bottom-7 {
-  bottom: -1.75rem !important;
-}
-
 .-bottom-16 {
   bottom: -4rem !important;
-}
-
-.-bottom-\[30px\] {
-  bottom: -30px !important;
-}
-
-.-left-\[100px\] {
-  left: -100px !important;
-}
-
-.-top-\[70px\] {
-  top: -70px !important;
-}
-
-.-right-\[40px\] {
-  right: -40px !important;
-}
-
-.-bottom-\[50px\] {
-  bottom: -50px !important;
-}
-
-.-left-\[25px\] {
-  left: -25px !important;
-}
-
-.-right-\[25px\] {
-  right: -25px !important;
 }
 
 .z-50 {
@@ -630,11 +590,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-7 {
   margin-top: 1.75rem !important;
   margin-bottom: 1.75rem !important;
-}
-
-.mx-\[15px\] {
-  margin-left: 15px !important;
-  margin-right: 15px !important;
 }
 
 .mt-\[30px\] {
@@ -701,34 +656,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 35px !important;
 }
 
-.mr-\[50px\] {
-  margin-right: 50px !important;
-}
-
-.mb-\[40px\] {
-  margin-bottom: 40px !important;
-}
-
-.mt-\[40px\] {
-  margin-top: 40px !important;
-}
-
-.mb-\[70px\] {
-  margin-bottom: 70px !important;
-}
-
-.mt-\[60px\] {
-  margin-top: 60px !important;
-}
-
-.mt-\[150px\] {
-  margin-top: 150px !important;
-}
-
-.mb-\[10px\] {
-  margin-bottom: 10px !important;
-}
-
 .mb-8 {
   margin-bottom: 2rem !important;
 }
@@ -775,42 +702,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-14 {
   margin-top: 3.5rem !important;
-}
-
-.ml-\[17px\] {
-  margin-left: 17px !important;
-}
-
-.mt-\[25px\] {
-  margin-top: 25px !important;
-}
-
-.mt-\[250px\] {
-  margin-top: 250px !important;
-}
-
-.mt-10 {
-  margin-top: 2.5rem !important;
-}
-
-.mb-\[55px\] {
-  margin-bottom: 55px !important;
-}
-
-.mb-\[60px\] {
-  margin-bottom: 60px !important;
-}
-
-.mb-\[90px\] {
-  margin-bottom: 90px !important;
-}
-
-.mr-\[100px\] {
-  margin-right: 100px !important;
-}
-
-.mt-\[65px\] {
-  margin-top: 65px !important;
 }
 
 .block {
@@ -893,50 +784,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 323px !important;
 }
 
-.h-\[285px\] {
-  height: 285px !important;
-}
-
-.h-\[385px\] {
-  height: 385px !important;
-}
-
-.h-\[640px\] {
-  height: 640px !important;
-}
-
-.h-\[940px\] {
-  height: 940px !important;
-}
-
-.h-\[165px\] {
-  height: 165px !important;
-}
-
-.h-\[60px\] {
-  height: 60px !important;
-}
-
-.h-\[500px\] {
-  height: 500px !important;
-}
-
-.h-\[900px\] {
-  height: 900px !important;
-}
-
-.h-\[520px\] {
-  height: 520px !important;
-}
-
-.h-\[1500px\] {
-  height: 1500px !important;
-}
-
-.h-\[275px\] {
-  height: 275px !important;
-}
-
 .h-72 {
   height: 18rem !important;
 }
@@ -955,70 +802,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-300 {
   height: 18.75rem !important;
-}
-
-.h-\[250px\] {
-  height: 250px !important;
-}
-
-.h-\[1350px\] {
-  height: 1350px !important;
-}
-
-.h-\[170px\] {
-  height: 170px !important;
-}
-
-.h-\[120px\] {
-  height: 120px !important;
-}
-
-.h-\[1250px\] {
-  height: 1250px !important;
-}
-
-.h-\[190px\] {
-  height: 190px !important;
-}
-
-.h-\[50px\] {
-  height: 50px !important;
-}
-
-.h-\[1200px\] {
-  height: 1200px !important;
-}
-
-.h-\[430px\] {
-  height: 430px !important;
-}
-
-.h-\[200px\] {
-  height: 200px !important;
-}
-
-.h-\[80px\] {
-  height: 80px !important;
-}
-
-.h-\[1100px\] {
-  height: 1100px !important;
-}
-
-.h-\[330px\] {
-  height: 330px !important;
-}
-
-.h-\[210px\] {
-  height: 210px !important;
-}
-
-.h-\[300px\] {
-  height: 300px !important;
-}
-
-.h-\[580px\] {
-  height: 580px !important;
 }
 
 .w-full {
@@ -1102,58 +885,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 90% !important;
 }
 
-.w-\[450px\] {
-  width: 450px !important;
-}
-
-.w-\[48\%\] {
-  width: 48% !important;
-}
-
-.w-\[95\%\] {
-  width: 95% !important;
-}
-
-.w-\[58\%\] {
-  width: 58% !important;
-}
-
-.w-\[30\%\] {
-  width: 30% !important;
-}
-
-.w-\[24\%\] {
-  width: 24% !important;
-}
-
-.w-\[38\%\] {
-  width: 38% !important;
-}
-
-.w-\[70\%\] {
-  width: 70% !important;
-}
-
-.w-\[15\%\] {
-  width: 15% !important;
-}
-
-.w-\[51\%\] {
-  width: 51% !important;
-}
-
-.w-\[60\%\] {
-  width: 60% !important;
-}
-
-.w-\[435px\] {
-  width: 435px !important;
-}
-
-.w-\[320px\] {
-  width: 320px !important;
-}
-
 .w-4\/5 {
   width: 80% !important;
 }
@@ -1162,52 +893,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 91.666667% !important;
 }
 
-.w-\[32\%\] {
-  width: 32% !important;
-}
-
-.w-\[60px\] {
-  width: 60px !important;
-}
-
-.w-\[22px\] {
-  width: 22px !important;
-}
-
-.w-\[330px\] {
-  width: 330px !important;
-}
-
-.w-\[620px\] {
-  width: 620px !important;
-}
-
-.w-\[55\%\] {
-  width: 55% !important;
-}
-
-.w-\[370px\] {
-  width: 370px !important;
-}
-
-.w-\[680px\] {
-  width: 680px !important;
-}
-
-.w-\[83\%\] {
-  width: 83% !important;
-}
-
-.w-\[325px\] {
-  width: 325px !important;
-}
-
-.max-w-4xl {
-  max-width: 56rem !important;
-}
-
-.flex-none {
-  flex: none !important;
+.w-\[70\%\] {
+  width: 70% !important;
 }
 
 .translate-y-\[-50\%\] {
@@ -1252,12 +939,6 @@ Ensure the default browser behavior of the `hidden` attribute.
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }
 
-.-translate-x-1\/2 {
-  --tw-translate-x: -50% !important;
-  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
-          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
-}
-
 .scale-0 {
   --tw-scale-x: 0 !important;
   --tw-scale-y: 0 !important;
@@ -1271,10 +952,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-col {
   flex-direction: column !important;
-}
-
-.flex-col-reverse {
-  flex-direction: column-reverse !important;
 }
 
 .flex-wrap {
@@ -1329,20 +1006,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.5rem !important;
 }
 
-.gap-\[25px\] {
-  gap: 25px !important;
-}
-
 .gap-5 {
   gap: 1.25rem !important;
-}
-
-.gap-7 {
-  gap: 1.75rem !important;
-}
-
-.gap-\[40px\] {
-  gap: 40px !important;
 }
 
 .self-start {
@@ -1351,14 +1016,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .overflow-hidden {
   overflow: hidden !important;
-}
-
-.overflow-x-auto {
-  overflow-x: auto !important;
-}
-
-.scroll-smooth {
-  scroll-behavior: smooth !important;
 }
 
 .rounded-3xl {
@@ -1375,10 +1032,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-full {
   border-radius: 9999px !important;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem !important;
 }
 
 .rounded-t-xl {
@@ -1479,9 +1132,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: transparent linear-gradient(90deg, #0F5197 0%, #0088FF 100%) 0% 0% no-repeat padding-box !important;
 }
 
-.bg-\[\#1E1E1E\] {
+.bg-grayColor {
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(30 30 30 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(248 248 250 / var(--tw-bg-opacity)) !important;
 }
 
 .bg-\[\#0088FF\] {
@@ -1492,28 +1145,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#FF8800\] {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 136 0 / var(--tw-bg-opacity)) !important;
-}
-
-.bg-grayColor {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(248 248 250 / var(--tw-bg-opacity)) !important;
-}
-
-.bg-\[\#ECA918\] {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(236 169 24 / var(--tw-bg-opacity)) !important;
-}
-
-.bg-hero-bg-business-scan {
-  background-image: url('../src/images/bg-hero-business-scan.png') !important;
-}
-
-.bg-GED {
-  background-image: url('../src/images/BusinessScan/GED.png') !important;
-}
-
-.bg-hero-bg-contato {
-  background-image: url('../src/images/bg-hero-contato.png') !important;
 }
 
 .bg-hero-bg-home {
@@ -1528,30 +1159,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('../src/images/tarjahome.png') !important;
 }
 
-.bg-hero-bg-produtos {
-  background-image: url('../src/images/bg-hero-produtos.png') !important;
-}
-
-.bg-bg-tarja-produtos {
-  background-image: url('../src/images/tarjaprodutos.png') !important;
-}
-
-.bg-hero-bg-quem-somos {
-  background-image: url('../src/images/bg-hero-quem-somos.png') !important;
-}
-
-.bg-bg-tarja-quemsomos {
-  background-image: url('../src/images/tarjaquemsomos.png') !important;
-}
-
-.bg-hero-bg-revendas {
-  background-image: url('../src/images/bg-hero-revendas.png') !important;
-}
-
-.bg-hero-bg-solu\E7\F5 es {
-  background-image: url('../src/images/bg-hero-solucoes.png') !important;
-}
-
 .bg-cover {
   background-size: cover !important;
 }
@@ -1560,20 +1167,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   object-fit: cover !important;
 }
 
-.object-fill {
-  object-fit: fill !important;
-}
-
 .p-4 {
   padding: 1rem !important;
 }
 
 .p-10 {
   padding: 2.5rem !important;
-}
-
-.p-2 {
-  padding: 0.5rem !important;
 }
 
 .p-3 {
@@ -1625,9 +1224,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 2.75rem !important;
 }
 
-.px-8 {
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
+.px-14 {
+  padding-left: 3.5rem !important;
+  padding-right: 3.5rem !important;
 }
 
 .py-2 {
@@ -1640,16 +1239,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.25rem !important;
 }
 
-.py-\[50px\] {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-}
-
-.px-14 {
-  padding-left: 3.5rem !important;
-  padding-right: 3.5rem !important;
-}
-
 .py-52 {
   padding-top: 13rem !important;
   padding-bottom: 13rem !important;
@@ -1658,21 +1247,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-64 {
   padding-top: 16rem !important;
   padding-bottom: 16rem !important;
-}
-
-.px-\[30px\] {
-  padding-left: 30px !important;
-  padding-right: 30px !important;
-}
-
-.px-\[90px\] {
-  padding-left: 90px !important;
-  padding-right: 90px !important;
-}
-
-.py-\[35px\] {
-  padding-top: 35px !important;
-  padding-bottom: 35px !important;
 }
 
 .pt-\[100px\] {
@@ -1703,22 +1277,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 30px !important;
 }
 
-.pt-\[20px\] {
-  padding-top: 20px !important;
-}
-
-.pl-\[20px\] {
-  padding-left: 20px !important;
-}
-
-.pr-\[20px\] {
-  padding-right: 20px !important;
-}
-
-.pl-\[50px\] {
-  padding-left: 50px !important;
-}
-
 .pt-48 {
   padding-top: 12rem !important;
 }
@@ -1735,40 +1293,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 16rem !important;
 }
 
-.pt-\[160px\] {
-  padding-top: 160px !important;
+.pl-\[20px\] {
+  padding-left: 20px !important;
 }
 
-.pb-\[10px\] {
-  padding-bottom: 10px !important;
-}
-
-.pl-\[0px\] {
-  padding-left: 0px !important;
-}
-
-.pt-\[15px\] {
-  padding-top: 15px !important;
-}
-
-.pt-\[140px\] {
-  padding-top: 140px !important;
-}
-
-.pt-\[150px\] {
-  padding-top: 150px !important;
-}
-
-.pb-\[180px\] {
-  padding-bottom: 180px !important;
-}
-
-.pt-\[50px\] {
-  padding-top: 50px !important;
-}
-
-.pl-\[80px\] {
-  padding-left: 80px !important;
+.pr-\[20px\] {
+  padding-right: 20px !important;
 }
 
 .text-center {
@@ -1803,14 +1333,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 14px !important;
 }
 
-.text-\[72px\] {
-  font-size: 72px !important;
-}
-
-.text-\[48px\] {
-  font-size: 48px !important;
-}
-
 .text-5xl {
   font-size: 3rem !important;
 }
@@ -1825,18 +1347,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-2xl {
   font-size: 2rem !important;
-}
-
-.text-\[26px\] {
-  font-size: 26px !important;
-}
-
-.text-\[15px\] {
-  font-size: 15px !important;
-}
-
-.text-\[16px\] {
-  font-size: 16px !important;
 }
 
 .font-medium {
@@ -1861,18 +1371,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .leading-7 {
   line-height: 1.75rem !important;
-}
-
-.leading-none {
-  line-height: 1 !important;
-}
-
-.leading-relaxed {
-  line-height: 1.625 !important;
-}
-
-.leading-snug {
-  line-height: 1.375 !important;
 }
 
 .text-white {
@@ -1934,10 +1432,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 0 !important;
 }
 
-.opacity-60 {
-  opacity: 0.6 !important;
-}
-
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) !important;
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color) !important;
@@ -1950,21 +1444,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
 
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25) !important;
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color) !important;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
-}
-
 .outline-none {
   outline: 2px solid transparent !important;
   outline-offset: 2px !important;
-}
-
-.grayscale-\[30\%\] {
-  --tw-grayscale: grayscale(30%) !important;
-  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
-          filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
 }
 
 .transition {
@@ -1985,77 +1467,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .duration-500 {
   transition-duration: 500ms !important;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Ubuntu', sans-serif;
-}
-
-.container {
-  max-width: 75%;
-}
-
-.carousel {
-  scrollbar-width: none;
-}
-
-.carousel::-webkit-scrollbar {
-  display: none;
-  width: 1px;
-  height: 1px;
-}
-
-@media screen and (max-width: 1558px) {
-  html {
-    font-size: 88.00%;
-  }
-
-  .container {
-    max-width: 90%;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  html {
-    font-size: 85.00%;
-  }
-
-  .container {
-    max-width: 95%;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .container {
-    max-width: 90%;
-  }
-
-  html {
-    font-size: 80.00%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  html {
-    font-size: 75.00%;
-  }
-}
-
-@media screen and (max-width: 428px) {
-  html {
-    font-size: 70.00%;
-  }
-}
-
-.hover\:scale-125:hover {
-  --tw-scale-x: 1.25 !important;
-  --tw-scale-y: 1.25 !important;
-  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
-          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }
 
 .hover\:border:hover {
@@ -2097,10 +1508,6 @@ body {
   color: rgb(236 169 24 / var(--tw-text-opacity)) !important;
 }
 
-.hover\:opacity-100:hover {
-  opacity: 1 !important;
-}
-
 @media (min-width: 640px) {
   .sm\:mt-\[20px\] {
     margin-top: 20px !important;
@@ -2120,10 +1527,6 @@ body {
 
   .sm\:mt-16 {
     margin-top: 4rem !important;
-  }
-
-  .sm\:mt-\[30px\] {
-    margin-top: 30px !important;
   }
 
   .sm\:block {
@@ -2148,18 +1551,6 @@ body {
 
   .sm\:h-\[240px\] {
     height: 240px !important;
-  }
-
-  .sm\:h-\[490px\] {
-    height: 490px !important;
-  }
-
-  .sm\:h-\[820px\] {
-    height: 820px !important;
-  }
-
-  .sm\:h-\[400px\] {
-    height: 400px !important;
   }
 
   .sm\:w-auto {
@@ -2198,16 +1589,8 @@ body {
     flex-direction: column-reverse !important;
   }
 
-  .sm\:flex-nowrap {
-    flex-wrap: nowrap !important;
-  }
-
   .sm\:justify-center {
     justify-content: center !important;
-  }
-
-  .sm\:justify-between {
-    justify-content: space-between !important;
   }
 
   .sm\:gap-7 {
@@ -2228,19 +1611,6 @@ body {
 
   .sm\:gap-5 {
     gap: 1.25rem !important;
-  }
-
-  .sm\:gap-0 {
-    gap: 0px !important;
-  }
-
-  .sm\:rounded-none {
-    border-radius: 0px !important;
-  }
-
-  .sm\:rounded-t-3xl {
-    border-top-left-radius: 1.5rem !important;
-    border-top-right-radius: 1.5rem !important;
   }
 
   .sm\:px-12 {
@@ -2273,14 +1643,6 @@ body {
     padding-right: 30px !important;
   }
 
-  .sm\:pb-0 {
-    padding-bottom: 0px !important;
-  }
-
-  .sm\:pl-\[40px\] {
-    padding-left: 40px !important;
-  }
-
   .sm\:text-\[24px\] {
     font-size: 24px !important;
   }
@@ -2288,67 +1650,11 @@ body {
   .sm\:text-\[16px\] {
     font-size: 16px !important;
   }
-
-  .sm\:text-\[36px\] {
-    font-size: 36px !important;
-  }
 }
 
 @media (min-width: 768px) {
-  .md\:mt-\[50px\] {
-    margin-top: 50px !important;
-  }
-
-  .md\:mt-0 {
-    margin-top: 0px !important;
-  }
-
-  .md\:mt-\[320px\] {
-    margin-top: 320px !important;
-  }
-
-  .md\:mt-\[80px\] {
-    margin-top: 80px !important;
-  }
-
   .md\:flex {
     display: flex !important;
-  }
-
-  .md\:h-\[490px\] {
-    height: 490px !important;
-  }
-
-  .md\:h-\[230px\] {
-    height: 230px !important;
-  }
-
-  .md\:h-\[920px\] {
-    height: 920px !important;
-  }
-
-  .md\:h-\[400px\] {
-    height: 400px !important;
-  }
-
-  .md\:h-\[100\%\] {
-    height: 100% !important;
-  }
-
-  .md\:h-\[1270px\] {
-    height: 1270px !important;
-  }
-
-  .md\:h-\[600px\] {
-    height: 600px !important;
-  }
-
-  .md\:h-\[70\%\] {
-    height: 70% !important;
-  }
-
-  .md\:h-\[200px\] {
-    height: 200px !important;
   }
 
   .md\:w-\[60\%\] {
@@ -2367,82 +1673,14 @@ body {
     width: 83.333333% !important;
   }
 
-  .md\:w-\[561px\] {
-    width: 561px !important;
-  }
-
-  .md\:w-\[100\%\] {
-    width: 100% !important;
-  }
-
-  .md\:w-\[70px\] {
-    width: 70px !important;
-  }
-
-  .md\:w-\[80\%\] {
-    width: 80% !important;
-  }
-
-  .md\:w-full {
-    width: 100% !important;
-  }
-
-  .md\:w-\[26px\] {
-    width: 26px !important;
-  }
-
-  .md\:w-\[347px\] {
-    width: 347px !important;
-  }
-
-  .md\:flex-row {
-    flex-direction: row !important;
-  }
-
-  .md\:flex-col {
-    flex-direction: column !important;
-  }
-
-  .md\:flex-col-reverse {
-    flex-direction: column-reverse !important;
-  }
-
   .md\:justify-center {
     justify-content: center !important;
-  }
-
-  .md\:pt-\[50px\] {
-    padding-top: 50px !important;
-  }
-
-  .md\:text-\[36px\] {
-    font-size: 36px !important;
-  }
-
-  .md\:text-\[16px\] {
-    font-size: 16px !important;
-  }
-
-  .md\:text-\[26px\] {
-    font-size: 26px !important;
-  }
-
-  .md\:text-\[20px\] {
-    font-size: 20px !important;
-  }
-
-  .md\:text-\[18px\] {
-    font-size: 18px !important;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:absolute {
     position: absolute !important;
-  }
-
-  .lg\:-left-\[50px\] {
-    left: -50px !important;
   }
 
   .lg\:mt-\[20px\] {
@@ -2459,18 +1697,6 @@ body {
 
   .lg\:mt-0 {
     margin-top: 0px !important;
-  }
-
-  .lg\:mt-\[160px\] {
-    margin-top: 160px !important;
-  }
-
-  .lg\:mt-\[40px\] {
-    margin-top: 40px !important;
-  }
-
-  .lg\:mt-\[220px\] {
-    margin-top: 220px !important;
   }
 
   .lg\:block {
@@ -2507,30 +1733,6 @@ body {
 
   .lg\:h-\[1300px\] {
     height: 1300px !important;
-  }
-
-  .lg\:h-\[490px\] {
-    height: 490px !important;
-  }
-
-  .lg\:h-\[500px\] {
-    height: 500px !important;
-  }
-
-  .lg\:h-\[620px\] {
-    height: 620px !important;
-  }
-
-  .lg\:h-\[350px\] {
-    height: 350px !important;
-  }
-
-  .lg\:h-full {
-    height: 100% !important;
-  }
-
-  .lg\:h-\[1000px\] {
-    height: 1000px !important;
   }
 
   .lg\:w-\[32\%\] {
@@ -2637,26 +1839,6 @@ body {
     width: 18px !important;
   }
 
-  .lg\:w-\[45\%\] {
-    width: 45% !important;
-  }
-
-  .lg\:w-\[450px\] {
-    width: 450px !important;
-  }
-
-  .lg\:w-\[460px\] {
-    width: 460px !important;
-  }
-
-  .lg\:w-\[47\%\] {
-    width: 47% !important;
-  }
-
-  .lg\:w-\[430px\] {
-    width: 430px !important;
-  }
-
   .lg\:flex-row {
     flex-direction: row !important;
   }
@@ -2749,14 +1931,6 @@ body {
   .lg\:text-2xl {
     font-size: 2rem !important;
   }
-
-  .lg\:text-\[28px\] {
-    font-size: 28px !important;
-  }
-
-  .lg\:text-\[24px\] {
-    font-size: 24px !important;
-  }
 }
 
 @media (min-width: 1280px) {
@@ -2782,14 +1956,6 @@ body {
 
   .xl\:h-\[1650px\] {
     height: 1650px !important;
-  }
-
-  .xl\:h-\[591px\] {
-    height: 591px !important;
-  }
-
-  .xl\:h-\[370px\] {
-    height: 370px !important;
   }
 
   .xl\:w-\[31\%\] {
@@ -2900,18 +2066,6 @@ body {
     width: 20px !important;
   }
 
-  .xl\:w-\[526px\] {
-    width: 526px !important;
-  }
-
-  .xl\:w-\[508px\] {
-    width: 508px !important;
-  }
-
-  .xl\:w-\[26px\] {
-    width: 26px !important;
-  }
-
   .xl\:flex-nowrap {
     flex-wrap: nowrap !important;
   }
@@ -2976,10 +2130,6 @@ body {
   .xl\:text-\[28px\] {
     font-size: 28px !important;
   }
-
-  .xl\:text-\[36px\] {
-    font-size: 36px !important;
-  }
 }
 
 @media (min-width: 1536px) {
@@ -3001,22 +2151,6 @@ body {
 
   .\32xl\:h-\[100px\] {
     height: 100px !important;
-  }
-
-  .\32xl\:h-\[720px\] {
-    height: 720px !important;
-  }
-
-  .\32xl\:h-\[820px\] {
-    height: 820px !important;
-  }
-
-  .\32xl\:h-\[420px\] {
-    height: 420px !important;
-  }
-
-  .\32xl\:h-\[575px\] {
-    height: 575px !important;
   }
 
   .\32xl\:w-\[32\%\] {
@@ -3079,14 +2213,6 @@ body {
     width: 20rem !important;
   }
 
-  .\32xl\:w-\[608px\] {
-    width: 608px !important;
-  }
-
-  .\32xl\:w-\[501px\] {
-    width: 501px !important;
-  }
-
   .\32xl\:gap-0 {
     gap: 0px !important;
   }
@@ -3127,8 +2253,5 @@ body {
   .\32xl\:text-3xl {
     font-size: 2.625rem !important;
   }
-
-  .\32xl\:text-\[30px\] {
-    font-size: 30px !important;
-  }
 }
+
