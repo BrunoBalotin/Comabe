@@ -204,7 +204,7 @@ const Home = () => {
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={ImpressoraHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Impressoras</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de impressoras. </p>
-            <Link className='text-sm text-[#0F5197] font-medium' to={'/Produtos#impressoras'}>VER IMPRESSORAS</Link>
+            <Link className='text-sm text-[#0F5197] font-medium' to={"/Produtos#impressora"}>VER IMPRESSORAS</Link>
           </div>
           <div className='sm:w-2/4 lg:w-2/4 xl:w-1/4 2xl:w-80 py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={MultifuncionalHome} alt='' /></div>
