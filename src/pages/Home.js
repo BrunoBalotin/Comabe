@@ -84,17 +84,17 @@ const Home = () => {
     <div className='container mx-auto'>
       <div className='flex sm:flex-col-reverse lg:flex-row lg:justify-end relative'>
         <div className='sm:w-full lg:w-2/4 xl:w-2/4 lg:absolute left-0'>
-          <div className='xl:w-11/12 2xl:w-11/12 h-72 bg-white rounded-xl pt-10 px-14 shadow-shadow-card'>
+          <div className='w-85w h-72 bg-white rounded-xl pt-10 px-14 shadow-shadow-card'>
               <Relogio className='sm:w-6 lg:w-6 xl:w-7 2xl:w-auto'/>
               <h3 className='text-xl text-titles font-medium my-5'>Maior produtividade</h3>
               <p className='text-sm font-light'>Com apenas alguns cliques você tem acesso a todo o seu acervo de documentos, podendo acessá-los de qualquer lugar. </p>
           </div>
-          <div className='xl:w-11/12 2xl:w-11/12 h-72 bg-white rounded-xl pt-10 px-14 shadow-shadow-card mt-8'>
+          <div className='w-85w h-72 bg-white rounded-xl pt-10 px-14 shadow-shadow-card mt-8'>
               <CheckHome className='sm:w-6 lg:w-6 xl:w-7 2xl:w-auto'/>
               <h3 className='text-xl text-titles font-medium my-5'>Maior qualidade</h3>
               <p className='text-sm font-light'>A padronização de formatos dos seus documentos, com processos claros e definidos, traz para sua empresa uma maior qualidade na execução de tarefas simples do seu dia a dia. </p>
           </div>
-          <div className='xl:w-11/12 2xl:w-11/12 h-72 bg-white rounded-xl pt-10 px-14 shadow-shadow-card mt-8'>
+          <div className='w-85w h-72 bg-white rounded-xl pt-10 px-14 shadow-shadow-card mt-8'>
               <Shield className='sm:w-6 lg:w-6 xl:w-7 2xl:w-auto'/>
               <h3 className='text-xl text-titles font-medium my-5'>Maior segurança</h3>
               <p className='text-sm font-light'>Você quem libera os acessos aos documentos digitalizados e define quem poderá editá-los e acessar seus históricos. </p>
@@ -102,7 +102,7 @@ const Home = () => {
           <div className='sm:block lg:hidden mt-12'><ButtonPrimary text='Quero começar a economizar' color='ButtonPrimary' border='border-none' linkRef="/Contato#header"/></div>
         </div>
 
-        <div className='sm:w-full md:w-2/4'>
+        <div className='sm:w-full md:w-50w'>
           <div className='relative'>
             <h2 className='text-2xl text-titles font-medium mb-14'>Porque sua empresa precisa do Business Scan</h2>
             <img className='mb-12' src={GridImage} alt='' />
@@ -176,12 +176,12 @@ const Home = () => {
       </div>
     </div>
 
-    <div className='flex items-center py-52 bg-cover w-full bg-bg-form'>
+    <div className='flex items-center pt-40 pb-72 bg-cover w-full bg-bg-form'>
       <div className='container mx-auto'>
         <div className='flex sm:flex-col lg:flex-row lg:justify-between relative sm:gap-10 lg:gap-0'>
-          <div className='sm:w-full lg:w-2/4 xl:w-2/5 2xl:w-1/3'>
+          <div className='sm:w-full lg:w-2/4 xl:w-2/5 2xl:w-40w'>
         <h2 className='text-white text-3xl font-medium mb-8 sm:w-4/5 md:w-9/12 lg:w-auto'>Acelere seu crescimento digital com as soluções Comabe</h2>
-        <p className='text-white text-sm font-light leading-7 sm:w-full md:w-5/6 lg:w-auto'>Para atingir todos os seus objetivos de negócio e crescer digitalmente com velocidade, você precisa do melhor em criatividade, performance e tecnologia.</p>
+        <p className='text-white text-sm font-light leading-7 w-90w'>Para atingir todos os seus objetivos de negócio e crescer digitalmente com velocidade, você precisa do melhor em criatividade, performance e tecnologia.</p>
           </div>
 
           <div className='lg:absolute right-0 md:flex md:justify-center lg:block'>
