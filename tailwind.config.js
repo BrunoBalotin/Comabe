@@ -50,7 +50,7 @@ module.exports = {
 
       boxShadow: {
         'shadow-card' : '0px 3px 30px 5px rgba(0,0,0,0.1);',
-      }
+      },
 
 
     },
