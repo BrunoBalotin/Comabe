@@ -43,11 +43,6 @@ module.exports = {
         'paragraphs' : '#575757',
       },
 
-      backgroundColor: {
-        'gradiente-blue' : 'transparent linear-gradient(90deg, #0F5197 0%, #0088FF 100%) 0% 0% no-repeat padding-box',
-        'grayColor' : '#F8F8FA',
-      },
-
       boxShadow: {
         'shadow-card' : '0px 3px 30px 5px rgba(0,0,0,0.1);',
       },
