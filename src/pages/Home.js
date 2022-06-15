@@ -43,7 +43,7 @@ const Home = () => {
     animate={{opacity: 1, transition: {duration: 0.8}}}
     exit={{opacity: 0, transition: {duration: 0.1} }}
     >
-    <div className='bg-hero-bg-home w-full py-48 flex items-center'>
+    <div className='bg-hero-bg-home w-full py-52 flex items-center'>
 
     <div className='container mx-auto'>
     <div className='flex flex-col items-center'>
@@ -200,25 +200,25 @@ const Home = () => {
         </div>
 
         <div className='flex flex-wrap sm:gap-3 lg:gap-5 lg:w-4/5 mx-auto xl:gap-0 xl:w-full justify-between mt-24'>
-          <div className='sm:w-2/4 lg:w-2/4 xl:w-1/4 2xl:w-80 py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
+          <div className='sm:w-2/4 lg:w-2/4 xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={ImpressoraHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Impressoras</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de impressoras. </p>
             <Link className='text-sm text-[#0F5197] font-medium' to={"/Produtos"}>VER IMPRESSORAS</Link>
           </div>
-          <div className='sm:w-2/4 lg:w-2/4 xl:w-1/4 2xl:w-80 py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
+          <div className='sm:w-2/4 lg:w-2/4 xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={MultifuncionalHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Multifuncionais</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de multifuncionais. </p>
             <Link className='text-sm text-[#0F5197] font-medium' to={'/Produtos'}>VER MULTIFUNCIONAIS</Link>
           </div>
-          <div className='sm:w-2/4 lg:w-2/4 xl:w-1/4 2xl:w-80 py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
+          <div className='sm:w-2/4 lg:w-2/4 xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={ScannerHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Scanners</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de scanners. </p>
             <Link className='text-sm text-[#0F5197] font-medium' to={'/Produtos'}>VER SCANNERS</Link>
           </div>
-          <div className='sm:w-2/4 lg:w-2/4 xl:w-1/4 2xl:w-80 py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
+          <div className='sm:w-2/4 lg:w-2/4 xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={RotuladorHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Rotuladores</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de rotuladores. </p>

@@ -17,17 +17,17 @@ const Utilities = () => {
           </div>
 
           <div className='flex justify-between lg:w-[73%] xl:w-[65%]'>
-            <div className='border lg:px-2 xl:px-4 2xl:px-6 py-5 rounded-xl lg:w-[230px] xl:w-[255px] 2xl:w-[305px]'>
+            <div className='border lg:px-2 xl:px-4 2xl:px-6 py-5 rounded-xl lg:w-[230px] xl:w-32w 2xl:w-[305px]'>
               <h3 className='lg:text-[18px] xl:text-[18px] 2xl:text-[20px] font-medium text-white mb-[20px] flex items-center gap-3'><Revendedor className='lg:w-[16px] xl:w-[17px] 2xl:w-auto'/> Seja um revendedor</h3>
               <p className='text-[14px] font-light text-white w-[90%] mb-[35px]'>Clique aqui para tirar suas dúvidas com o time comercial</p>
               <Link to="/Revendas#header" className='w-max'><span className='text-[14px] font-bold text-white flex items-center gap-2 cursor-pointer w-max'>Ver mais <ArrowUtilities /></span></Link>
             </div>
-            <div className='border lg:px-2 xl:px-4 2xl:px-6 py-5 rounded-xl lg:w-[230px] xl:w-[255px] 2xl:w-[305px]'>
+            <div className='border lg:px-2 xl:px-4 2xl:px-6 py-5 rounded-xl lg:w-[230px] xl:w-32w 2xl:w-[305px]'>
               <h3 className='lg:text-[18px] xl:text-[18px] 2xl:text-[20px] font-medium text-white mb-[20px] flex items-center gap-3'><SuporteTecnico className='lg:w-[16px] xl:w-[17px] 2xl:w-auto'/> Suporte Técnico</h3>
               <p className='text-[14px] font-light text-white w-[90%] mb-[35px]'>Acesse os canais de suporte para falar com nossos especialistas</p>
               <span className='text-[14px] font-bold text-white flex items-center gap-2 cursor-pointer w-max'>Ver mais <ArrowUtilities /></span>
             </div>
-            <div className='border lg:px-2 xl:px-4 2xl:px-6 py-5 rounded-xl lg:w-[230px] xl:w-[255px] 2xl:w-[305px]'>
+            <div className='border lg:px-2 xl:px-4 2xl:px-6 py-5 rounded-xl lg:w-[230px] xl:w-32w 2xl:w-[305px]'>
               <h3 className='lg:text-[18px] xl:text-[18px] 2xl:text-[20px] font-medium text-white mb-[20px] flex items-center gap-3'><TrabalheConosco className='lg:w-[16px] xl:w-[17px] 2xl:w-auto'/> Trabalhe Conosco</h3>
               <p className='text-[14px] font-light text-white w-[90%] mb-[35px]'>Preencha o formulário, envie o seu currículo e faça parte da equipe</p>
               <span className='text-[14px] font-bold text-white flex items-center gap-2 cursor-pointer w-max'>Ver mais <ArrowUtilities /></span>
