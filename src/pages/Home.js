@@ -47,8 +47,8 @@ const Home = () => {
 
     <div className='container mx-auto'>
     <div className='flex flex-col items-center'>
-      <h2 className='text-5xl text-white text-center font-medium w-4/5 mb-8'>Até quando a sua empresa vai continuar rasgando dinheiro com impressões de documentos?</h2>
-      <p className='text-sm font-medium text-white text-center w-full sm:w-4/5 lg:w-3/5 2xl:w-2/4 mb-24'>Fornecemos soluções completas para sua empresa parar de se preocupar com impressoras ou documentos impressos.</p>
+      <h2 className='text-5xl text-white text-center font-medium lg:w-95w xl:w-4/5 mb-8'>Até quando a sua empresa vai continuar rasgando dinheiro com impressões de documentos?</h2>
+      <p className='text-sm font-medium text-white text-center w-full sm:w-4/5 lg:w-45w 2xl:w-2/4 mb-24'>Fornecemos soluções completas para sua empresa parar de se preocupar com impressoras ou documentos impressos.</p>
       <ArrowDown className='mb-12'/>
       <ButtonPrimary text='Quero começar a economizar' color='ButtonPrimary' border='border-none' linkRef="/Contato"/>
     </div>
@@ -57,7 +57,7 @@ const Home = () => {
 
     <div className='container mx-auto py-48 flex items-center'>
       <div className='flex sm:flex-col lg:flex-row lg:justify-between'>
-        <div className='sm:w-full lg:w-2/5'>
+        <div className='sm:w-full lg:w-45w xl:w-50w'>
           <h2 className='mb-5 text-3xl text-titles font-medium'>Descubra o Business Scan</h2>
           <span className='text-xl text-[#0F5197] font-medium'>Nossa solução tecnológica para digitalização de documentos</span>
           <p className='mt-9 text-sm text-paragraphs font-light'>O Business Scan é o nosso serviço especializado de digitalização de documentos, através dele é possível reduzir o seu armazenamento de documentos em espaço físico com o processo de digitalização inteligente.</p>
@@ -71,38 +71,38 @@ const Home = () => {
         </div>
       
 
-      <div className='sm:w-full lg:w-2/4 sm:mt-24'>
+      <div className='sm:w-full lg:w-50w xl:w-50w sm:mt-24'>
         <div className='relative flex flex-col items-end'>
           <img src={BusinessScan} alt='' />
-          <p className='text-sm text-paragraphs font-light sm:w-full lg:w-5/6 xl:w-90w'>Simplifique a gestão de documentos da sua empresa com o <span className='text-[#FF8800] font-bold'>Business Scan</span> e automatize os processos manuais que envolvem grande fluxo de papel.</p>
+          <p className='text-sm text-paragraphs font-light sm:w-full lg:w-90w xl:w-90w'>Simplifique a gestão de documentos da sua empresa com o <span className='text-[#FF8800] font-bold'>Business Scan</span> e automatize os processos manuais que envolvem grande fluxo de papel.</p>
         </div>
       </div>
       </div>
     </div>
 
-    <div className='flex items-center pt-48 pb-14 bg-grayColor'>
+    <div className='flex items-center lg:pt-36 lg:pb-24 xl:pt-48 xl:pb-14 bg-grayColor'>
     <div className='container mx-auto'>
       <div className='flex sm:flex-col-reverse lg:flex-row lg:justify-end relative'>
-        <div className='sm:w-full lg:w-2/4 xl:w-2/4 lg:absolute left-0'>
-          <div className='w-85w h-72 bg-white rounded-xl pt-10 px-14 shadow-shadow-card'>
-              <Relogio className='sm:w-6 lg:w-6 xl:w-7 2xl:w-auto'/>
+        <div className='sm:w-full lg:w-55w xl:w-2/4 lg:absolute left-0'>
+          <div className='xl:w-85w lg:h-64 xl:h-72 bg-white rounded-xl lg:pt-8 xl:pt-10 px-14 shadow-shadow-card'>
+              <Relogio className='sm:w-6 lg:w-8 xl:w-7 2xl:w-auto'/>
               <h3 className='text-xl text-titles font-medium my-5'>Maior produtividade</h3>
               <p className='text-sm font-light'>Com apenas alguns cliques você tem acesso a todo o seu acervo de documentos, podendo acessá-los de qualquer lugar. </p>
           </div>
-          <div className='w-85w h-72 bg-white rounded-xl pt-10 px-14 shadow-shadow-card mt-8'>
-              <CheckHome className='sm:w-6 lg:w-6 xl:w-7 2xl:w-auto'/>
+          <div className='xl:w-85w lg:h-64 xl:h-72 bg-white rounded-xl lg:pt-8 xl:pt-10 px-14 shadow-shadow-card mt-8'>
+              <CheckHome className='sm:w-6 lg:w-8 xl:w-7 2xl:w-auto'/>
               <h3 className='text-xl text-titles font-medium my-5'>Maior qualidade</h3>
               <p className='text-sm font-light'>A padronização de formatos dos seus documentos, com processos claros e definidos, traz para sua empresa uma maior qualidade na execução de tarefas simples do seu dia a dia. </p>
           </div>
-          <div className='w-85w h-72 bg-white rounded-xl pt-10 px-14 shadow-shadow-card mt-8'>
-              <Shield className='sm:w-6 lg:w-6 xl:w-7 2xl:w-auto'/>
+          <div className='xl:w-85w lg:h-64 xl:h-72 bg-white rounded-xl lg:pt-8 xl:pt-10 px-14 shadow-shadow-card mt-8'>
+              <Shield className='sm:w-6 lg:w-8 xl:w-7 2xl:w-auto'/>
               <h3 className='text-xl text-titles font-medium my-5'>Maior segurança</h3>
               <p className='text-sm font-light'>Você quem libera os acessos aos documentos digitalizados e define quem poderá editá-los e acessar seus históricos. </p>
           </div>
           <div className='sm:block lg:hidden mt-12'><ButtonPrimary text='Quero começar a economizar' color='ButtonPrimary' border='border-none' linkRef="/Contato#header"/></div>
         </div>
 
-        <div className='sm:w-full md:w-50w'>
+        <div className='sm:w-full lg:w-40w xl:w-50w'>
           <div className='relative'>
             <h2 className='text-2xl text-titles font-medium mb-14'>Porque sua empresa precisa do Business Scan</h2>
             <img className='mb-12' src={GridImage} alt='' />
@@ -184,7 +184,7 @@ const Home = () => {
         <p className='text-white text-sm font-light leading-7 w-90w'>Para atingir todos os seus objetivos de negócio e crescer digitalmente com velocidade, você precisa do melhor em criatividade, performance e tecnologia.</p>
           </div>
 
-          <div className='lg:absolute right-0 md:flex md:justify-center lg:block'>
+          <div className='lg:absolute right-0 md:flex lg:w-50w xl:w-auto md:justify-center lg:block'>
               <ReactForm />
 
           </div>
@@ -200,25 +200,25 @@ const Home = () => {
         </div>
 
         <div className='flex flex-wrap sm:gap-3 lg:gap-5 lg:w-4/5 mx-auto xl:gap-0 xl:w-full justify-between mt-24'>
-          <div className='sm:w-2/4 lg:w-2/4 xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
+          <div className='sm:w-2/4 lg:w-48w xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={ImpressoraHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Impressoras</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de impressoras. </p>
             <Link className='text-sm text-[#0F5197] font-medium' to={"/Produtos"}>VER IMPRESSORAS</Link>
           </div>
-          <div className='sm:w-2/4 lg:w-2/4 xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
+          <div className='sm:w-2/4 lg:w-48w xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={MultifuncionalHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Multifuncionais</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de multifuncionais. </p>
             <Link className='text-sm text-[#0F5197] font-medium' to={'/Produtos'}>VER MULTIFUNCIONAIS</Link>
           </div>
-          <div className='sm:w-2/4 lg:w-2/4 xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
+          <div className='sm:w-2/4 lg:w-48w xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={ScannerHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Scanners</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de scanners. </p>
             <Link className='text-sm text-[#0F5197] font-medium' to={'/Produtos'}>VER SCANNERS</Link>
           </div>
-          <div className='sm:w-2/4 lg:w-2/4 xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
+          <div className='sm:w-2/4 lg:w-48w xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={RotuladorHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Rotuladores</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de rotuladores. </p>

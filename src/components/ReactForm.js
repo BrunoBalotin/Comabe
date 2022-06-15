@@ -10,7 +10,7 @@ export default function ReactForm({fullWidth}) {
   
   return (
     
-    <div className='bg-white p-10 sm:w-full md:w-[60%] lg:w-[400px] xl:w-[480px] rounded-3xl shadow-shadow-card'>
+    <div className='bg-white p-10 sm:w-full md:w-[60%] lg:w-95w xl:w-[480px] rounded-3xl shadow-shadow-card'>
     <form className='flex flex-col' onSubmit={handleSubmit(onSubmit)}>
       <input className='border-b sm:text-[16px] lg:text-[15px] xl:text-[16px] sm:pb-[15px] lg:pb-[15px] xl:pb-[15px] 2xl:pb-[30px] outline-none' type="text" placeholder="Nome" {...register("Nome", {required: true, maxLength: 80})} />
       <input className='border-b sm:text-[16px] lg:text-[15px] xl:text-[16px] sm:pb-[15px] lg:pb-[15px] xl:pb-[15px] 2xl:pb-[30px] sm:mt-[20px] lg:mt-[20px] 2xl:mt-[30px] outline-none' type="text" placeholder="Sobrenome" {...register("Sobrenome", {required: true, maxLength: 100})} />
