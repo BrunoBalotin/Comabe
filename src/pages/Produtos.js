@@ -19,7 +19,8 @@ const Produtos= () => {
       <Mouse className='absolute -bottom-7 left-1/2 -translate-x-1/2' />
       </div>
 
-      <Filtro />
+<div id="impressora">
+      <Filtro /></div>
       <div>
       <Tarja 
       Background='bg-bg-tarja-produtos' 
