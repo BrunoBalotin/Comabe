@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="Grupo_963" data-name="Grupo 963" transform="translate(-1597 -938)">
+    <g id="Elipse_22" data-name="Elipse 22" transform="translate(1597 938)" fill="none" stroke="#0f5197" stroke-width="1" opacity="0.5">
+      <circle cx="21" cy="21" r="21" stroke="none"/>
+      <circle cx="21" cy="21" r="20.5" fill="none"/>
+    </g>
+    <g id="Elipse_23" data-name="Elipse 23" transform="translate(1605 946)" fill="none" stroke="#0f5197" stroke-width="1">
+      <circle cx="13" cy="13" r="13" stroke="none"/>
+      <circle cx="13" cy="13" r="12.5" fill="none"/>
+    </g>
+    <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M12.06,15.936,16.5,11.493a.835.835,0,0,1,1.185,0,.846.846,0,0,1,0,1.188l-5.03,5.034a.837.837,0,0,1-1.157.024L6.432,12.685A.839.839,0,0,1,7.617,11.5Z" transform="translate(1605.942 946.196)" fill="#0f5197"/>
+  </g>
+</svg>

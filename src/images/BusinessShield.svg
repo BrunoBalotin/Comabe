@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+  <g id="Grupo_3030" data-name="Grupo 3030" transform="translate(-582 -511)">
+    <g id="Elipse_30" data-name="Elipse 30" transform="translate(582 511)" fill="none" stroke="#fff" stroke-width="1" opacity="0.69">
+      <circle cx="18.5" cy="18.5" r="18.5" stroke="none"/>
+      <circle cx="18.5" cy="18.5" r="18" fill="none"/>
+    </g>
+    <path id="Icon_material-security" data-name="Icon material-security" d="M12.392,1.5,4.5,5.008v5.261a10.913,10.913,0,0,0,7.892,10.523,10.913,10.913,0,0,0,7.892-10.523V5.008Zm0,9.637H18.53a9.387,9.387,0,0,1-6.138,7.839V11.146H6.254v-5L12.392,3.42Z" transform="translate(588.108 518.354)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.715" height="46.533" viewBox="0 0 41.715 46.533">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0f5197"/>
+      <stop offset="1" stop-color="#08f"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1875" data-name="Grupo 1875" transform="translate(-17121.326 -1084.702)">
+    <path id="Caminho_1497" data-name="Caminho 1497" d="M144.558,31.1V28.657h.8a1.2,1.2,0,0,0,0-2.407H141.35a1.2,1.2,0,0,0,0,2.407h.8V31.1a20.858,20.858,0,1,0,2.408,0Zm-1.2,39.267a18.451,18.451,0,1,1,13.046-5.4A18.449,18.449,0,0,1,143.355,70.371Z" transform="translate(16998.828 1058.452)" fill="url(#linear-gradient)"/>
+    <path id="Caminho_1498" data-name="Caminho 1498" d="M226.809,170.62a12.442,12.442,0,1,0,8.79,3.644A12.435,12.435,0,0,0,226.809,170.62Zm0,22.462a10.043,10.043,0,1,1,7.086-2.942A10.028,10.028,0,0,1,226.809,193.082Z" transform="translate(16915.375 927.318)" fill="url(#linear-gradient)"/>
+    <path id="Caminho_1499" data-name="Caminho 1499" d="M286.821,253.977l-7.4,6.482-2.286-2.3a1.211,1.211,0,0,0-1.7,0,1.2,1.2,0,0,0,0,1.7l3.1,3.1h0a1.194,1.194,0,0,0,.85.353,1.171,1.171,0,0,0,.8-.3l8.255-7.22a1.21,1.21,0,1,0-1.6-1.813Z" transform="translate(16860.24 851.879)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.769" height="49.303" viewBox="0 0 45.769 49.303">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0f5197"/>
+      <stop offset="1" stop-color="#08f"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_3036" data-name="Grupo 3036" transform="translate(-1402.115 -3944.777)">
+    <path id="Caminho_1435" data-name="Caminho 1435" d="M170.734,25.754l-10.68-10.68a3.6,3.6,0,0,0-2.518-1.026L139.628,14a3.5,3.5,0,0,0-3.544,3.544V54.714a3.592,3.592,0,0,0,3.591,3.591h28.588a3.592,3.592,0,0,0,3.591-3.591V28.272a4.168,4.168,0,0,0-1.119-2.518Zm-11.053-7.648,8.021,8.021h-7.042a.957.957,0,0,1-.98-.98Zm8.488,37.822H139.628a1.2,1.2,0,0,1-1.212-1.212V17.592a1.339,1.339,0,0,1,.327-.839,1.124,1.124,0,0,1,.839-.327l17.722.047v8.721a3.344,3.344,0,0,0,3.358,3.358h8.721V54.808a1.157,1.157,0,0,1-1.212,1.119Z" transform="translate(1266.031 3935.775)" fill="url(#linear-gradient)"/>
+    <g id="Grupo_1764" data-name="Grupo 1764" transform="translate(1009.151 -304.223)">
+      <rect id="Retângulo_592" data-name="Retângulo 592" width="13.69" height="14" rx="2.5" transform="translate(423.54 4250)" fill="#f80"/>
+      <path id="Caminho_1429" data-name="Caminho 1429" d="M267.531,163.42H255.869a2.517,2.517,0,0,0-2.516,2.516V177.6a2.517,2.517,0,0,0,2.516,2.516h3.641l0,3.442,4.1-3.442h3.916a2.517,2.517,0,0,0,2.516-2.516V165.936a2.516,2.516,0,0,0-2.516-2.516Zm-6.612,4.447c0-.123.079-.19.236-.19h1.077c.158,0,.237.067.237.19v5.586q0,.2-.237.2h-1.077q-.236,0-.236-.2Zm.775,7.78a.766.766,0,1,1,.893-.761A.8.8,0,0,1,261.694,175.647Z" transform="translate(168.686 4085.58)" fill="#f80"/>
+    </g>
+    <g id="Grupo_3035" data-name="Grupo 3035" transform="translate(-80 -79.321)">
+      <path id="noun-arrow-89790" d="M108.809,0,105,3.809h2.176v4.9h3.265v-4.9h2.176Z" transform="translate(1410.807 4027.237)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+.ButtonPrimary {
+
+    background: transparent linear-gradient(90deg, #0F5197 0%, #0088FF 100%) 0% 0% no-repeat padding-box;
+    background-size: 100%;
+    background-position: 0px;
+    transition: 1s all;
+}
+
+.ButtonPrimary:hover {
+
+    background-size: 200%;
+    filter: grayscale(30%);
+    
+}
+
+.green {
+
+    background: #00C140;
+}
+
+.transparent {
+
+    background: transparent;
+    transition: 600ms;
+}
+
+.transparent:hover {
+
+    background: #0F5197;
+}
