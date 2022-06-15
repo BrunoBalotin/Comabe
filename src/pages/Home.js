@@ -74,7 +74,7 @@ const Home = () => {
       <div className='sm:w-full lg:w-2/4 sm:mt-24'>
         <div className='relative flex flex-col items-end'>
           <img src={BusinessScan} alt='' />
-          <p className='text-sm text-paragraphs font-light sm:w-full lg:w-5/6 xl:w-5/6'>Simplifique a gestão de documentos da sua empresa com o <span className='text-comabeorange font-bold'>Business Scan</span> e automatize os processos manuais que envolvem grande fluxo de papel.</p>
+          <p className='text-sm text-paragraphs font-light sm:w-full lg:w-5/6 xl:w-85w'>Simplifique a gestão de documentos da sua empresa com o <span className='text-[#FF8800] font-bold'>Business Scan</span> e automatize os processos manuais que envolvem grande fluxo de papel.</p>
         </div>
       </div>
       </div>

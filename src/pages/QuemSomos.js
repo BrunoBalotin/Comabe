@@ -100,7 +100,7 @@ function QuemSomos() {
                 <img src={ThumbJordano} alt='jordano zanesco'/>
                 <div className='flex flex-col'>
                 <span className='text-[16px] md:text-[18px] font-medium text-[#343434]'>Jordano Zanesco</span>
-                <span className='text-[15px] md:text-[16px] font-light text-comabeorange'>CEO da Comabe</span>
+                <span className='text-[15px] md:text-[16px] font-light text-[#FF8800]'>CEO da Comabe</span>
                 </div>
               </div>
               <p className='text-[15px] md:text-[18px] text-[#575757] font-light mt-[25px] w-[90%]'>A Comabe, é uma grande parceira de seus clientes na área de tecnologia</p>
