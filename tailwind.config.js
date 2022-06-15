@@ -37,11 +37,11 @@ module.exports = {
         'GED' : "url('../src/images/BusinessScan/GED.png')"
       },
 
-      height: {
+      spacing: {
         '100': '6.25rem',
         '200': '12.5rem',
         '300': '18.75rem',
-        '400': '25',
+        '400': '25rem',
         '500': '31.25rem',
         '600': '37.5rem',
         '700': '43.75rem',
@@ -51,13 +51,12 @@ module.exports = {
 
       },
 
-
       backgroundColor: {
         'gradiente-blue' : "transparent linear-gradient(90deg, #0F5197 0%, #0088FF 100%) 0% 0% no-repeat padding-box",
         'grayColor' : '#F8F8FA',
       },
 
-      
+     
 
 
     },

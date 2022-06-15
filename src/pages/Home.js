@@ -239,7 +239,7 @@ const Home = () => {
         </div>
 
         <div className='flex sm:flex-col lg:flex-row sm:gap-5 lg:gap-0 justify-between lg:absolute -bottom-16 sm:mt-16 mt- lg:mt-0'>
-          <div className='sm:w-full lg:w-2/4 bg-white sm:h-[240px] lg:h-[260px] h-300 rounded-3xl shadow-shadow-card  sm:pt-[30px] lg:pt-[30px] sm:pl-[30px] lg:pl-[40px] sm:pr-[30px] lg:pr-[70px] xl:pt-[50px] xl:pl-[60px] xl:pr-[110px]'>
+          <div className='sm:w-full lg:w-2/4 bg-white h-300 rounded-3xl shadow-shadow-card  sm:pt-[30px] lg:pt-[30px] sm:pl-[30px] lg:pl-[40px] sm:pr-[30px] lg:pr-[70px] xl:pt-[50px] xl:pl-[60px] xl:pr-[110px]'>
             <div className='flex items-center gap-[20px] mb-5'>
                 <img className='lg:w-[50px] xl:w-auto' src={HomemDoDepoimento} alt='' />
                 <div className='flex flex-col'>
@@ -249,7 +249,7 @@ const Home = () => {
             </div>
             <p className='lg:text-[15px] xl:text-[16px] 2xl:text-sm text-paragraphs font-light'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat".</p>
           </div>
-          <div className='sm:w-full lg:w-[49%] bg-white sm:h-[240px] lg:h-[260px] xl:h-[310px] rounded-3xl shadow-shadow-card  sm:pt-[30px] lg:pt-[30px] sm:pl-[30px] lg:pl-[40px] sm:pr-[30px] lg:pr-[70px] xl:pt-[50px] xl:pl-[60px] xl:pr-[110px]'>
+          <div className='sm:w-full lg:w-[49%] bg-white h-300 rounded-3xl shadow-shadow-card  sm:pt-[30px] lg:pt-[30px] sm:pl-[30px] lg:pl-[40px] sm:pr-[30px] lg:pr-[70px] xl:pt-[50px] xl:pl-[60px] xl:pr-[110px]'>
             <div className='flex items-center gap-[20px] mb-5'>
                 <img className='lg:w-[50px] xl:w-auto' src={JordanoDepoimento} alt='' />
                 <div className='flex flex-col'>
