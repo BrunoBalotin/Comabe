@@ -57,6 +57,9 @@ module.exports = {
         'grayColor' : '#F8F8FA',
       },
 
+      boxShadow: {
+        'shadow-card' : '0px 3px 30px 5px rgba(0,0,0,0.1);'
+      }
 
 
     },

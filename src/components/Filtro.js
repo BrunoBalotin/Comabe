@@ -73,7 +73,7 @@ function Filtro() {
           <div
             className={`top-0 w-[280px] h-[600px] rounded-xl shadow-lg bg-white duration-700 ${stickyClass}`}
           >
-            <div className="bg-comabeblue py-5 rounded-t-xl">
+            <div className="bg-[#0F5197] py-5 rounded-t-xl">
               <h2 className="text-white text-[20px] font-medium text-center">
                 FILTRAR CATEGORIAS {}
               </h2>
@@ -128,10 +128,10 @@ function Filtro() {
         <div className="relative w-[75%]">
           <div>
             <div className="flex justify-between items-center" id='impressora'>
-              <h2 className="text-[24px] text-comabeblue font-medium">
+              <h2 className="text-[24px] text-[#0F5197] font-medium">
                 IMPRESSORAS
               </h2>
-              <span className="flex items-center text-[18px] font-light text-comabeblue gap-[20px]">
+              <span className="flex items-center text-[18px] font-light text-[#0F5197] gap-[20px]">
                 Confira alguns destaques <ArrowDown />
               </span>
             </div>
@@ -156,10 +156,10 @@ function Filtro() {
 
           <div className={`mt-[50px] duration-1000 `}>
             <div className="flex justify-between items-center" id='multifuncional'>
-              <h2 className="text-[24px] text-comabeblue font-medium">
+              <h2 className="text-[24px] text-[#0F5197] font-medium">
                 MULTIFUNCIONAIS
               </h2>
-              <span className="flex items-center text-[18px] font-light text-comabeblue gap-[20px]">
+              <span className="flex items-center text-[18px] font-light text-[#0F5197] gap-[20px]">
                 Confira alguns destaques <ArrowDown />
               </span>
             </div>
@@ -184,10 +184,10 @@ function Filtro() {
 
           <div className={`mt-[50px] duration-1000`}>
             <div className="flex justify-between items-center" id='scanner'>
-              <h2 className="text-[24px] text-comabeblue font-medium">
+              <h2 className="text-[24px] text-[#0F5197] font-medium">
                 SCANNERS
               </h2>
-              <span className="flex items-center text-[18px] font-light text-comabeblue gap-[20px]">
+              <span className="flex items-center text-[18px] font-light text-[#0F5197] gap-[20px]">
                 Confira alguns destaques <ArrowDown />
               </span>
             </div>
@@ -212,10 +212,10 @@ function Filtro() {
 
           <div className={`mt-[50px] duration-1000 `}>
             <div className="flex justify-between items-center" id='rotulador'>
-              <h2 className="text-[24px] text-comabeblue font-medium">
+              <h2 className="text-[24px] text-[#0F5197] font-medium">
                 ROTULADORES
               </h2>
-              <span className="flex items-center text-[18px] font-light text-comabeblue gap-[20px]">
+              <span className="flex items-center text-[18px] font-light text-[#0F5197] gap-[20px]">
                 Confira alguns destaques <ArrowDown />
               </span>
             </div>
@@ -250,10 +250,10 @@ function Filtro() {
 
           <div className={`mt-[50px] duration-1000 `}>
             <div className="flex justify-between items-center" id='suprimento'>
-              <h2 className="text-[24px] text-comabeblue font-medium">
+              <h2 className="text-[24px] text-[#0F5197] font-medium">
                 SUPRIMENTOS
               </h2>
-              <span className="flex items-center text-[18px] font-light text-comabeblue gap-[20px]">
+              <span className="flex items-center text-[18px] font-light text-[#0F5197] gap-[20px]">
                 Confira alguns destaques <ArrowDown />
               </span>
             </div>

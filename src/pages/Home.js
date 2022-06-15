@@ -59,7 +59,7 @@ const Home = () => {
       <div className='flex sm:flex-col lg:flex-row lg:justify-between'>
         <div className='sm:w-full lg:w-2/5'>
           <h2 className='mb-5 text-3xl text-titles font-medium'>Descubra o Business Scan</h2>
-          <span className='text-xl text-comabeblue font-medium'>Nossa solução tecnológica para digitalização de documentos</span>
+          <span className='text-xl text-[#0F5197] font-medium'>Nossa solução tecnológica para digitalização de documentos</span>
           <p className='mt-9 text-sm text-paragraphs font-light'>O Business Scan é o nosso serviço especializado de digitalização de documentos, através dele é possível reduzir o seu armazenamento de documentos em espaço físico com o processo de digitalização inteligente.</p>
 
           <div className='flex flex-wrap mt-12 mb-20 sm:gap-7 lg:gap-0 xl:gap-5 2xl:gap-0'>
@@ -116,7 +116,7 @@ const Home = () => {
     <div className='flex items-center pt-64'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center gap-5'>
-            <span className='flex bg-comabeblue py-2 px-5 text-white text-sm font-medium rounded-3xl'>SOLUÇÕES</span>
+            <span className='flex bg-[#0F5197] py-2 px-5 text-white text-sm font-medium rounded-3xl'>SOLUÇÕES</span>
             <h2 className='text-3xl text-titles font-medium text-center sm:w-4/5 lg:w-full'>Descubra a melhor solução para sua empresa</h2>
         </div>
 
@@ -131,13 +131,13 @@ const Home = () => {
                 <div>
                   <span className='flex items-center text-xl font-medium gap-3'><GreenCheck />Business Scan</span>
                   <p className='text-sm font-light text-paragraphs leading-8 my-7'>A Comabe tem soluções personalizadas para as mais diversas áreas de atuação, desenvolvendo métodos eficientes para auxiliar a sua empresa.</p>
-                  <Link to={'/Business-Scan'}><span className='flex items-center gap-2 text-comabeblue text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </Link>
+                  <Link to={'/Business-Scan'}><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </Link>
                   
                 </div>
                 <div className='sm:mt-14 mt- lg:mt-24'>
                   <span className='flex items-center text-xl font-medium gap-3'><GreenCheck />Outsourcing</span>
                   <p className='text-sm font-light text-paragraphs leading-8 my-7'>Com o aluguel de impressoras da Comabe, você conta com planos mensais personalizados que visam otimizar a estrutura de operação do seu negócio através de soluções ajustáveis, como o acesso de arquivos e de impressão.</p>
-                  <Link to={'/Business-Scan'}><span className='flex items-center gap-2 text-comabeblue text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </Link>
+                  <Link to={'/Business-Scan'}><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </Link>
                   
                 </div>
             </div>
@@ -150,19 +150,19 @@ const Home = () => {
                 <div>
                   <span className='flex items-center text-xl font-medium gap-3'><GreenCheck />Revendas Comabe</span>
                   <p className='text-sm font-light text-paragraphs leading-8 my-7'>O revendedor Comabe tem vantagens exclusivas, ferramentas e informações que vão ajudá-lo a trazer mais valor e rentabilidade para o seu negócio!</p>
-                  <Link to={'/Business-Scan'}><span className='flex items-center gap-2 text-comabeblue text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </Link>
+                  <Link to={'/Business-Scan'}><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </Link>
                   
                 </div>
                 <div className='sm:mt-14 lg:mt-24'>
                   <span className='flex items-center text-xl font-medium gap-3'><GreenCheck />Produtos</span>
                   <p className='text-sm font-light text-paragraphs leading-8 my-7'>Conheça as melhores linhas de produtos no ramo de impressão e digitalização oferecidas pela Comabe para atender às suas necessidades e otimizar o tempo do seu negócio.</p>
-                  <Link to={'/Business-Scan'}><span className='flex items-center gap-2 text-comabeblue text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </Link>
+                  <Link to={'/Business-Scan'}><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </Link>
                   
                 </div>
             </div>
         </div>
 
-        <div className='w-full bg-comabeblue h-64 rounded-2xl flex sm:flex-col lg:flex-row sm:justify-center lg:justify-start sm:gap-10 lg:gap-0 items-center px-16 mt-24 mb-20'>
+        <div className='w-full bg-[#0F5197] h-64 rounded-2xl flex sm:flex-col lg:flex-row sm:justify-center lg:justify-start sm:gap-10 lg:gap-0 items-center px-16 mt-24 mb-20'>
           <div className='lg:w-2/3 xl:w-2/3 2xl:w-3/4'>
             <h2 className='text-white text-2xl font-medium mb-5'>Fale com nosso time de consultores</h2>
             <span className='flex items-center gap-5 text-white text-sm font-light'><User className='sm:w-14 lg:w-auto'/> <p className='lg:w-3/5 xl:w-3/5 2xl:w-2/4'>Agende uma reunião para descobrir todos os serviços que podemos oferecer para sua empresa.</p></span>
@@ -195,7 +195,7 @@ const Home = () => {
     <div className='flex items-center py-64'>
       <div className='container mx-auto'>
       <div className='flex flex-col items-center gap-5'>
-            <span className='flex bg-comabeblue py-2 px-5 text-white text-sm font-medium rounded-3xl'>PRODUTO</span>
+            <span className='flex bg-[#0F5197] py-2 px-5 text-white text-sm font-medium rounded-3xl'>PRODUTO</span>
             <h2 className='text-3xl text-titles font-medium text-center w-4/5'>Conheça nossa linha completa de produtos com o melhor custo-benefício do mercado</h2>
         </div>
 
@@ -204,25 +204,25 @@ const Home = () => {
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={ImpressoraHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Impressoras</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de impressoras. </p>
-            <Link className='text-sm text-comabeblue font-medium' to={'/Produtos#produtos'}>VER IMPRESSORAS</Link>
+            <Link className='text-sm text-[#0F5197] font-medium' to={'/Produtos#produtos'}>VER IMPRESSORAS</Link>
           </div>
           <div className='sm:w-2/4 lg:w-2/4 xl:w-1/4 2xl:w-80 py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={MultifuncionalHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Multifuncionais</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de multifuncionais. </p>
-            <Link className='text-sm text-comabeblue font-medium' to={'/Produtos#produtos'}>VER MULTIFUNCIONAIS</Link>
+            <Link className='text-sm text-[#0F5197] font-medium' to={'/Produtos#produtos'}>VER MULTIFUNCIONAIS</Link>
           </div>
           <div className='sm:w-2/4 lg:w-2/4 xl:w-1/4 2xl:w-80 py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={ScannerHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Scanners</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de scanners. </p>
-            <Link className='text-sm text-comabeblue font-medium' to={'/Produtos#produtos'}>VER SCANNERS</Link>
+            <Link className='text-sm text-[#0F5197] font-medium' to={'/Produtos#produtos'}>VER SCANNERS</Link>
           </div>
           <div className='sm:w-2/4 lg:w-2/4 xl:w-1/4 2xl:w-80 py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='xl:w-4/5 2xl:w-auto' src={RotuladorHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Rotuladores</h3>
             <p className='text-center w-11/12 text-sm text-paragraphs font-light mb-8 leading-8'>​ A Comabe conta com uma linha completa de rotuladores. </p>
-            <Link className='text-sm text-comabeblue font-medium' to={'/Produtos#produtos'}>VER ROTULADORES</Link>
+            <Link className='text-sm text-[#0F5197] font-medium' to={'/Produtos#produtos'}>VER ROTULADORES</Link>
           </div>
         </div>
       </div>
@@ -231,7 +231,7 @@ const Home = () => {
     <div className='w-full flex bg-gradiente-blue h-600'>
         <div className='container mx-auto relative'>
         <div className='flex flex-col gap-5 sm:pt-100'>
-            <span className='flex self-start bg-comabeblue py-2 px-5 text-white text-sm font-medium rounded-3xl'>DEPOIMENTO</span>
+            <span className='flex self-start bg-[#0F5197] py-2 px-5 text-white text-sm font-medium rounded-3xl'>DEPOIMENTO</span>
             <div className='w-full flex items-center justify-between'>
             <h2 className='text-3xl font-medium sm:w-2/4 lg:w-4/6 text-white'>Veja o que dizem sobre nós</h2>
             <span className='text-white text-sm font-medium flex items-center gap-5'><UserNoBorder className='lg:w-5 xl:w-auto'/> Já atendemos +15.000 clientes</span>

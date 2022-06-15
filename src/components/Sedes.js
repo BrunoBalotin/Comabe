@@ -105,7 +105,7 @@ function Sedes() {
 
               <div className="relative">
                 <span className="absolute w-full block bg-slate-400 h-[1px]"></span>
-                <span className={`absolute w-[21%] duration-700 block bg-comabeblue h-[4px] -top-[1.3px] ${openSerra? 'translate-x-0' : null} ${openFeevale? 'translate-x-[133%] w-[27%]' : null} ${openSanta? 'translate-x-[356%] w-[22%]' : null}`}></span>
+                <span className={`absolute w-[21%] duration-700 block bg-[#0F5197] h-[4px] -top-[1.3px] ${openSerra? 'translate-x-0' : null} ${openFeevale? 'translate-x-[133%] w-[27%]' : null} ${openSanta? 'translate-x-[356%] w-[22%]' : null}`}></span>
               </div>
             </div>
 

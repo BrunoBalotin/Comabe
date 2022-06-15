@@ -529,7 +529,7 @@ function Revendas() {
                   <div className="flex flex-col items-center">
                   <div className='h-[200px] flex items-end'><img src={maquinas.img} alt='' /></div>
                   <h2 className='text-[18px] text-[#0F5197] font-medium text-center w-[75%] my-[30px] h-[80px]'>{maquinas.nome}</h2>
-                  <a className="text-[18px] bg-comabeblue text-white rounded-full px-6 py-3 sm:px-12 sm:py-3 font-medium" target="_blank" href={maquinas.link} rel="noreferrer" >Ver detalhes</a>
+                  <a className="text-[18px] bg-[#0F5197] text-white rounded-full px-6 py-3 sm:px-12 sm:py-3 font-medium" target="_blank" href={maquinas.link} rel="noreferrer" >Ver detalhes</a>
                   </div>
                 </div>
               ))}

@@ -11,7 +11,7 @@ function Tarja( { Background, Title, Text, ButtonText } ) {
             </div>
 
             <div className='w-[50%] flex justify-end'>
-                <button className='text-white lg:text-[15px] xl:text-[16px] 2xl:text-[18px] border px-11 py-3 rounded-full duration-700 hover:bg-comabeblue hover:border-comabeblue'>{ButtonText}</button>
+                <button className='text-white lg:text-[15px] xl:text-[16px] 2xl:text-[18px] border px-11 py-3 rounded-full duration-700 hover:bg-[#0F5197] hover:border-[#0F5197]'>{ButtonText}</button>
             </div>
         </div>
     </div>

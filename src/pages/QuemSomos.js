@@ -123,7 +123,7 @@ function QuemSomos() {
         <div className='flex justify-between'>
           <div className='w-[40%] flex flex-col items-end relative -bottom-[30px]'>
             <img src={ImageAmbienteMenor} className='absolute -left-[100px] -top-[70px]' alt='imagem do ambiente interno de forma pequena' />
-            <span className='text-[20px] text-comabeblue font-medium relative -right-[40px] mb-[30px]'>QUALIDADE E TECNOLOGIA NO SEU NEGÓCIO </span>
+            <span className='text-[20px] text-[#0F5197] font-medium relative -right-[40px] mb-[30px]'>QUALIDADE E TECNOLOGIA NO SEU NEGÓCIO </span>
             <img src={ImageAmbiente} alt='imagem do ambiente interno da empresa' />
           </div>
 
