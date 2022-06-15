@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react'
-import {ReactComponent as Vertudo} from '../images/vertudo.svg'
 import {ReactComponent as Impressora} from '../images/impressora.svg'
 import {ReactComponent as Multifuncionais} from '../images/multifuncionais.svg'
 import {ReactComponent as Scanners} from '../images/scanners.svg'
