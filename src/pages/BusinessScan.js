@@ -62,7 +62,7 @@ function BusinessScan() {
             </div>
           </div>
 
-          <div className='lg:absolute bg-white right-0 -bottom-[80px] w-[450px] h-[285px] rounded-2xl flex flex-col items-center gap-[30px] justify-center'>
+          <div className='lg:absolute bg-white right-0 -bottom-[80px] w-full lg:w-[450px] h-[285px] rounded-2xl flex flex-col items-center gap-[30px] justify-center'>
           <BusinessDocument />
           <p className='text-center text-sm text-[#343434] font-light w-[80%]'>Transforme seus documentos impressos em <span className='text-[#0F5197] font-medium'>documentos digitais</span> e tenha acesso a todos os arquivos em poucos cliques.</p>
           </div>
