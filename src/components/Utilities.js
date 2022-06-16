@@ -18,7 +18,7 @@ const Utilities = () => {
 
           <div className='flex flex-wrap lg:flex-nowrap justify-between lg:w-[73%] xl:w-[65%] mt-10 lg:mt-0'>
             <div className='border lg:px-2 xl:px-4 2xl:px-6 py-5 rounded-xl w-49w lg:w-[230px] xl:w-32w 2xl:w-[305px]'>
-              <h3 className='text-[18px] xl:text-[18px] 2xl:text-[20px] font-medium text-white mb-[20px] flex flex-col text-center h-[100px] lg:h-auto lg:flex-row lg:text-start items-center gap-3'><Revendedor className='w-[16px] xl:w-[17px] 2xl:w-auto'/> Seja um revendedor</h3>
+              <h3 className='text-[18px] xl:text-[18px] 2xl:text-[20px] font-medium text-white mb-[20px] flex flex-col text-center h-[100px] w-[95%] lg:w-auto lg:h-auto lg:flex-row lg:text-start items-center gap-3'><Revendedor className='w-[16px] xl:w-[17px] 2xl:w-auto'/> Seja um revendedor</h3>
               <p className='text-[14px] font-light text-white px-4 lg:w-[90%] mb-[35px] text-center lg:text-left'>Clique aqui para tirar suas dúvidas com o time comercial</p>
               <Link to="/Revendas#header" className='w-max'><span className='text-[14px] font-bold text-white flex justify-center lg:justify-start items-center gap-2 cursor-pointer lg:w-max'>Ver mais <ArrowUtilities /></span></Link>
             </div>
