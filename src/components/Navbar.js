@@ -15,10 +15,10 @@ function Navbar()  {
 
   return (
     <div id='header'>
-    <div className='bg-white sm:h-[15vh] lg:h-[15vh] xl:h-[15vh] 2xl:h-[10vh]'>
+    <div className='bg-white h-[15vh] sm:h-[15vh] lg:h-[15vh] xl:h-[15vh] 2xl:h-[10vh]'>
         <div className='container h-full mx-auto'>
             <div className='flex justify-between h-full items-center'>
-                <div><Link to={'/'}><Logo className='lg:w-[110px] xl:w-[120px] 2xl:w-auto sm:w-auto'/></Link></div>
+                <div><Link to={'/'}><Logo className='w-[100px] lg:w-[110px] xl:w-[120px] 2xl:w-auto sm:w-auto'/></Link></div>
 
                 <div className='flex gap-[30px] items-center'>
                     <nav className='hidden lg:flex gap-[30px] '>
@@ -43,7 +43,7 @@ function Navbar()  {
         
     </div>
 
-    <div className={`w-full h-0 overflow-hidden gap-[10px] flex flex-col items-center justify-center text-center lg:hidden duration-500 bg-[#0F5197] ${openMenu ? 'h-96' : null}`}>
+    <div className={`w-full h-[0px] overflow-hidden gap-[10px] flex flex-col items-center justify-center text-center lg:hidden duration-500 bg-[#0F5197] ${openMenu ? ' h-[400px]' : null}`}>
     <Link className='text-[20px] sm:text-[24px] text-white font-medium hover:text-[#FF8800] duration-500' to={'/'}>Início</Link>
     <Link className='text-[20px] sm:text-[24px] text-white font-medium hover:text-[#FF8800]  duration-500' to={'/Quem-Somos'}>Quem Somos</Link>
     <Link className='text-[20px] sm:text-[24px] text-white font-medium hover:text-[#FF8800]  duration-500' to={'/Business-Scan'}>Business Scan</Link>
