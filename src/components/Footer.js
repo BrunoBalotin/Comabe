@@ -19,37 +19,22 @@ function Footer() {
       <div className='container mx-auto'>
         <div className='flex flex-wrap xl:flex-nowrap lg:gap-[80px] xl:justify-between w-full pt-[60px] lg:pt-[100px] xl:pt-[160px]'>
           <div className='flex flex-wrap lg:flex-nowrap flex-col w-full lg:w-[20%] xl:w-[18%]'>
-<<<<<<< HEAD
             <Link to={'/#header'}> <ComabeBranco className='w-[100px] lg:w-auto'/> </Link>
             <h2 className='text-white text-[18px] lg:text-[17px] xl:text-[18px] 2xl:text-[20px] font-medium mt-[30px] lg:mt-[70px] lg:mb-[20px]'>Nossos canais de atendimento</h2>
             <a href='tel:555426212300'> <p className='text-[#8E8D8D] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] font-normal'>+55 54 2621-2300</p></a>
-=======
-            <Link to={'/'}> <ComabeBranco className='w-[100px] lg:w-auto'/> </Link>
-            <h2 className='text-white text-[18px] lg:text-[17px] xl:text-[18px] 2xl:text-[20px] font-medium mt-[30px] lg:mt-[70px] lg:mb-[20px]'>Envie um e-mail</h2>
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
             <a href='mailto:comabe@comabe.com.br'> <p className='text-[#8E8D8D] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] font-normal'>comabe@comabe.com.br</p></a>
           </div>
 
           <div className='flex flex-col lg:w-[50%] xl:w-[20%]'>
             <h2 className='text-white text-[18px] lg:text-[17px] xl:text-[18px] 2xl:text-[20px] font-medium mb-[15px] lg:mb-[30px] mt-[30px] lg:mt-0'>Aonde estamos?</h2>
             <p className='text-[#8E8D8D] w-80w lg:w-auto font-light lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px] lg:mb-[30px]'>Rua Três de Outubro, 120 Cidade Alta, Bento Gonçalves - RS +55 54 2621.2300</p>
-<<<<<<< HEAD
             <p className='text-[#8E8D8D] w-80w lg:w-auto font-light lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px] lg:mb-[30px]'>Campo Bom - RS +55 51 3396.2300</p>
             <p className='text-[#8E8D8D] w-80w lg:w-auto font-light lg:text-[15px] xl:text-[16px] 2xl:text-[18px]'>Passo de Torres - SC +55 54 2621.2352</p>
-=======
-            <p className='text-[#8E8D8D] w-80w lg:w-auto font-light lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px] lg:mb-[30px]'>Alameda da Inovação, 270 Campo Bom - RS +55 51 3396.2300</p>
-            <p className='text-[#8E8D8D] w-80w lg:w-auto font-light lg:text-[15px] xl:text-[16px] 2xl:text-[18px]'>Rua Coronel João Fernandes, 195 Passo de Torres - SC +55 54 2621.2352</p>
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
           </div>
 
           <div className='flex w-49w flex-col lg:w-[20%] xl:w-[18%]'>
             <h2 className='text-white text-[18px] lg:text-[17px] xl:text-[18px] 2xl:text-[20px] font-medium mb-[30px] mt-[30px] lg:mt-0'>Institucional</h2>
-<<<<<<< HEAD
            <HashLink className='w-max' to={'/Quem-Somos#header'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Quem Somos</p></HashLink> 
-=======
-           <Link className='w-max' to={'/Quem-Somos'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Quem Somos</p></Link> 
-           <Link className='w-max' to={'/Contato#equipe'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Nossa Equipe</p></Link>
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
             <p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Trabalhe Conosco</p>
             <p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Seja um Revendedor</p>
             <HashLink to={'/Contato#header'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Contato</p></HashLink>
@@ -57,15 +42,9 @@ function Footer() {
 
           <div className='flex w-49w flex-col xl:w-[18%] 2xl:w-[16%]'>
             <h2 className='text-white text-[18px] lg:text-[17px] xl:text-[18px] 2xl:text-[20px] font-medium mb-[30px] mt-[30px] lg:mt-0'>Soluções</h2>
-<<<<<<< HEAD
             <HashLink to={'/Solucoes#header'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Outsourcing de impressão</p></HashLink> 
             <HashLink to={'/Solucoes#header'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Processo de monitoramento</p></HashLink>
             <HashLink to={'/Business-Scan#gerenciamentoeletronico'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Gerenciamento eletrônico de documentos</p></HashLink>
-=======
-            <Link to={'/Solucoes#outsourcing'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Outsourcing de impressão</p></Link> 
-            <Link to={'/Solucoes#monitoramento'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Processo de monitoramento</p></Link>
-            <Link to={'/Business-Scan#gerenciamentoeletronico'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Gerenciamento eletrônico de documentos</p></Link>
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
             <p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Assistência Técnica</p>
           </div>
 

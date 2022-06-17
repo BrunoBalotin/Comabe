@@ -13,7 +13,7 @@ import {ReactComponent as ArrowSaibaMais} from '../images/ArrowSaibaMais.svg'
 import {ReactComponent as GreenCheck} from '../images/GreenCheck.svg'
 import {ReactComponent as User} from '../images/User.svg'
 import {ReactComponent as UserNoBorder} from '../images/UserNoBorder.svg'
-/* import {ReactComponent as DocumentosBlog} from '../images/DocumentosBlog.svg'*/
+import {ReactComponent as DocumentosBlog} from '../images/DocumentosBlog.svg'
 
 import ButtonPrimary from '../components/ButtonPrimary'
 
@@ -29,11 +29,12 @@ import RotuladorHome from '../images/RotuladorHome.png'
 import HomemDoDepoimento from '../images/homemdodepoimento.png'
 import JordanoDepoimento from '../images/JordanoDepoimento.png'
 
-/* import BlogCardImage from '../images/blogcard.png' */
+import BlogCardImage from '../images/blogcard.png'
 
+import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import ReactForm from '../components/ReactForm'
-/* import CardBlog from '../components/CardBlog' */
+import CardBlog from '../components/CardBlog'
 import Tarja from '../components/Tarja'
 
 
@@ -273,9 +274,7 @@ const Home = () => {
         </div>
     </div>
 
-  {/*
-  
-    <div className='w-full flex flex-col py-20 lg:py-0 lg:h-[1300px] xl:h-[1650px]'>
+  {/*  <div className='w-full flex flex-col py-20 lg:py-0 lg:h-[1300px] xl:h-[1650px]'>
       <div className='container mx-auto'>
       <div className='flex flex-col gap-[20px] lg:pt-[200px] xl:pt-[250px]'>
             <span className='flex self-start bg-[#0088FF] py-2 px-5 text-white lg:text-[15px] xl:text-[16px] 2xl:text-sm font-medium rounded-3xl'>BLOG</span>
@@ -293,20 +292,16 @@ const Home = () => {
 
       </div>
 
-
-    </div>
-    */}
-
-    
-    <Tarja 
+      <Tarja 
       Background='bg-bg-tarja-home' 
       Text='Interessados enviar currículo para: jordano@comabe.com.br ou preencher os dados do formulário através do botão ao lado' 
       Title='O que acha de fazer parte do grupo Comabe?' 
       ButtonText='Quero fazer parte' 
       />
 
-   
+    </div>
 
+  */}
    
   
 

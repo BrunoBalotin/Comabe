@@ -8,11 +8,7 @@ function ContactBox({imagem, title, text, buttonText, contactLink}) {
         <div className='w-full py-20 bg-[#F8F8FA] rounded-2xl'>
             <div className='flex justify-between relative h-full'>
                 <div className='px-5 lg:px-0 lg:pl-[70px] lg:w-[45%]'>
-<<<<<<< HEAD
                     <img className='hidden lg:block absolute lg:-top-[135px] 2xl:-top-[100px]' src={imagem} alt='' />
-=======
-                    <img className='hidden lg:block absolute lg:-top-[135px] 2xl:-top-[44px]' src={imagem} alt='' />
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
                 </div>
 
                 <div className='w-full lg:w-[45%] lg:pr-[150px] flex flex-col justify-center h-full'>

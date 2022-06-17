@@ -12,11 +12,7 @@ function Tarja( { Background, Title, Text, ButtonText, link = '' } ) {
             </div>
 
             <div className='lg:w-[50%] flex lg:justify-end mt-10 lg:mt-0'>
-<<<<<<< HEAD
               <HashLink to={link}>  <button className='text-white lg:text-[15px] xl:text-[16px] 2xl:text-[18px] border px-11 py-3 rounded-full duration-700 hover:bg-[#0F5197] hover:border-[#0F5197]'>{ButtonText}</button></HashLink>
-=======
-                <button className='text-white lg:text-[15px] xl:text-[16px] 2xl:text-[18px] border px-11 py-3 rounded-full duration-700 hover:bg-[#0F5197] hover:border-[#0F5197]'>{ButtonText}</button>
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
             </div>
         </div>
     </div>

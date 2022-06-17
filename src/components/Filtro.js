@@ -219,11 +219,7 @@ function Filtro() {
                 Confira alguns destaques <ArrowDown className='hidden lg:block'/>
               </span>
             </div>
-<<<<<<< HEAD
             <div className="flex flex-wrap lg:gap-7 flex-col lg:flex-row items-center lg:items-start lg:justify-between mt-[50px]">
-=======
-            <div className="flex flex-wrap gap-10 lg:gap-7 flex-col lg:flex-row items-center lg:items-start lg:justify-start mt-[50px]">
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
               <ProductCard
                 Nome="Rotulador portátil brother PT-70"
                 Imagem={PT70}

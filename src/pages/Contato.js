@@ -53,11 +53,7 @@ const Contato = () => {
         <div className='flex flex-col lg:flex-row justify-between'>
           <div className='w-full lg:w-[50%]'>
           <span className='flex w-max bg-[#0088FF] py-2 px-5 text-white text-sm font-medium rounded-3xl'>ENTRE EM CONTATO</span>
-<<<<<<< HEAD
           <h1 className='text-2xl lg:text-4xl text-white font-medium mt-[20px]'>Temos um equipe especializada para atendê-lo da melhor maneira possível</h1>
-=======
-          <h1 className='text-2xl lg:text-4xl text-white font-medium mt-[20px]'>Temos um equipe especializada para atendê-lo da melhor maneira possível.</h1>
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
           <h3 className='text-xl text-white font-medium mt-[40px] mb-[30px]'>Nossos canais de atendimento</h3>
           <div className='flex flex-col gap-3'>
           <span className='font-light text-white text-sm flex items-center gap-3'><Whatsapp />+55 54 2621.2300</span>
@@ -94,19 +90,11 @@ const Contato = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between items-center'>
           <div>
-<<<<<<< HEAD
             <h2 className='text-3xl text-[#343434] font-medium'>Aonde estamos fisicamente</h2>
           </div>
 
           <div>
           <span className='text-white bg-[#FF8800] flex items-center p-2 pl-[20px] pr-[20px] rounded-full text-sm font-medium gap-[10px]'><Pin /> Visite-nós</span>
-=======
-            <h2 className='text-3xl text-[#343434] font-medium'>Visite-nos</h2>
-          </div>
-
-          <div>
-          <span className='text-white bg-[#FF8800] flex items-center p-2 pl-[20px] pr-[20px] rounded-full text-sm font-medium gap-[10px]'><Pin /> Aonde estamos fisicamente</span>
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
           </div>
         </div>
 
@@ -129,11 +117,7 @@ const Contato = () => {
       </div>
     </div>
 
-<<<<<<< HEAD
     {/* <div className='flex items-center py-36' id='equipe'>
-=======
-    <div className='flex items-center py-36' id='equipe'>
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
         <div className='container mx-auto'>
             <div className='flex flex-col lg:flex-row justify-between'>
               <div className='w-full lg:w-[40%]'>
@@ -150,13 +134,9 @@ const Contato = () => {
               </div>
             </div>
 
-<<<<<<< HEAD
             */}
 
            {/*  <div className='mt-[150px]'>
-=======
-            <div className='mt-[150px]'>
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
               <h2 className='text-3xl text-[#343434] font-medium mb-[50px] mt-[20px]'>Nossas divisões</h2>
               <div className='flex flex-wrap gap-2 lg:gap-0 justify-between'>
                 <div className='flex flex-col items-center justify-center w-[48%] lg:w-[24%] 2xl:w-[320px] h-[275px] shadow-shadow-card rounded-xl'>

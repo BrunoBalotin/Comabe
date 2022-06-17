@@ -35,7 +35,6 @@ const Utilities = () => {
               <h3 className='text-[18px] xl:text-[18px] 2xl:text-[20px] font-medium text-white mb-[20px] flex flex-col text-center h-[100px] lg:h-auto lg:flex-row lg:text-start items-center gap-3 px-8 lg:px-0'><SuporteTecnico className='w-[20px] xl:w-[17px] 2xl:w-auto'/> Suporte Técnico</h3>
               <p className='text-[14px] font-light text-white  px-4 lg:w-[90%] mb-[35px] text-center lg:text-left'>Acesse os canais de suporte para falar com nossos especialistas</p>
               <span onClick={toggleSuport} className='text-[14px] font-bold text-white flex justify-center lg:justify-start items-center gap-2 cursor-pointer lg:w-max'>Ver mais <ArrowUtilities /></span>
-              <span className='text-[14px] font-bold text-white flex justify-center lg:justify-start items-center gap-2 cursor-pointer lg:w-max'>Ver mais <ArrowUtilities /></span>
             </div>
             <div className='border lg:px-2 xl:px-4 2xl:px-6 py-5 rounded-xl lg:w-[230px] xl:w-32w 2xl:w-[305px] mt-3 lg:mt-0'>
               <h3 className='text-[18px] xl:text-[18px] 2xl:text-[20px] font-medium text-white mb-[20px] flex flex-col text-center h-[100px] lg:h-auto lg:flex-row lg:text-start items-center gap-3'><TrabalheConosco className='w-[16px] xl:w-[17px] 2xl:w-auto'/> Trabalhe Conosco</h3>

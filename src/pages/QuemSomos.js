@@ -87,11 +87,7 @@ function QuemSomos() {
       <div className='container mx-auto'>
         <div className='flex flex-col-reverse md:flex-col-reverse lg:flex-row justify-between'>
           <div className='w-full mt-[50px] md:mt-0 md:w-full lg:w-[50%]'>
-<<<<<<< HEAD
             <h2 className='text-3xl text-[#343434] font-medium mb-[30px]'>Mais de 50 anos de comprometimento</h2>
-=======
-            <h2 className='text-3xl text-[#343434] font-medium mb-[30px]'>55 Anos de comprometimento</h2>
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
             <p className='text-sm text-[#343434] font-light mb-[30px]'>A Comabe, ao longo dos seus 55 anos de atuação, sempre buscou levar mais tecnologia e inovação para a rotina de seus clientes, trazendo mais praticidade e eficiência na gestão das suas atividades.</p>
             <p className='text-sm text-[#343434] font-light mb-[30px]'>Todos os nossos serviços buscam entregar para os nossos clientes soluções completas que visam agilizar os seus processos e facilitar o seu dia a dia na gestão de documentos.</p>
             <p className='text-sm text-[#343434] font-light mb-[40px]'>Contamos com uma equipe qualificada, que está sempre pronta para entregar aos nossos clientes um atendimento personalizado, atendendo empresas das mais variadas áreas e de portes distintos, sempre disponibilizando soluções que visam o aumento de produtividade e eficiência nos processos de impressão.</p>
@@ -127,10 +123,6 @@ function QuemSomos() {
         <div className='flex flex-col lg:flex-row justify-between'>
           <div className='w-full lg:w-50w 2xl:w-[40%] flex flex-col-reverse lg:flex-col items-end lg:relative -bottom-[30px]'>
             <img src={ImageAmbienteMenor} className='hidden lg:block absolute left-0 2xl:-left-[100px] -top-[70px]' alt='imagem do ambiente interno de forma pequena' />
-<<<<<<< HEAD
-=======
-            <span className='text-[20px] text-[#0F5197] lg:w-45w 2xl:w-full font-medium lg:relative  2xl:-right-[40px] mb-[30px]'>QUALIDADE E TECNOLOGIA NO SEU NEGÓCIO </span>
->>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
             <img src={ImageAmbiente} alt='imagem do ambiente interno da empresa' />
           </div>
 
