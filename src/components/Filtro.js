@@ -69,9 +69,9 @@ function Filtro() {
   return (
     <div className="container mx-auto relative py-48" id='produtos'>
       <div className="flex justify-between">
-        <div className="w-[280px] h-[750px] relative">
+        <div className="hidden lg:block lg:w-[250px] 2xl:w-[280px] h-[750px] relative">
           <div
-            className={`top-0 w-[280px] h-[600px] rounded-xl shadow-lg bg-white duration-700 ${stickyClass}`}
+            className={`top-0 lg:w-[250px] 2xl:w-[280px] h-[600px] rounded-xl shadow-lg bg-white duration-700 ${stickyClass}`}
           >
             <div className="bg-[#0F5197] py-5 rounded-t-xl">
               <h2 className="text-white text-[20px] font-medium text-center">
@@ -79,43 +79,43 @@ function Filtro() {
               </h2>
             </div>
             <div className="flex flex-col container mx-auto">
-              <span className="cursor-pointer flex items-center justify-between border-b text-[18px] font-light border-gray-300 pb-[20px] mt-[20px]">
+              <span className="cursor-pointer flex items-center justify-between border-b text-sm font-light border-gray-300 pb-[20px] mt-[20px]">
                <a href='#impressora'> <span className="flex items-center gap-[15px]">
                   <Impressora/> Impressoras
                 </span></a>
                 <ArrowFilter />
               </span>
-              <span className="cursor-pointer flex items-center justify-between border-b text-[18px] font-light border-gray-300 pb-[20px] mt-[20px]">
+              <span className="cursor-pointer flex items-center justify-between border-b text-sm font-light border-gray-300 pb-[20px] mt-[20px]">
                <a href='#multifuncional'> <span className="flex items-center gap-[15px]">
                   <Multifuncionais /> Multifuncionais
                 </span></a>
                 <ArrowFilter />
               </span>
-              <span className="cursor-pointer flex items-center justify-between border-b text-[18px] font-light border-gray-300 pb-[20px] mt-[20px]">
+              <span className="cursor-pointer flex items-center justify-between border-b text-sm font-light border-gray-300 pb-[20px] mt-[20px]">
               <a href='#scanner'><span className="flex items-center gap-[15px]">
                   <Scanners /> Scanners
                 </span></a>
                 <ArrowFilter />
               </span>
-              <span className="cursor-pointer flex items-center justify-between border-b text-[18px] font-light border-gray-300 pb-[20px] mt-[20px]">
+              <span className="cursor-pointer flex items-center justify-between border-b text-sm font-light border-gray-300 pb-[20px] mt-[20px]">
               <a href='#rotulador'><span className="flex items-center gap-[15px]">
                   <Rotuladores /> Rotuladores
                 </span></a>
                 <ArrowFilter />
               </span>
-              <span className="cursor-pointer flex items-center justify-between border-b text-[18px] font-light border-gray-300 pb-[20px] mt-[20px]">
+              <span className="cursor-pointer flex items-center justify-between border-b text-sm font-light border-gray-300 pb-[20px] mt-[20px]">
               <a href='#suprimento'><span className="flex items-center gap-[15px]">
                   <Papel /> Papel
                 </span></a>
                 <ArrowFilter />
               </span>
-              <span className="cursor-pointer flex items-center justify-between border-b text-[18px] font-light border-gray-300 pb-[20px] mt-[20px]">
+              <span className="cursor-pointer flex items-center justify-between border-b text-sm font-light border-gray-300 pb-[20px] mt-[20px]">
               <a href='#suprimento'><span className="flex items-center gap-[15px]">
                   <Tonners /> Tonners
                 </span></a>
                 <ArrowFilter />
               </span>
-              <span className="cursor-pointer flex items-center justify-between border-b text-[18px] font-light border-gray-300 pb-[20px] mt-[20px]">
+              <span className="cursor-pointer flex items-center justify-between border-b text-sm font-light border-gray-300 pb-[20px] mt-[20px]">
               <a href='#suprimento'><span className="flex items-center gap-[15px]">
                   <BolsaDeTinta /> Bolsa de tinta
                 </span></a>
@@ -125,153 +125,153 @@ function Filtro() {
           </div>
         </div>
 
-        <div className="relative w-[75%]">
+        <div className="relative w-full lg:w-[75%] 2xl:w-[75%]">
           <div>
-            <div className="flex justify-between items-center" id='impressora'>
-              <h2 className="text-[24px] text-comabeblue font-medium">
+            <div className="flex flex-col lg:flex-row justify-between lg:items-center" id='impressora'>
+              <h2 className="text-[24px] text-[#0F5197] font-medium">
                 IMPRESSORAS
               </h2>
-              <span className="flex items-center text-[18px] font-light text-comabeblue gap-[20px]">
-                Confira alguns destaques <ArrowDown />
+              <span className="flex items-center text-sm font-light text-[#0F5197] gap-[20px]">
+                Confira alguns destaques <ArrowDown className='hidden lg:block'/>
               </span>
             </div>
-            <div className="flex justify-between mt-[50px]">
+            <div className="flex gap-10 lg:gap-0 flex-col lg:flex-row items-center lg:items-start lg:justify-between mt-[50px]">
               <ProductCard
                 Nome="Impressora monocromática Ecotank Epson M1180"
                 Imagem={EcotankM1180}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20Impressora%20Monocrom%C3%A1tica%20EcoTank%20Epson%20M1180"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20Impressora%20Monocrom%C3%A1tica%20EcoTank%20Epson%20M1180"
               />
               <ProductCard
                 Nome="Impressora laser monocromática brother HL-L6202DW"
                 Imagem={BrotherHL}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20%E2%80%8BImpressora%20Laser%20Monocrom%C3%A1tica%20Brother%20HL-L6202DW"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20%E2%80%8BImpressora%20Laser%20Monocrom%C3%A1tica%20Brother%20HL-L6202DW"
               />
               <ProductCard
                 Nome="Impressora laser color brother HL- L8360CDW"
                 Imagem={L8360}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20Impressora%20Laser%20Colorida%20Corporativa%20Brother%20HL-%20L8360CDW"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20Impressora%20Laser%20Colorida%20Corporativa%20Brother%20HL-%20L8360CDW"
               />
             </div>
           </div>
 
           <div className={`mt-[50px] duration-1000 `}>
-            <div className="flex justify-between items-center" id='multifuncional'>
-              <h2 className="text-[24px] text-comabeblue font-medium">
+            <div className="flex flex-col lg:flex-row justify-between lg:items-center" id='multifuncional'>
+              <h2 className="text-[24px] text-[#0F5197] font-medium">
                 MULTIFUNCIONAIS
               </h2>
-              <span className="flex items-center text-[18px] font-light text-comabeblue gap-[20px]">
-                Confira alguns destaques <ArrowDown />
+              <span className="flex items-center text-sm font-light text-[#0F5197] gap-[20px]">
+                Confira alguns destaques <ArrowDown className='hidden lg:block'/>
               </span>
             </div>
-            <div className="flex justify-between mt-[50px]">
+            <div className="flex gap-10 lg:gap-0 flex-col lg:flex-row items-center lg:items-start lg:justify-between mt-[50px]">
               <ProductCard
                 Nome="Impressora multifuncional laser monocromática brother DCP-L5652DN"
                 Imagem={L5652}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20Impressora%20Multifuncional%20Laser%20Monocrom%C3%A1tica%20Brother%20DCP-L5652DN"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20Impressora%20Multifuncional%20Laser%20Monocrom%C3%A1tica%20Brother%20DCP-L5652DN"
               />
               <ProductCard
                 Nome="Impressora multifuncional laser monocromática brother DCP-B7535DW"
                 Imagem={B7535}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20Impressora%20Multifuncional%20Laser%20Monocrom%C3%A1tica%20Brother%20DCP-B7535DW"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20Impressora%20Multifuncional%20Laser%20Monocrom%C3%A1tica%20Brother%20DCP-B7535DW"
               />
               <ProductCard
                 Nome="Impressora multifuncional laser monocromática workforce pro Epson WF-M5799"
                 Imagem={M5799}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20Impressora%20Multifuncional%20Monocrom%C3%A1tica%20Workforce%20Pro%20Epson%20WF-M5799"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20Impressora%20Multifuncional%20Monocrom%C3%A1tica%20Workforce%20Pro%20Epson%20WF-M5799"
               />
             </div>
           </div>
 
           <div className={`mt-[50px] duration-1000`}>
-            <div className="flex justify-between items-center" id='scanner'>
-              <h2 className="text-[24px] text-comabeblue font-medium">
+            <div className="flex flex-col lg:flex-row justify-between lg:items-center" id='scanner'>
+              <h2 className="text-[24px] text-[#0F5197] font-medium">
                 SCANNERS
               </h2>
-              <span className="flex items-center text-[18px] font-light text-comabeblue gap-[20px]">
-                Confira alguns destaques <ArrowDown />
+              <span className="flex items-center text-sm font-light text-[#0F5197] gap-[20px]">
+                Confira alguns destaques <ArrowDown className='hidden lg:block'/>
               </span>
             </div>
-            <div className="flex justify-between mt-[50px]">
+            <div className="flex gap-10 lg:gap-0 flex-col lg:flex-row items-center lg:items-start lg:justify-between mt-[50px]">
               <ProductCard
                 Nome="Scanner Epson workforce ES-400"
                 Imagem={ES400}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20%E2%80%8BScanner%20Epson%20Workforce%20ES-400"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20%E2%80%8BScanner%20Epson%20Workforce%20ES-400"
               />
               <ProductCard
                 Nome="Scanner compacto de mesa brother ADS - 1700W"
                 Imagem={W1700}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Scanner%20Compacto%20De%20Mesa%20Brother%20ADS%20-%201700W"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Scanner%20Compacto%20De%20Mesa%20Brother%20ADS%20-%201700W"
               />
               <ProductCard
                 Nome="Scanner compacto de mesa brother ADS - 2800W"
                 Imagem={W2800}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Scanner%20Compacto%20De%20Mesa%20Brother%20ADS%20-%202800W"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Scanner%20Compacto%20De%20Mesa%20Brother%20ADS%20-%202800W"
               />
             </div>
           </div>
 
           <div className={`mt-[50px] duration-1000 `}>
-            <div className="flex justify-between items-center" id='rotulador'>
-              <h2 className="text-[24px] text-comabeblue font-medium">
+            <div className="flex flex-col lg:flex-row justify-between lg:items-center" id='rotulador'>
+              <h2 className="text-[24px] text-[#0F5197] font-medium">
                 ROTULADORES
               </h2>
-              <span className="flex items-center text-[18px] font-light text-comabeblue gap-[20px]">
-                Confira alguns destaques <ArrowDown />
+              <span className="flex items-center text-sm font-light text-[#0F5197] gap-[20px]">
+                Confira alguns destaques <ArrowDown className='hidden lg:block'/>
               </span>
             </div>
-            <div className="flex flex-wrap mt-[50px] gap-[30px]">
+            <div className="flex flex-wrap lg:gap-7 flex-col lg:flex-row items-center lg:items-start lg:justify-between mt-[50px]">
               <ProductCard
                 Nome="Rotulador portátil brother PT-70"
                 Imagem={PT70}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Rotulador%20Port%C3%A1til%20Brother%C2%A0PT-70"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Rotulador%20Port%C3%A1til%20Brother%C2%A0PT-70"
               />
               <ProductCard
                 Nome="Rotulador portátil brother PT-80"
                 Imagem={PT80}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Rotulador%20Port%C3%A1til%20Brother%C2%A0PT-80"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Rotulador%20Port%C3%A1til%20Brother%C2%A0PT-80"
               />
               <ProductCard
                 Nome="Rotulador portátil brother PT-D210"
                 Imagem={PTD210}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Rotulador%20Port%C3%A1til%20Brother%C2%A0PT-D210"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Rotulador%20Port%C3%A1til%20Brother%C2%A0PT-D210"
               />
               <ProductCard
                 Nome="Rotulador portátil brother PTH-110"
                 Imagem={PTH110}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Rotulador%20Port%C3%A1til%20Brother%C2%A0PTH-110"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Rotulador%20Port%C3%A1til%20Brother%C2%A0PTH-110"
               />
               <ProductCard
                 Nome="Rotulador portátil brother PT-E550WVP"
                 Imagem={PTE550WVP}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Rotulador%20Port%C3%A1til%20Brother%C2%A0PT-E550WVP"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Rotulador%20Port%C3%A1til%20Brother%C2%A0PT-E550WVP"
               />
             </div>
           </div>
 
           <div className={`mt-[50px] duration-1000 `}>
-            <div className="flex justify-between items-center" id='suprimento'>
-              <h2 className="text-[24px] text-comabeblue font-medium">
+            <div className="flex flex-col lg:flex-row justify-between lg:items-center" id='suprimento'>
+              <h2 className="text-[24px] text-[#0F5197] font-medium">
                 SUPRIMENTOS
               </h2>
-              <span className="flex items-center text-[18px] font-light text-comabeblue gap-[20px]">
-                Confira alguns destaques <ArrowDown />
+              <span className="flex items-center text-sm font-light text-[#0F5197] gap-[20px]">
+                Confira alguns destaques <ArrowDown className='hidden lg:block'/>
               </span>
             </div>
-            <div className="flex justify-between mt-[50px]">
+            <div className="flex gap-10 lg:gap-0 flex-col lg:flex-row items-center lg:items-start lg:justify-between mt-[50px]">
               <ProductCard
                 Nome="Folhas de Papel"
                 Imagem={FolhasImagem}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20as%20Folhas"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20as%20Folhas"
               />
               <ProductCard
                 Nome="Tonners"
                 Imagem={TonnersImagem}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20Tonners"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20Tonners"
               />
               <ProductCard
                 Nome="Bolsas de tinta"
                 Imagem={BolsaDeTintasImagem}
-                LinkButton="https://api.whatsapp.com/send?phone=5554926212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20as%20Bolsas%20de%20tinta"
+                LinkButton="https://api.whatsapp.com/send?phone=555426212300&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20as%20Bolsas%20de%20tinta"
               />
             </div>
           </div>

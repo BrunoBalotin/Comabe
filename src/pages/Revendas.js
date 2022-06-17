@@ -318,24 +318,24 @@ function Revendas() {
       animate={{ opacity: 1, transition: { duration: 0.8 } }}
       exit={{ opacity: 0, transition: { duration: 0.1 } }}
     >
-      <div className="bg-hero-bg-revendas w-full h-[700px] flex items-center">
-        <div className="container mx-auto relative h-full flex items-center">
-          <div className="w-[50%]">
-            <h1 className="text-[48px] text-white font-medium mb-[30px]">
+      <div className="bg-hero-bg-revendas w-full py-36 flex items-center">
+        <div className="container mx-auto relative h-full flex flex-col lg:flex-row items-center">
+          <div className="w-full lg:w-[50%]">
+            <h1 className="text-2xl lg:text-4xl text-white font-medium mb-[30px]">
               Torne-se um Revendedor de nossa linha de produtos e adquira
               vantagens exclusivas
             </h1>
-            <p className="text-white text-[18px] font-light w-[85%] mb-[55px]">
+            <p className="text-white text-sm font-light lg:w-[85%] mb-[55px]">
               Os nossos revendedores tem vantagens exclusivas, com ferramentas e
               informações dos produtos que os dão um diferencial competitivo
               dentro do mercado
             </p>
           </div>
 
-          <div className="w-full h-[120px] rounded-2xl bg-white absolute -bottom-[50px] px-[90px]">
-            <div className="flex justify-between items-center h-full">
+          <div className="w-full h-[120px] rounded-2xl bg-white lg:absolute -bottom-[200px] px-[10px] lg:px-[90px]">
+            <div className="flex w-full gap-2 justify-between items-center h-full">
               <a
-                className="w-[40%] sm:w-auto"
+                className="lg:w-[40%] sm:w-auto"
                 target="_blank"
                 rel="noreferrer"
                 href="https://epson.com.br"
@@ -347,7 +347,7 @@ function Revendas() {
                 />
               </a>
               <a
-                className="w-[40%] sm:w-auto"
+                className="lg:w-[40%] sm:w-auto"
                 target="_blank"
                 rel="noreferrer"
                 href="https://brazil.kyocera.com"
@@ -359,7 +359,7 @@ function Revendas() {
                 />
               </a>
               <a
-                className="w-[40%] sm:w-auto"
+                className="lg:w-[40%] sm:w-auto"
                 target="_blank"
                 rel="noreferrer"
                 href="https://brother.com.br"
@@ -371,7 +371,7 @@ function Revendas() {
                 />
               </a>
               <a
-                className="w-[40%] sm:w-auto"
+                className="lg:w-[40%] sm:w-auto"
                 target="_blank"
                 rel="noreferrer"
                 href="https://xerox.com"
@@ -383,7 +383,7 @@ function Revendas() {
                 />
               </a>
               <a
-                className="w-[40%] sm:w-auto"
+                className="lg:w-[40%] sm:w-auto"
                 target="_blank"
                 rel="noreferrer"
                 href="https://katun.com"
@@ -399,11 +399,11 @@ function Revendas() {
         </div>
       </div>
 
-      <div className="flex items-center bg-[#F8F8FA] h-[1250px]">
+      <div className="flex items-center bg-[#F8F8FA] py-36">
         <div className="container mx-auto">
-          <div className="flex justify-between">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 justify-between">
             <div>
-              <h2 className="text-[32px] text-[#575757] font-medium">
+              <h2 className="text-2xl text-[#575757] font-medium">
                 Vantagens em ser Revendedor Comabe:
               </h2>
             </div>
@@ -417,92 +417,92 @@ function Revendas() {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-[40px] mt-[70px]">
-            <div className="w-[320px] h-[190px] flex flex-col gap-[15px] pt-[30px] items-center bg-white rounded-2xl">
+          <div className="flex flex-wrap lg:gap-[20px] 2xl:gap-[40px] mt-[70px]">
+            <div className="w-[49%] lg:w-[24%] 2xl:w-[320px] h-[190px] flex flex-col gap-[15px] pt-[30px] items-center bg-white rounded-2xl">
               <div className="w-full h-[50px] flex justify-center">
                 <PortfolioDocs />
               </div>
-              <span className="text-[18px] text-[#575757] font-medium text-center w-[80%]">
+              <span className="text-sm text-[#575757] font-medium text-center w-[80%]">
                 Portfólio Office completo Epson, Brother e Katun
               </span>
             </div>
-            <div className="w-[320px] h-[190px] flex flex-col gap-[15px] pt-[30px] items-center bg-white rounded-2xl">
+            <div className="w-[49%] lg:w-[23%] 2xl:w-[320px] h-[190px] flex flex-col gap-[15px] pt-[30px] items-center bg-white rounded-2xl">
               <div className="w-full h-[50px] flex justify-center">
                 <Calendario />
               </div>
-              <span className="text-[18px] text-[#575757] font-medium text-center w-[80%]">
+              <span className="text-sm text-[#575757] font-medium text-center w-[80%]">
                 Eventos Técnicos e Comerciais com Fabricantes
               </span>
             </div>
-            <div className="w-[320px] h-[190px] flex flex-col gap-[15px] pt-[30px] items-center bg-white rounded-2xl">
+            <div className="w-[49%] lg:w-[23%] 2xl:w-[320px] h-[190px] flex flex-col gap-[15px] pt-[30px] items-center bg-white rounded-2xl">
               <div className="w-full h-[50px] flex justify-center">
                 <CSA />
               </div>
-              <span className="text-[18px] text-[#575757] font-medium text-center w-[80%]">
+              <span className="text-sm text-[#575757] font-medium text-center w-[80%]">
                 Se tornar uma Revenda CSA Comabe Epson
               </span>
             </div>
-            <div className="w-[320px] h-[190px] flex flex-col gap-[15px] pt-[30px] items-center bg-white rounded-2xl">
+            <div className="w-[49%] lg:w-[23%] 2xl:w-[320px] h-[190px] flex flex-col gap-[15px] pt-[30px] items-center bg-white rounded-2xl">
               <div className="w-full h-[50px] flex justify-center">
                 <Desenvolvimento />
               </div>
-              <span className="text-[18px] text-[#575757] font-medium text-center w-[95%]">
+              <span className="text-sm text-[#575757] font-medium text-center w-[95%]">
                 Desenvolvimento e compartilhamento de Soluções Customizadas
               </span>
             </div>
-            <div className="w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
+            <div className="w-[49%] lg:w-[23%] 2xl:w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
               <div className="w-full h-[50px] flex justify-center">
                 <Suporte />
               </div>
-              <span className="text-[18px] text-[#575757] font-medium text-center w-[80%]">
+              <span className="text-sm text-[#575757] font-medium text-center w-[80%]">
                 Suporte técnico especializado
               </span>
             </div>
-            <div className="w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
+            <div className="w-[49%] lg:w-[23%] 2xl:w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
               <div className="w-full h-[50px] flex justify-center">
                 <Treinamentos />
               </div>
-              <span className="text-[18px] text-[#575757] font-medium text-center w-[80%]">
+              <span className="text-sm text-[#575757] font-medium text-center w-[80%]">
                 Treinamentos Técnicos
               </span>
             </div>
-            <div className="w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
+            <div className="w-[49%] lg:w-[23%] 2xl:w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
               <div className="w-full h-[50px] flex justify-center">
                 <Frete />
               </div>
-              <span className="text-[18px] text-[#575757] font-medium text-center w-[80%]">
+              <span className="text-sm text-[#575757] font-medium text-center w-[80%]">
                 Frete e logística diferenciados
               </span>
             </div>
-            <div className="w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
+            <div className="w-[49%] lg:w-[23%] 2xl:w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
               <div className="w-full h-[50px] flex justify-center">
                 <Atendimento />
               </div>
-              <span className="text-[18px] text-[#575757] font-medium text-center w-[80%]">
+              <span className="text-sm text-[#575757] font-medium text-center w-[80%]">
                 Atendimento Especializado
               </span>
             </div>
-            <div className="w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
+            <div className="w-[49%] lg:w-[23%] 2xl:w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
               <div className="w-full h-[50px] flex justify-center">
                 <Participação />
               </div>
-              <span className="text-[18px] text-[#575757] font-medium text-center w-[80%]">
+              <span className="text-sm text-[#575757] font-medium text-center w-[80%]">
                 Participação no Epson Stars
               </span>
             </div>
-            <div className="w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
+            <div className="w-[49%] lg:w-[23%] 2xl:w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
               <div className="w-full h-[50px] flex justify-center">
                 <Estoque />
               </div>
-              <span className="text-[18px] text-[#575757] font-medium text-center w-[80%]">
+              <span className="text-sm text-[#575757] font-medium text-center w-[80%]">
                 Estoque a pronta entrega
               </span>
             </div>
-            <div className="w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
+            <div className="w-[49%] lg:w-[23%] 2xl:w-[320px] h-[190px] flex flex-col gap-[15px] justify-center items-center bg-white rounded-2xl">
               <div className="w-full h-[50px] flex justify-center">
                 <Rebate />
               </div>
-              <span className="text-[18px] text-[#575757] font-medium text-center w-[80%]">
+              <span className="text-sm text-[#575757] font-medium text-center w-[80%]">
                 Rebate
               </span>
             </div>
@@ -513,14 +513,14 @@ function Revendas() {
       <div className="flex h-[1200px] items-center">
         <div className="container mx-auto">
           <div className="flex justify-center">
-            <h2 className="text-[42px] text-[#343434] font-medium">
+            <h2 className="text-3xl text-[#343434] font-medium">
               Conheça nosso mix de produtos
             </h2>
           </div>
 
           <div className="flex justify-between mt-[100px]">
             <div
-              className="carousel flex justify-between overflow-x-auto py-[35px] scroll-smooth"
+              className="carousel flex justify-between overflow-x-auto lg:py-[35px] scroll-smooth"
               ref={carousel}
             >
             
@@ -528,8 +528,8 @@ function Revendas() {
                 <div className="w-[330px] h-[430px] bg-white rounded-2xl flex-none shadow-shadow-card flex flex-col pt-[15px] mx-[15px]" key={maquinas.id}>
                   <div className="flex flex-col items-center">
                   <div className='h-[200px] flex items-end'><img src={maquinas.img} alt='' /></div>
-                  <h2 className='text-[18px] text-[#0F5197] font-medium text-center w-[75%] my-[30px] h-[80px]'>{maquinas.nome}</h2>
-                  <a className="text-[18px] bg-[#0F5197] text-white rounded-full px-6 py-3 sm:px-12 sm:py-3 font-medium" target="_blank" href={maquinas.link} rel="noreferrer" >Ver detalhes</a>
+                  <h2 className='text-sm text-[#0F5197] font-medium text-center w-[75%] my-[30px] h-[80px]'>{maquinas.nome}</h2>
+                  <a className="text-sm bg-[#0F5197] text-white rounded-full px-6 py-3 sm:px-12 sm:py-3 font-medium" target="_blank" href={maquinas.link} rel="noreferrer" >Ver detalhes</a>
                   </div>
                 </div>
               ))}
@@ -545,46 +545,46 @@ function Revendas() {
         </div>
       </div>
 
-      <div className="flex items-center h-[1100px] bg-[#F8F8FA]">
+      <div className="flex items-center py-36 bg-[#F8F8FA]">
         <div className="container mx-auto">
-          <div className="flex justify-between">
-            <div>
-              <h2 className="text-[32px] text-[#343434] font-medium mb-[70px]">
+          <div className="flex flex-col lg:flex-row justify-between">
+            <div className="mb-10 lg:mb-0">
+              <h2 className="text-2xl text-[#343434] font-medium mb-[70px]">
                 Como revendedor você terá acesso a:
               </h2>
 
-              <div className="w-[620px] h-[330px] bg-white rounded-2xl shadow-shadow-card flex flex-col justify-center pl-[50px]">
+              <div className="lg:w-[620px] h-[330px] bg-white rounded-2xl shadow-shadow-card flex flex-col justify-center pl-[50px]">
                 <DocLaranja />
-                <h2 className="text-[24px] text-[#343434] font-medium my-[30px]">
+                <h2 className="text-xl text-[#343434] font-medium my-[30px]">
                   Planilhas de Calculo de TCO de projetos
                 </h2>
-                <p className="text-[18px] text-[#575757] mb-[30px] w-[90%]">
+                <p className="text-sm text-[#575757] mb-[30px] w-[90%]">
                   Entre com seus custos operacionais e simule a rentabilidade
                   bruta e o CPP por equipamento
                 </p>
-                <span className="text-[18px] text-[#0F5197] font-medium flex items-center gap-[10px] cursor-pointer">
+                <span className="text-sm text-[#0F5197] font-medium flex items-center gap-[10px] cursor-pointer">
                   Baixar planilha <ArrowDownload className="mt-[5px]" />
                 </span>
               </div>
-              <div className="w-[620px] h-[330px] bg-white rounded-2xl shadow-shadow-card flex flex-col justify-center pl-[50px] mt-[30px]">
+              <div className="lg:w-[620px] h-[330px] bg-white rounded-2xl shadow-shadow-card flex flex-col justify-center pl-[50px] mt-[30px]">
                 <YoutubeLaranja />
-                <h2 className="text-[24px] text-[#343434] font-medium my-[30px]">
+                <h2 className="text-xl text-[#343434] font-medium my-[30px]">
                   Vídeos de demonstração de produtos para Treinamentos
                   Comerciais
                 </h2>
-                <span className="text-[18px] text-[#0F5197] font-medium flex items-center gap-[10px] cursor-pointer">
+                <span className="text-sm text-[#0F5197] font-medium flex items-center gap-[10px] cursor-pointer">
                   Acessar vídeos <ArrowDownload className="mt-[5px]" />
                 </span>
               </div>
             </div>
 
-            <div className="flex justify-between w-[50%]">
-              <div>
+            <div className="flex flex-col lg:flex-row justify-between lg:w-[50%]">
+              <div className="hidden lg:block">
                 <img className="pt-[140px]" src={ImageRevendedor} alt="" />
               </div>
 
               <div>
-                <img className="mb-[50px]" src={ImpressoraRevenda} alt="" />
+                <img className="mb-[50px] hidden lg:block" src={ImpressoraRevenda} alt="" />
                 <ButtonPrimary
                   text="Torne-se um revendedor"
                   color="ButtonPrimary"

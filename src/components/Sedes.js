@@ -74,44 +74,44 @@ function Sedes() {
 
 
   return (
-    <div className="h-[700px] flex items-center">
+    <div className="py-48 flex items-center">
       <div className="container mx-auto">
         <div>
-          <h2 className="text-[42px] font-medium text-center mb-[80px]">
+          <h2 className="text-3xl font-medium text-center mb-[80px]">
             Nossas sedes
           </h2>
         </div>
 
-        <div className="flex justify-between">
-          <div className="w-[40%] relative">
+        <div className="flex flex-col-reverse lg:flex-row justify-between">
+          <div className="w-full lg:w-[40%] relative">
             <img className={`absolute duration-700 ${openSerra? 'opacity-1' : 'opacity-0'}`} src={SerraGaucha} alt="" />
             <img className={`absolute duration-700 ${openFeevale? 'opacity-1' : 'opacity-0'}`} src={Feevale} alt="" />
             <img className={`absolute duration-700 ${openSanta? 'opacity-1' : 'opacity-0'}`} src={SantaCatarina} alt="" />
           </div>
 
-          <div className="w-[50%]">
+          <div className="w-full lg:w-[50%]">
             <div className="flex flex-col">
               <div className="flex justify-between mb-[25px]">
-                <span onClick={toggleSerra} className="text-[24px] font-medium cursor-pointer">
+                <span onClick={toggleSerra} className="w-30w lg:w-auto text-xl font-medium cursor-pointer">
                   Serra Gaúcha
                 </span>
-                <span onClick={toggleFeevale} className="text-[24px] font-medium cursor-pointer">
+                <span onClick={toggleFeevale} className="flex justify-center lg:block w-31w lg:w-auto text-xl font-medium cursor-pointer">
                   Feevale Techpark
                 </span>
-                <span onClick={toggleSanta} className="text-[24px] font-medium cursor-pointer">
+                <span onClick={toggleSanta} className="flex justify-end lg:block w-31w lg:w-auto text-xl font-medium cursor-pointer">
                   Santa catarina
                 </span>
               </div>
 
               <div className="relative">
                 <span className="absolute w-full block bg-slate-400 h-[1px]"></span>
-                <span className={`absolute w-[21%] duration-700 block bg-[#0F5197] h-[4px] -top-[1.3px] ${openSerra? 'translate-x-0' : null} ${openFeevale? 'translate-x-[133%] w-[27%]' : null} ${openSanta? 'translate-x-[356%] w-[22%]' : null}`}></span>
+                <span className={`absolute w-[21%] duration-700 block bg-[#0F5197] h-[4px] -top-[1.3px] ${openSerra? 'translate-x-0' : null} ${openFeevale? 'translate-x-[135%] lg:translate-x-[133%] w-[25%] lg:w-[27%]' : null} ${openSanta? 'translate-x-[235%] w-[30%] lg:translate-x-[356%] lg:w-[22%]' : null}`}></span>
               </div>
             </div>
 
-            <div className="relative">
+            <div className="relative h-[350px] lg:h-auto">
               <div className={`absolute opacity-1 duration-700 ${openSerra? 'opacity-1 z-10' : 'opacity-0 z-0'}`}>
-                <p className="text-[18px] font-light text-[#575757] mt-[30px] mb-[30px]">
+                <p className="text-sm font-light text-[#575757] mt-[30px] mb-[30px]">
                   Conhecida como a cidade da uva e do vinho, Bento Gonçalves -
                   RS é o berço da Comabe e está entre as dez maiores economias
                   do estado. Com um vasto mercado de comércio e indústria
@@ -125,7 +125,7 @@ function Sedes() {
                 <VerNoMapa onClick={toggleMapaSerra}/>
               </div>
               <div className={`absolute duration-700 ${openFeevale? 'opacity-1 z-10' : 'opacity-0 z-0 hidden'}`}>
-                <p className="text-[18px] font-light text-[#575757] mt-[30px] mb-[30px]">
+                <p className="text-sm font-light text-[#575757] mt-[30px] mb-[30px]">
                   Firmando parceria com a Feevale Techpark, a Comabe conta com
                   uma unidade no polo tecnológico da Feevale. Situado na região
                   metropolitana, na cidade de Campo Bom/RS, o Techpark é um dos
@@ -143,7 +143,7 @@ function Sedes() {
                 <VerNoMapa onClick={toggleMapaFeevale} />
               </div>
               <div className={`absolute duration-700 ${openSanta? 'opacity-1 z-10' : 'opacity-0 z-0 hidden'}`}>
-                <p className="text-[18px] font-light text-[#575757] mt-[30px] mb-[30px]">
+                <p className="text-sm font-light text-[#575757] mt-[30px] mb-[30px]">
                   A Comabe conta também com uma unidade estrategicamente
                   localizada na cidade de Passo de Torres, em SC, distante 270
                   quilômetros de Florianópolis, às margens do Rio Mampituba (rio
