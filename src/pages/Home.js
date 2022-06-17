@@ -291,6 +291,8 @@ const Home = () => {
         </div>
 
       </div>
+       </div>
+       */}
 
       <Tarja 
       Background='bg-bg-tarja-home' 
@@ -299,9 +301,9 @@ const Home = () => {
       ButtonText='Quero fazer parte' 
       />
 
-    </div>
+   
 
-  */}
+ 
    
   
 

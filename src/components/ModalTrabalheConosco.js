@@ -3,14 +3,14 @@ import { FaWindowClose } from 'react-icons/fa'
 import './css/ButtonPrimary.css'
 
 
-function ModalSuporte({Close, classRef, onClick}) {
+function ModalTrabalheConosco({Close, classRef, onClick}) {
   return (
     <div className={`fixed bg-black w-[50%] h-[80%] top-[50%] left-[50%] rounded-xl translate-y-[-50%] translate-x-[-50%] z-50 ${Close} duration-500 ${classRef}`}> 
       <div className="relative w-full h-full ">
       <div onClick={onClick} className='absolute top-1 right-2 text-white cursor-pointer flex items-center gap-3'><FaWindowClose size={20} color='#0F5197'/> </div>
         <div className='bg-white w-full h-full rounded-xl'>
           <div className='flex w-full h-full'>
-            <div className='bg-modal h-full w-[45%]'>
+            <div className='bg-trabalheconosco h-full w-[45%]'>
 
             </div>
 
@@ -22,16 +22,11 @@ function ModalSuporte({Close, classRef, onClick}) {
                   <input className='bg-[#F8F8FA] h-[55px] pl-[20px] rounded-md outline-none' placeholder='Nome' type='text' />
                   <input className='bg-[#F8F8FA] h-[55px] pl-[20px] rounded-md outline-none' placeholder='E-mail' type='email' />
                   <input className='bg-[#F8F8FA] h-[55px] pl-[20px] rounded-md outline-none' placeholder='Telefone' type='tel' />
-                  <select className='bg-[#F8F8FA] h-[55px] px-[20px] rounded-md outline-none'>
-                    <option disabled selected>Segmento</option>
-                    <option>Impressoras</option>
-                    <option>Multifuncionais</option>
-                    <option>Scanners</option>
-                    <option>Rotuladores</option>
-                    <option>Suprimentos</option>
-
-                  </select>
-                  <textarea placeholder='Descreva aqui o problema' className='bg-[#F8F8FA] h-[140px] pl-[20px] pt-[20px] rounded-md outline-none'>
+                  <label>
+                  <input className='bg-[#F8F8FA] h-[35px] w-full pl-[20px] pt-[10px]  flex items-center' type='file'/>
+                  <span className='bg-[#F8F8FA] h-[30px] w-full pl-[20px]  flex pb-[10px]'>Deixe seu curriculo</span>
+                  </label>
+                  <textarea placeholder='Mensagem' className='bg-[#F8F8FA] h-[140px] pl-[20px] pt-[20px] rounded-md outline-none'>
 
                   </textarea>
                   <label>
@@ -47,4 +42,4 @@ function ModalSuporte({Close, classRef, onClick}) {
   );
 }
 
-export default ModalSuporte
+export default ModalTrabalheConosco

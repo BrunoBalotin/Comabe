@@ -1,6 +1,6 @@
 .ButtonPrimary {
 
-    background: transparent linear-gradient(90deg, #0F5197 0%, #0088FF 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(90deg, #0F5197 0%, #0088FF 100%) 0% 0% no-repeat padding-box!important;
     background-size: 100%;
     background-position: 0px;
     transition: 1s all;
