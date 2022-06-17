@@ -148,7 +148,6 @@ function Solucoes() {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row justify-between lg:items-center'>
           <h2 className='text-2xl text-white font-medium w-full lg:w-[50%]'>A Comabe também monitora seus equipamentos para que você tenha vantagens como:</h2>
-          <span className='bg-[#0088FF] py-2 px-6 mt-5 hidden lg:flex lg:mt-0 rounded-full text-white font-bold text-sm'>Para colaborar com os processos do seu escritório </span>
         </div>
 
         <div className='flex flex-wrap gap-5 lg:gap-0 justify-between mt-[65px]'>
