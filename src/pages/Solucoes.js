@@ -116,7 +116,6 @@ function Solucoes() {
           <div className='w-full lg:w-[48%]'>
           <h2 className='text-3xl text-[#343434] font-medium w-[70%] lg:w-[80%] mb-[40px]'>Monitoramento do cliente</h2>
           <p className='text-sm text-[#343434] font-light mb-[60px] w-[100%]'>Através de um sistema remoto, monitoramos todos os equipamentos da sua empresa - até mesmo as filiais - e recebe alertas sobre possíveis problemas de funcionamento, limites de impressão por funcionário ou qualquer outra operação, tendo um relatório claro do que acontece em suas máquinas.</p>
-          <p className='text-sm text-[#343434] font-light mb-[60px] w-[100%]'>Através de um sistema remoto, você monitora todos os equipamentos da sua empresa - até mesmo as filiais - e recebe alertas sobre possíveis problemas de funcionamento, limites de impressão por funcionário ou qualquer outra operação, tendo um relatório claro do que acontece em suas máquinas.</p>
           <div className='flex flex-wrap gap-5 lg:gap-10 2xl:gap-[10px] mb-[90px]'>
             <span className='flex w-full 2xl:w-auto items-center gap-[20px] text-sm text-[#575757] font-medium mr-[100px]'><ImpressoraExclamation className='w-[17%] lg:w-auto'/>Impressora sem toner</span>
             <span className='flex w-full 2xl:w-auto items-center gap-[20px] text-sm text-[#575757] font-medium'><TonnerExclamation className='w-[13%] lg:w-auto'/>Problema no equipamento</span>
@@ -183,7 +182,6 @@ function Solucoes() {
           <div className='w-full lg:w-[55%] mt-10 lg:mt-0'>
           <h2 className='text-3xl text-[#343434] font-medium w-[80%] mb-[30px]'>Monitoramento do cliente</h2>
           <p className='text-sm text-[#343434] font-light mb-[60px] w-[83%]'>Através da Nuvem (Internet) a Comabe recebe informações de problemas e falta de suprimentos de suas filiais. Seus equipamentos são monitorados, ficando sob responsabilidade da equipe da Comabe quaisquer falhas ou falta de suprimentos</p>  
-          <p className='text-sm text-[#343434] font-light mb-[60px] w-[83%]'>Através da Nuvem (Internet) a Comabe recebe informações de problemas e falta de suprimentos de suas filiais. Seus equipamentos são monitorados, ficando sob responsabilidade da equipe da Comabe falhas ou falta de suprimentos</p>  
           <span className='flex items-center gap-[20px] text-xl text-[#0F5197] font-medium'><GreenCheck /> Monitoramento de suprimentos</span>
           <p className='text-sm text-[#343434] font-light mt-[30px] mb-[40px] w-[83%]'>A Comabe identifica no sistema a falta de toner ou outro suprimento e envia um de seus colabores para efetuar a entrega e instalação do recurso.</p>
           <span className='flex items-center gap-[20px] text-xl text-[#0F5197] font-medium'><GreenCheck /> Assistência técnica</span>
