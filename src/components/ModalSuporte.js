@@ -18,7 +18,7 @@ function ModalSuporte({Close, classRef, onClick}) {
                 <h2 className='text-2xl'>Preencha o formulário</h2>
                 <p className='text-sm'>Assim que recebermos sua solicitação, um dos nossos especialistas entrará em contato.</p>
                 <form>
-                  <input placeholder='Nome'></input>
+                  <input></input>
                 </form>
               </div>
             </div>

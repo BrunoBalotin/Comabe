@@ -332,7 +332,11 @@ function Revendas() {
             </p>
           </div>
 
+<<<<<<< HEAD
           <div className="w-full h-[120px] rounded-2xl bg-white lg:absolute -bottom-[200px] px-[10px] lg:px-[90px]">
+=======
+          <div className="w-full h-[120px] rounded-2xl bg-white lg:absolute -bottom-[50px] px-[10px] lg:px-[90px]">
+>>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
             <div className="flex w-full gap-2 justify-between items-center h-full">
               <a
                 className="lg:w-[40%] sm:w-auto"

@@ -11,12 +11,20 @@ const Produtos= () => {
       <div className='container mx-auto'>
         <div>
           <h1 className='text-3xl text-white font-medium mb-[30px]'>Nossos Produtos</h1>
+<<<<<<< HEAD
           <p className='text-white text-sm font-light lg:w-[50%] 2xl:w-[32%]'>Temos uma linha completa de produtos e soluções para todos os ambientes de impressão, contamos com as melhores marcas e equipamentos do mercado, Epson, Kyocera, Brother, Xerox e Katun</p>
+=======
+          <p className='text-white text-sm font-light lg:w-[50%] 2xl:w-[32%]'>Temos uma linha completa de produtos e soluções para todos os ambientes de impressão, contamos com as melhores marcas e equipamentos do mercado, Epson, Kyocera, Brother, Xerox e Katun.</p>
+>>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
 
         </div>
 
       </div>
+<<<<<<< HEAD
       <Mouse className='absolute -bottom-11 lg:-bottom-8 2xl:-bottom-8 left-1/2 -translate-x-1/2' />
+=======
+      <Mouse className='absolute -bottom-11 lg:-bottom-8 2xl:-bottom-7 left-1/2 -translate-x-1/2' />
+>>>>>>> c7c01f89e681e6675f092be30e3c21306d9d0e4c
       </div>
 
 <div id="impressora">
