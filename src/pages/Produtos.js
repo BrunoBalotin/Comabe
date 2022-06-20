@@ -16,7 +16,7 @@ const Produtos= () => {
         </div>
 
       </div>
-      <Mouse className='absolute -bottom-11 lg:-bottom-8 2xl:-bottom-8 left-1/2 -translate-x-1/2' />
+      <Mouse className='absolute hidden sm:block -bottom-11 lg:-bottom-8 2xl:-bottom-8 left-1/2 -translate-x-1/2' />
       </div>
 
 <div id="impressora">

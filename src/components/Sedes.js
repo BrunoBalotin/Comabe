@@ -92,7 +92,7 @@ function Sedes() {
           <div className="w-full lg:w-[50%]">
             <div className="flex flex-col">
               <div className="flex justify-between mb-[25px]">
-                <span onClick={toggleSerra} className="w-30w lg:w-auto text-xl font-medium cursor-pointer">
+                <span onClick={toggleSerra} className="w-25w lg:w-auto text-xl font-medium cursor-pointer">
                   Serra Gaúcha
                 </span>
                 <span onClick={toggleFeevale} className="flex justify-center lg:block w-31w lg:w-auto text-xl font-medium cursor-pointer">

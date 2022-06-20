@@ -50,10 +50,11 @@ function Filtro() {
 
   const stickNavbar = () => {
     let windowHeight = window.scrollY;
+    console.log(windowHeight)
     
     if (window !== undefined) {
       
-   
+      console.log(windowHeight)
        windowHeight > 927 && windowHeight < 3767 ? setStickyClass('fixed') : setStickyClass('static');
       
     }

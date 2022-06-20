@@ -32,7 +32,7 @@ function QuemSomos() {
         <p className='text-white text-sm font-light w-[90%] md:w-[561px] leading-relaxed'>Desde 1967 inovando em tecnologia e soluções para ambientes de impressão e digitalização de documentos.</p>
       </div>
     </div>
-    <Mouse className='absolute -bottom-7 left-1/2 -translate-x-1/2' />
+    <Mouse className='absolute hidden sm:block -bottom-7 left-1/2 -translate-x-1/2' />
     </div>
 
     <div className='bg-[#F8F8FA]'>
@@ -138,7 +138,7 @@ function QuemSomos() {
     
     <Sedes />
 
-    <div>
+    <div className='mt-40 sm:mt-0'>
       <Tarja 
       Background='bg-bg-tarja-quemsomos' 
       Text='Interessados enviar currículo para: jordano@comabe.com.br ou preencher os dados do formulário através do botão ao lado' 
