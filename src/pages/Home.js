@@ -67,8 +67,8 @@ const Home = () => {
       <div className='flex flex-col lg:flex-row lg:justify-between'>
         <div className='w-full lg:w-45w xl:w-50w'>
           <h2 className='w-80w lg:w-auto mb-5 text-3xl text-titles font-medium'>Descubra o Business Scan</h2>
-          <span className='text-xl text-[#0F5197] font-medium lg:w-70w 2xl:w-auto flex'>Nossa solução tecnológica para digitalização de documentos</span>
-          <p className='mt-9 text-sm text-paragraphs font-light lg:w-80w 2xl:w-auto'>O Business Scan é o nosso serviço especializado de digitalização de documentos, através dele é possível reduzir o seu armazenamento de documentos em espaço físico com o processo de digitalização inteligente.</p>
+          <span className='text-xl text-[#0F5197] font-medium lg:w-70w 2xl:w-70w flex'>Nossa solução tecnológica para digitalização de documentos</span>
+          <p className='mt-9 text-sm text-paragraphs font-light lg:w-80w 2xl:w-80w'>O Business Scan é o nosso serviço especializado de digitalização de documentos, através dele é possível reduzir o seu armazenamento de documentos em espaço físico com o processo de digitalização inteligente.</p>
 
           <div className='flex flex-wrap mt-12 mb-20 sm:gap-7 lg:gap-0 xl:gap-5 2xl:gap-0'>
             <span className='flex items-center text-sm text-titles font-light w-full lg:w-full 2xl:w-auto 2xl:mr-14 gap-3'><Documentos className='w-9 lg:w-7 xl:w-9 2xl:w-auto'/> Documentos salvos em pdf</span>
@@ -81,7 +81,7 @@ const Home = () => {
 
       <div className='w-full lg:w-50w xl:w-50w mt-24 lg:mt-0'>
         <div className='relative flex flex-col items-end'>
-          <img src={BusinessScan} alt='' />
+          <img src='https://uploaddeimagens.com.br/images/003/908/897/full/Grupo_3031.png?1655735086' alt='' />
           <p className='text-sm text-paragraphs font-light sm:w-full lg:w-90w xl:w-90w'>Simplifique a gestão de documentos da sua empresa com o <span className='text-[#FF8800] font-bold'>Business Scan</span> e automatize os processos manuais que envolvem grande fluxo de papel.</p>
         </div>
       </div>
