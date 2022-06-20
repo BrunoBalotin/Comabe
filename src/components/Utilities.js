@@ -29,7 +29,8 @@ const Utilities = () => {
 
 
   return (
-    <div className='bg-gradiente-blue py-16 lg:py-0 lg:h-[323px] flex items-center'>
+    <div id='utilities'>
+    <div  className='bg-gradiente-blue py-16 lg:py-0 lg:h-[323px] flex items-center'>
       <div className='container mx-auto'>
         <div className='w-full flex flex-col lg:flex-row justify-between'>
           <div className='lg:w-[25%]'>
@@ -60,6 +61,7 @@ const Utilities = () => {
       <ModalSuporte onClick={toggleSuport} classRef={`${modalSuporte ? 'scale-0' : 'scale-1'}`}/>
       <ModalTrabalheConosco onClick={toggleTrabalhe} classRef={`${modalTrabalhe ? 'scale-0' : 'scale-1'}`}/>
       <ModalRevendas onClick={toggleRevendas} classRef={`${modalRevendas ? 'scale-0' : 'scale-1'}`}/>
+    </div>
     </div>
   )
 }

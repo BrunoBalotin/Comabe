@@ -16,8 +16,10 @@ function RoutesDOM()  {
     <AnimationRoutes />
     <Utilities />
     <Footer />
+    
 
     </BrowserRouter>
+    
   )
 }
 

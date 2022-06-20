@@ -1,22 +1,34 @@
-import React from 'react';
-import { useForm } from 'react-hook-form';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import ButtonPrimary from './ButtonPrimary';
 
 export default function ReactForm({fullWidth}) {
 
-  const { register, handleSubmit, formState: { errors } } = useForm();
-  const onSubmit = data => console.log(data);
-  console.log(errors);
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_6ynobrb', 'template_od0nfuc', form.current, '9TBgpNU-cpK5tjtNc')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+ 
   
   return (
     
     <div className='bg-white p-10 w-full md:w-[60%] lg:w-95w xl:w-[480px] rounded-3xl shadow-shadow-card'>
-    <form className='flex flex-col' onSubmit={handleSubmit(onSubmit)}>
-      <input className='border-b text-[16px] lg:text-[15px] xl:text-[16px] pb-[15px] lg:pb-[15px] xl:pb-[15px] 2xl:pb-[30px] outline-none' type="text" placeholder="Nome" {...register("Nome", {required: true, maxLength: 80})} />
-      <input className='border-b text-[16px] lg:text-[15px] xl:text-[16px] pb-[15px] lg:pb-[15px] xl:pb-[15px] 2xl:pb-[30px] mt-[20px] lg:mt-[20px] 2xl:mt-[30px] outline-none' type="text" placeholder="Sobrenome" {...register("Sobrenome", {required: true, maxLength: 100})} />
-      <input className='border-b text-[16px] lg:text-[15px] xl:text-[16px] pb-[15px] lg:pb-[15px] xl:pb-[15px] 2xl:pb-[30px] mt-[20px] lg:mt-[20px] 2xl:mt-[30px] outline-none' type="text" placeholder="E-mail" {...register("E-mail", {required: true, pattern: /^\S+@\S+$/i})} />
-      <select className='border-b text-[16px] lg:text-[15px] xl:text-[16px] h-[60px] lg:h-[50px] xl:h-[60px] 2xl:h-[100px] mt-[0px] bg-transparent outline-none' {...register("Departamento", { required: true })}>
-        <option value="Departamento" disabled selected>Departamento</option>
+    <form ref={form} className='flex flex-col' onSubmit={sendEmail}>
+      <input className='border-b text-[16px] lg:text-[15px] xl:text-[16px] pb-[15px] lg:pb-[15px] xl:pb-[15px] 2xl:pb-[30px] outline-none' type="text" placeholder="Nome" name="nome" />
+      <input className='border-b text-[16px] lg:text-[15px] xl:text-[16px] pb-[15px] lg:pb-[15px] xl:pb-[15px] 2xl:pb-[30px] mt-[20px] lg:mt-[20px] 2xl:mt-[30px] outline-none' type="text" placeholder="Sobrenome" name="sobrenome"  />
+      <input className='border-b text-[16px] lg:text-[15px] xl:text-[16px] pb-[15px] lg:pb-[15px] xl:pb-[15px] 2xl:pb-[30px] mt-[20px] lg:mt-[20px] 2xl:mt-[30px] outline-none' type="text" placeholder="E-mail" name="email" />
+      <select className='border-b text-[16px] lg:text-[15px] xl:text-[16px] h-[60px] lg:h-[50px] xl:h-[60px] 2xl:h-[100px] mt-[0px] bg-transparent outline-none' name="departamento">
+        <option value="Departamento" disabled defaultValue='Departamento'>Departamento</option>
         <option value="Administração">Administração</option>
         <option value="Comercial Externo">Comercial Externo</option>
         <option value="Comercial Interno">Comercial Interno</option>
@@ -25,14 +37,14 @@ export default function ReactForm({fullWidth}) {
         <option value="T.I">T.I</option>
         <option value="Logística">Logística</option>
       </select>
-      <input className='border-b text-[16px] lg:text-[15px] xl:text-[16px] pb-[15px] lg:pb-[10px] xl:pb-[15px] 2xl:pb-[30px] mt-[20px] lg:mt-[20px] 2xl:mt-[30px] outline-none' type="tel" placeholder="Telefone" {...register("Telefone", {required: true, pattern: /^\S+@\S+$/i})} />
+      <input className='border-b text-[16px] lg:text-[15px] xl:text-[16px] pb-[15px] lg:pb-[10px] xl:pb-[15px] 2xl:pb-[30px] mt-[20px] lg:mt-[20px] 2xl:mt-[30px] outline-none' type="tel" placeholder="Telefone" name="telefone" />
 
-      <input className='border-b text-[16px] lg:text-[15px] xl:text-[16px] pb-[15px] lg:pb-[10px] xl:pb-[15px] 2xl:pb-[30px] mt-[20px] lg:mt-[20px] 2xl:mt-[30px] mb-[50px] outline-none' type="text" name='Cidade' placeholder="Cidade" {...register("Cidade", {required: true, minLength: 3})} />
-      {errors.Cidade && <span>Invalid last name</span>}
+      <input className='border-b text-[16px] lg:text-[15px] xl:text-[16px] pb-[15px] lg:pb-[10px] xl:pb-[15px] 2xl:pb-[30px] mt-[20px] lg:mt-[20px] 2xl:mt-[30px] mb-[50px] outline-none' type="text" name='cidade' placeholder="Cidade"  />
+ 
 
       <label>
-      <ButtonPrimary fullWidth={fullWidth} text='Entrar em contato' color='ButtonPrimary' linkRef='' border='border-none'/>
-      <input type="submit" value='' />
+      {/* <ButtonPrimary fullWidth={fullWidth} text='Entrar em contato' color='ButtonPrimary' linkRef='' border='border-none'/> */}
+      <input className='cursor-pointer bg-[#0F5197] text-white py-3 px-10 text-sm font-bold rounded-3xl' type="submit" value='Enviar' />
       </label>
     </form>
     </div>

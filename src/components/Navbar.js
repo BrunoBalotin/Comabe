@@ -31,7 +31,7 @@ function Navbar()  {
 
                     <div className='hidden sm:flex gap-[10px] items-center'>
                         <Link className='lg:text-[15px] xl:text-[16px] 2xl:text-[18px] text-[#0F5197] font-medium border border-[#0F5197] px-[16px] py-[8px] rounded-full hover:bg-[#0F5197] hover:text-white duration-500' to={'/Contato'}>Contato</Link>
-                        <Link className='lg:text-[15px] xl:text-[16px] 2xl:text-[18px] text-white bg-[#0F5197] font-medium px-[16px] py-[8px] border border-white rounded-full hover:text-[#0F5197] hover:bg-white hover:border hover:border-[#0F5197] duration-500' to={'/Trabalhe-Conosco'}>Trabalhe conosco</Link>
+                        <Link className='lg:text-[15px] xl:text-[16px] 2xl:text-[18px] text-white bg-[#0F5197] font-medium px-[16px] py-[8px] border border-white rounded-full hover:text-[#0F5197] hover:bg-white hover:border hover:border-[#0F5197] duration-500' to={'/Contato'}>Trabalhe conosco</Link>
                     </div>
 
                     <div onClick={toggleMenu} className='block lg:hidden cursor-pointer'> <RiMenuAddFill  size={30} /></div>

@@ -12,9 +12,8 @@ import KatunLogo from '../images/katunlogo.png'
 import MoneyPeople from '../images/moneypeople.png'
 import Impressora from '../images/impressora.png'
 import Gotas from '../images/gotas.png'
-import ImageAmbiente from '../images/image-ambiente.png'
 import ThumbJordano from '../images/thumbjordano.png'
-import ImageAmbienteMenor from '../images/image-ambiente-menor.png'
+
 
 
 import ButtonPrimary from '../components/ButtonPrimary'
@@ -94,7 +93,7 @@ function QuemSomos() {
             <ButtonPrimary text='Agendar Visita' linkRef="/Contato#header" border='border-none' color='ButtonPrimary' />
           </div>
           <div className='relative md:flex justify-center lg:block md:w-full md:h-[600px]  lg:w-[430px] lg:h-[500px] 2xl:w-[501px] 2xl:h-[575px]'>
-            <img className='absolute md:w-[80%] md:h-[70%] lg:w-full lg:h-full object-fill' src={ImageAmbiente} alt='imagem da empresa comabe'/>
+            <img className='absolute md:w-[80%] md:h-[70%] lg:w-full lg:h-full object-fill' src='https://uploaddeimagens.com.br/images/003/908/865/full/Carlos.png?1655734142' alt='imagem da empresa comabe'/>
             <div className='w-full h-[170px] md:w-[347px] md:h-[200px] bg-white relative z-10 shadow-2xl shadow-[#290000000] rounded-xl mt-[250px] md:mt-[320px] lg:mt-[40px] lg:-left-[50px] pt-[20px] px-[30px]'>
               <div className='flex items-center gap-[20px]'>
                 <img src={ThumbJordano} alt='jordano zanesco'/>
@@ -122,8 +121,8 @@ function QuemSomos() {
     <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row justify-between'>
           <div className='w-full lg:w-50w 2xl:w-[40%] flex flex-col-reverse lg:flex-col items-end lg:relative -bottom-[30px]'>
-            <img src={ImageAmbienteMenor} className='hidden lg:block absolute left-0 2xl:-left-[100px] -top-[70px]' alt='imagem do ambiente interno de forma pequena' />
-            <img src={ImageAmbiente} alt='imagem do ambiente interno da empresa' />
+            <img src='https://uploaddeimagens.com.br/images/003/908/861/full/Grupo_3158.png?1655733949' className='hidden lg:block absolute left-0 2xl:-left-[100px] -top-[70px]' alt='imagem do ambiente interno de forma pequena' />
+            <img src='https://uploaddeimagens.com.br/images/003/908/863/full/Grupo_3159.png?1655734070' alt='imagem do ambiente interno da empresa' />
           </div>
 
           <div className='w-full lg:w-[40%]'>

@@ -15,7 +15,7 @@ function Footer() {
 
 
   return (
-    <div className='bg-[#343434] lg:h-[800px] xl:h-[700px] w-full'>
+    <div id='footer' className='bg-[#343434] lg:h-[800px] xl:h-[700px] w-full'>
       <div className='container mx-auto'>
         <div className='flex flex-wrap xl:flex-nowrap lg:gap-[80px] xl:justify-between w-full pt-[60px] lg:pt-[100px] xl:pt-[160px]'>
           <div className='flex flex-wrap lg:flex-nowrap flex-col w-full lg:w-[20%] xl:w-[18%]'>

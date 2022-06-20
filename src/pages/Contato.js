@@ -7,14 +7,9 @@ import {ReactComponent as Mail} from '../images/Contato/mail.svg'
 import {ReactComponent as Pin} from '../images/Contato/pin.svg'
 import {ReactComponent as ArrowRight} from '../images/Contato/arrowright.svg'
 
-import {ReactComponent as Gestao} from '../images/Contato/gestao.svg'
-import {ReactComponent as Equipe} from '../images/Contato/equipe.svg'
-import {ReactComponent as Assistencia} from '../images/Contato/assistencia.svg'
-import {ReactComponent as Consultor} from '../images/Contato/consultor.svg'
 
 import {ReactComponent as Mouse} from '../images/mouse.svg'
 import ReactForm from '../components/ReactForm'
-import ButtonPrimary from '../components/ButtonPrimary'
 
 const locations = [
   

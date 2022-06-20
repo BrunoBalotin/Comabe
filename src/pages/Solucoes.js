@@ -126,7 +126,7 @@ function Solucoes() {
         </div>
 
 
-      <div className='flex flex-col gap-10 lg:gap-0 lg:flex-row justify-between items-center pt-36'>
+
       <div className='flex flex-col gap-10 lg:gap-0 lg:flex-row justify-between items-center py-36'>
         <div className='w-full lg:w-[550px] 2xl:w-[680px] h-[300px] bg-[#F8F8FA] rounded-2xl flex flex-col pt-[50px] pl-[30px] lg:pl-[80px]'>
           <span className='flex items-center gap-[10px] text-xl text-[#0F5197] font-medium h-[50px]'><GreenCheck />Digitalização de documentos</span>
@@ -139,7 +139,7 @@ function Solucoes() {
         </div>
       </div>
 
-      </div>
+    
 
       </div>
     </div>

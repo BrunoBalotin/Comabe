@@ -10,6 +10,7 @@ import BusinessScan from '../pages/BusinessScan'
 import Solucoes from '../pages/Solucoes'
 import TrabalheConosco from '../pages/TrabalheConosco'
 import Revendas from '../pages/Revendas'
+import Digitalizacao from '../pages/Digitalizacao'
 
 function AnimationRoutes() {
 
@@ -17,7 +18,7 @@ function AnimationRoutes() {
     const location = useLocation()
   return (
       <AnimatePresence>
-    <Routes location={location} key={location.pathname}>
+        <Routes location={location} key={location.pathname}>
         <Route path='/' element={<Home/>} />
         <Route path='/Quem-Somos' element={<QuemSomos/>} />
         <Route path='/Business-Scan' element={<BusinessScan/>} />
@@ -26,6 +27,8 @@ function AnimationRoutes() {
         <Route path='/Contato' element={<Contato/>} />
         <Route path='/Trabalhe-Conosco' element={<TrabalheConosco/>} />
         <Route path='/Revendas' element={<Revendas/>} />
+        <Route path='/Digitalizacao' element={<Digitalizacao/>} />
+
         
 
     </Routes>

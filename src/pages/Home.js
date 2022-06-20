@@ -247,25 +247,25 @@ const Home = () => {
         </div>
 
         <div className='flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between lg:absolute -bottom-16 mt-16 mt- lg:mt-0'>
-          <div className='w-full lg:w-2/4 bg-white h-300 rounded-3xl shadow-shadow-card  pt-[30px] lg:pt-[30px] pl-[30px] lg:pl-[40px] pr-[30px] lg:pr-[70px] xl:pt-[50px] xl:pl-[60px] xl:pr-[110px]'>
+          <div className='w-full lg:w-2/4 bg-white pb-16 rounded-3xl shadow-shadow-card  pt-[30px] lg:pt-[30px] pl-[30px] lg:pl-[40px] pr-[30px] lg:pr-[70px] xl:pt-[50px] xl:pl-[60px] xl:pr-[40px]'>
             <div className='flex items-center gap-[20px] mb-5'>
-                <img className='w-[40px] lg:w-[50px] xl:w-auto' src={HomemDoDepoimento} alt='' />
+                <img className='w-[60px] h-[60px] rounded-full lg:w-[50px] xl:w-auto' src='https://media-exp1.licdn.com/dms/image/C4E03AQFLdd-kH9BSmw/profile-displayphoto-shrink_200_200/0/1628251687566?e=1661385600&v=beta&t=Z-cjqoKcl-3flRaAMB3Axmz4L2-v7cUrH2T0Tz2iDTg' alt='' />
                 <div className='flex flex-col'>
-                <h3 className='lg:text-[15px] xl:text-[16px] 2xl:text-sm font-medium text-titles'>Nome completo</h3>
-                <span className='text-[#EF7F00] font-light lg:text-[15px] xl:text-[16px]'>Cargo - Empresa</span>
+                <h3 className='lg:text-[15px] xl:text-[16px] 2xl:text-sm font-medium text-titles'>Marlon Veiga</h3>
+                <span className='text-[#EF7F00] font-light lg:text-[15px] xl:text-[16px]'>CEO - DocService</span>
                 </div>
             </div>
-            <p className='lg:text-[15px] xl:text-[16px] 2xl:text-sm text-paragraphs font-light'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat".</p>
+            <p className='lg:text-[15px] xl:text-[16px] 2xl:text-sm text-paragraphs font-light'>"A parceria entre a Comabe e a DocService tem sólidas metas para ofertar soluções que trazem melhorias aos negócios, onde acreditamos que a implantação deste projeto foi mais um importante passo para automatização de processos, além de reforçar a integridade e validade jurídica de documentos no mercado corporativo"</p>
           </div>
-          <div className='w-full lg:w-[49%] bg-white h-300 rounded-3xl shadow-shadow-card  pt-[30px] lg:pt-[30px] pl-[30px] lg:pl-[40px] pr-[30px] lg:pr-[70px] xl:pt-[50px] xl:pl-[60px] xl:pr-[110px]'>
+          <div className='w-full lg:w-[49%] bg-white pb-16 rounded-3xl shadow-shadow-card  pt-[30px] lg:pt-[30px] pl-[30px] lg:pl-[40px] pr-[30px] lg:pr-[70px] xl:pt-[50px] xl:pl-[60px] xl:pr-[40px]'>
             <div className='flex items-center gap-[20px] mb-5'>
-                <img className='w-[40px] lg:w-[50px] xl:w-auto' src={JordanoDepoimento} alt='' />
+              {/*   <img className='w-[40px] lg:w-[50px] xl:w-auto' src={JordanoDepoimento} alt='' /> */}
                 <div className='flex flex-col'>
-                <h3 className='lg:text-[15px] xl:text-[16px] 2xl:text-sm font-medium text-titles'>Nome completo</h3>
-                <span className='text-[#EF7F00] font-light lg:text-[15px] xl:text-[16px]'>Cargo - Empresa</span>
+                <h3 className='lg:text-[15px] xl:text-[16px] 2xl:text-sm font-medium text-titles'>Marcos Oscar Wassem</h3>
+                <span className='text-[#EF7F00] font-light lg:text-[15px] xl:text-[16px]'>Desenvolvedor - Cooperativa Ouro Branco RS</span>
                 </div>
             </div>
-            <p className='lg:text-[15px] xl:text-[16px] 2xl:text-sm text-paragraphs font-light'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat".</p>
+            <p className='lg:text-[15px] xl:text-[16px] 2xl:text-sm text-paragraphs font-light'>"Desde 2017, a Comabe é nossa parceira confiável para impressão e desenvolvimento de ferramentas de integração de equipamentos com nossos sistemas internos, estamos extremamente satisfeitos com os serviços, com a agilidade e flexibilidade em atender as nossas necessidades"</p>
           </div>
 
         </div>
@@ -298,7 +298,8 @@ const Home = () => {
       Background='bg-bg-tarja-home' 
       Text='Interessados enviar currículo para: jordano@comabe.com.br ou preencher os dados do formulário através do botão ao lado' 
       Title='O que acha de fazer parte do grupo Comabe?' 
-      ButtonText='Quero fazer parte' 
+      ButtonText='Quero fazer parte'
+      link = '/Contato#header'
       />
 
    
