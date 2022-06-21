@@ -63,7 +63,7 @@ const Contato = () => {
 
         </div>
       </div>
-      <Mouse className='absolute hidden sm:block -bottom-11 lg:-bottom-9 2xl:-bottom-7 left-1/2 -translate-x-1/2' />
+      <Mouse className='absolute hidden sm:block -bottom-11 lg:-bottom-9 2xl:-bottom-8 left-1/2 -translate-x-1/2' />
     </div>
 
     <div className='flex items-center h-[500px]'>
