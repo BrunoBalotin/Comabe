@@ -50,6 +50,12 @@ body {
     
 }
 
+.bg-hero-bg-contato {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .bg-trabalheconosco {
 
     background-image: url(https://uploaddeimagens.com.br/images/003/907/088/full/Grupo_3142.png?1655494614);
