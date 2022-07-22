@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { ContainerLP } from '../components/ContainerLP'
 import { StyledBox } from '../components/StyledBox'
 
@@ -10,6 +10,10 @@ import { IconCheck } from '@tabler/icons';
 import { Link } from 'react-router-dom'
 
 function Digitalizacao2() {
+
+  useEffect(() => {
+    
+  }, [])
 
   const nameInput = useRef(null)
   
@@ -26,6 +30,17 @@ function Digitalizacao2() {
     
   }
 
+  const [message, setMessage] = useState('')
+
+  const onSubmitForm = () => {
+      setMessage("O download de seu E-book começará em breve!")
+
+      setTimeout(() => {
+        setMessage('')
+      }, 5000)
+  }
+
+
 
   return (
    <>
@@ -33,7 +48,7 @@ function Digitalizacao2() {
       <ContainerLP>
         <div className='flex justify-center pt-12'>
           <Link to='/'>
-          <img src='https://static.wixstatic.com/media/0c951b_2bcbb988c7cf489ba9487b9f6cfc26d4~mv2.png/v1/fill/w_143,h_25,al_c,q_85,enc_auto/0c951b_2bcbb988c7cf489ba9487b9f6cfc26d4~mv2.png' />
+          <img src='https://static.wixstatic.com/media/0c951b_2bcbb988c7cf489ba9487b9f6cfc26d4~mv2.png/v1/fill/w_143,h_25,al_c,q_85,enc_auto/0c951b_2bcbb988c7cf489ba9487b9f6cfc26d4~mv2.png' alt='logo'/>
           </Link>
         </div>
         <div className='pt-[100px]'>
@@ -54,7 +69,15 @@ function Digitalizacao2() {
                     4 passos para reduzir em <span className='font-bold text-[#fe7c1a]'>80%</span> a utilização de <span className='font-bold text-[#fe7c1a]'>papéis</span> na sua empresa
                   </p>
 
-                  <form action='https://submit-form.com/W1mVX6hd' className='mt-8 flex flex-col gap-3'>
+                  
+                  <form onSubmit={onSubmitForm} action='https://submit-form.com/W1mVX6hd' className='mt-8 flex flex-col gap-3'>
+
+                  <input type="hidden" name="_email.template.title" value="Formulário - Landing Page - Digitalização" />
+                  <input type="hidden" name="_email.template.footer" value="false" />
+                  <input type="hidden" name="_email.from" value="Comabe - Landing Page Digitalização" />
+                  <input type="hidden" name="_email.subject" value="Novo Lead! - Digitalização" />
+                  <input type="hidden" name="_redirect" value='https://drive.google.com/u/0/uc?id=1OHGVk2AOl-WsKXWk2xB9G1t4L2NdGDGX&export=download' />
+
                       <div>
                         <input ref={nameInput} className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]' type='text' name='Nome' placeholder='Nome' required/>
                       </div>
@@ -98,7 +121,14 @@ function Digitalizacao2() {
                         <button className='w-full flex justify-center items-center bg-green-600 h-[55px] text-white font-bold text-[1.125rem] rounded-lg' type='submit'>
                           QUERO BAIXAR AGORA
                         </button>
+
+                        <div>
+                          <span className='text-[#fe7c1a]'>
+                          {message}
+                          </span>
+                        </div>
                       </div>
+
                   </form>
                 </div>
               </div>
@@ -208,7 +238,7 @@ function Digitalizacao2() {
       <ContainerLP>
         <StyledBox>
           <div className='lg:w-[65%]'>
-            <img src='https://static.wixstatic.com/media/0c951b_b053799b6c3b4f838151061609156599~mv2.png/v1/fill/w_527,h_491,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%2010.png' />
+            <img src='https://static.wixstatic.com/media/0c951b_b053799b6c3b4f838151061609156599~mv2.png/v1/fill/w_527,h_491,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%2010.png' alt=''/>
           </div>
 
           <div className='lg:w-[80%] mt-20 lg:mt-0'>
@@ -287,7 +317,7 @@ function Digitalizacao2() {
             </div>
 
             <div>
-              <img src='https://static.wixstatic.com/media/0c951b_c371855c783d402eb5260eb29e564f44~mv2.png/v1/fill/w_405,h_636,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%202073.png' />
+              <img src='https://static.wixstatic.com/media/0c951b_c371855c783d402eb5260eb29e564f44~mv2.png/v1/fill/w_405,h_636,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%202073.png' alt=''/>
             </div>
           </StyledBox>
       </ContainerLP>
@@ -302,17 +332,17 @@ function Digitalizacao2() {
         </div>
 
         <div className='flex md:flex-wrap md:justify-center gap-5 mt-24 overflow-x-auto pb-10 md:pb-0 styled-scrollbar'>
-        <img src='https://static.wixstatic.com/media/0c951b_7b869c3a9ea245bf8348b10ae9ff7dc4~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201536.png' />
-        <img src='https://static.wixstatic.com/media/0c951b_e8a69fe2d7ce4799abb38fc2d421589d~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201526.png' />
-        <img src='https://static.wixstatic.com/media/0c951b_1e5246168bdd48f69f5bb597592429d4~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201527.png' />
-        <img src='https://static.wixstatic.com/media/0c951b_93c77de359c94b7fa472a6484d0c15f3~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201528.png' />
-        <img src='https://static.wixstatic.com/media/0c951b_fbac372d9d3d4e9a83cfd8c57a67605b~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201529.png' />
-        <img src='https://static.wixstatic.com/media/0c951b_b0ade15a74af4d3596fa952c746d3b0d~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201530.png' />
-        <img src='https://static.wixstatic.com/media/0c951b_46c7584856d04536b7c1619365144855~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201535.png' />
-        <img src='https://static.wixstatic.com/media/0c951b_ff13b961c8f54bc7b670807ea5b3d757~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201534.png' />
-        <img src='https://static.wixstatic.com/media/0c951b_eb2b5f0910974d8a8ebabb45e146825f~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201533.png' />
-        <img src='https://static.wixstatic.com/media/0c951b_378a2e31373b400e98279d83bda60090~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201532.png' />
-        <img src='https://static.wixstatic.com/media/0c951b_c162b61728c4445ba8276f1c1f83ab07~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201531.png' />  
+        <img src='https://static.wixstatic.com/media/0c951b_7b869c3a9ea245bf8348b10ae9ff7dc4~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201536.png' alt='' />
+        <img src='https://static.wixstatic.com/media/0c951b_e8a69fe2d7ce4799abb38fc2d421589d~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201526.png' alt='' />
+        <img src='https://static.wixstatic.com/media/0c951b_1e5246168bdd48f69f5bb597592429d4~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201527.png' alt='' />
+        <img src='https://static.wixstatic.com/media/0c951b_93c77de359c94b7fa472a6484d0c15f3~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201528.png' alt='' />
+        <img src='https://static.wixstatic.com/media/0c951b_fbac372d9d3d4e9a83cfd8c57a67605b~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201529.png' alt='' />
+        <img src='https://static.wixstatic.com/media/0c951b_b0ade15a74af4d3596fa952c746d3b0d~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201530.png' alt='' />
+        <img src='https://static.wixstatic.com/media/0c951b_46c7584856d04536b7c1619365144855~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201535.png' alt='' />
+        <img src='https://static.wixstatic.com/media/0c951b_ff13b961c8f54bc7b670807ea5b3d757~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201534.png' alt='' />
+        <img src='https://static.wixstatic.com/media/0c951b_eb2b5f0910974d8a8ebabb45e146825f~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201533.png' alt='' />
+        <img src='https://static.wixstatic.com/media/0c951b_378a2e31373b400e98279d83bda60090~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201532.png' alt='' />
+        <img src='https://static.wixstatic.com/media/0c951b_c162b61728c4445ba8276f1c1f83ab07~mv2.png/v1/fill/w_149,h_119,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Grupo%201531.png' alt='' />  
         </div>
       </ContainerLP>
     </div>
@@ -335,51 +365,51 @@ function Digitalizacao2() {
         </div>
 
         <div className='w-[177px] flex-none h-[111px] border border-[#FFD19D] rounded-lg flex justify-center items-center'>
-          <img src='https://uploaddeimagens.com.br/images/003/951/940/full/logo2-min.png?1658486417' />
+          <img src='https://uploaddeimagens.com.br/images/003/951/940/full/logo2-min.png?1658486417' alt='' />
         </div>
 
         <div className='w-[177px] flex-none h-[111px] border border-[#FFD19D] rounded-lg flex justify-center items-center'>
-          <img src='https://uploaddeimagens.com.br/images/003/951/942/full/Imagem-2021-10-13T170820.469-1.png?1658486685' />
+          <img src='https://uploaddeimagens.com.br/images/003/951/942/full/Imagem-2021-10-13T170820.469-1.png?1658486685' alt='' />
         </div>
 
         <div className='w-[177px] flex-none h-[111px] border border-[#FFD19D] rounded-lg flex justify-center items-center p-8'>
-          <img src='https://uploaddeimagens.com.br/images/003/951/943/thumb/%C3%ADndice.png?1658486812' />
+          <img src='https://uploaddeimagens.com.br/images/003/951/943/thumb/%C3%ADndice.png?1658486812' alt='' />
         </div>
 
         <div className='w-[177px] flex-none h-[111px] border border-[#FFD19D] rounded-lg flex justify-center items-center p-6'>
-          <img src='https://uploaddeimagens.com.br/images/003/951/944/full/81466d139498995.6230beb04cc63.png?1658486925' />
+          <img src='https://uploaddeimagens.com.br/images/003/951/944/full/81466d139498995.6230beb04cc63.png?1658486925' alt='' />
         </div>
 
         <div className='w-[177px] flex-none h-[111px] border border-[#FFD19D] rounded-lg flex justify-center items-center p-6'>
-          <img src='https://uploaddeimagens.com.br/images/003/951/949/full/unnamed.png?1658487440' />
+          <img src='https://uploaddeimagens.com.br/images/003/951/949/full/unnamed.png?1658487440' alt='' />
         </div>
 
         <div className='w-[177px] flex-none h-[111px] border border-[#FFD19D] rounded-lg flex justify-center items-center p-6'>
-          <img src='https://uploaddeimagens.com.br/images/003/951/953/full/%C3%ADndice.png?1658487583' />
+          <img src='https://uploaddeimagens.com.br/images/003/951/953/full/%C3%ADndice.png?1658487583' alt='' />
         </div>
 
         <div className='w-[177px] flex-none h-[111px] border border-[#FFD19D] rounded-lg flex justify-center items-center p-6'>
-          <img src='https://uploaddeimagens.com.br/images/003/951/955/full/98ad1-unimed-vale-das-antas-rs-coop-de-assistencia.png?1658487736' />
+          <img src='https://uploaddeimagens.com.br/images/003/951/955/full/98ad1-unimed-vale-das-antas-rs-coop-de-assistencia.png?1658487736' alt='' />
         </div>
 
         <div className='w-[177px] flex-none h-[111px] border border-[#FFD19D] rounded-lg flex justify-center items-center p-6'>
-          <img src='https://uploaddeimagens.com.br/images/003/951/956/thumb/partner_008.png?1658487825' />
+          <img src='https://uploaddeimagens.com.br/images/003/951/956/thumb/partner_008.png?1658487825' alt='' />
         </div>
 
         <div className='w-[177px] flex-none h-[111px] border border-[#FFD19D] rounded-lg flex justify-center items-center p-6'>
-          <img src='https://uploaddeimagens.com.br/images/003/951/957/full/logo-2022011810345206600.png?1658487911' />
+          <img src='https://uploaddeimagens.com.br/images/003/951/957/full/logo-2022011810345206600.png?1658487911' alt='' />
         </div>
 
         <div className='w-[177px] flex-none h-[111px] border border-[#FFD19D] rounded-lg flex justify-center items-center p-6'>
-          <img src='https://uploaddeimagens.com.br/images/003/951/967/full/%C3%ADndice.png?1658488893' />
+          <img src='https://uploaddeimagens.com.br/images/003/951/967/full/%C3%ADndice.png?1658488893' alt='' />
         </div>
 
         <div className='w-[177px] flex-none h-[111px] border border-[#FFD19D] rounded-lg flex justify-center items-center p-6'>
-          <img src='https://uploaddeimagens.com.br/images/003/951/971/full/1602773950496.png?1658489031' />
+          <img src='https://uploaddeimagens.com.br/images/003/951/971/full/1602773950496.png?1658489031' alt='' />
         </div>
 
         <div className='w-[177px] flex-none h-[111px] border border-[#FFD19D] rounded-lg flex justify-center items-center p-4'>
-          <img src='https://uploaddeimagens.com.br/images/003/951/972/full/tumelero-ja.png?1658489141' />
+          <img src='https://uploaddeimagens.com.br/images/003/951/972/full/tumelero-ja.png?1658489141' alt='' />
         </div>
       </div>
       </ContainerLP>
@@ -414,7 +444,7 @@ function Digitalizacao2() {
       <div className='flex flex-col sm:flex-row'>
         <div className='flex-1'>
           <Link to='/'>
-          <img src='https://static.wixstatic.com/media/0c951b_2bcbb988c7cf489ba9487b9f6cfc26d4~mv2.png/v1/fill/w_143,h_25,al_c,q_85,enc_auto/0c951b_2bcbb988c7cf489ba9487b9f6cfc26d4~mv2.png' />
+          <img src='https://static.wixstatic.com/media/0c951b_2bcbb988c7cf489ba9487b9f6cfc26d4~mv2.png/v1/fill/w_143,h_25,al_c,q_85,enc_auto/0c951b_2bcbb988c7cf489ba9487b9f6cfc26d4~mv2.png' alt='' />
           </Link>
         </div>
 
@@ -424,7 +454,7 @@ function Digitalizacao2() {
           </span>
 
           <span className='flex items-center gap-2 text-white'>
-            Desenvolvido por <span> <img className='w-[60px] mt-1' src='https://uploaddeimagens.com.br/images/003/952/072/full/Logo_Eagles_Branco.png?1658492660' /> </span>
+            Desenvolvido por <span> <img className='w-[60px] mt-1' src='https://uploaddeimagens.com.br/images/003/952/072/full/Logo_Eagles_Branco.png?1658492660' alt='' /> </span>
           </span>
         </div>
       </div>

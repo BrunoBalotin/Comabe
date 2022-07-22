@@ -102,7 +102,7 @@ const Contato = () => {
 
           {locations.map((locations) => (
           <div className='w-full lg:w-[32%] 2xl:w-[435px] 2xl:h-[520px] bg-white rounded-xl' key={locations.id}>
-          <div><img src={locations.image} alt='' /> </div>
+          <div><img src={locations.image} alt='foto da cidade' /> </div>
           <div className='py-[50px] pl-[50px]'>
             <h3 className='text-xl text-[#343434] font-medium mb-[20px]'>{locations.name}</h3> 
             <p className='text-sm text-[#575757] font-light w-[85%] mb-[40px]'>{locations.adress}</p>

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import {motion} from "framer-motion"
 import {ReactComponent as ArrowDown} from '../images/ArrowDown.svg'
 import {ReactComponent as Documentos} from '../images/documentos.svg'
@@ -68,7 +68,7 @@ const Home = () => {
       <h2 className='text-2xl lg:text-5xl text-white text-center font-medium lg:w-95w xl:w-4/5 mb-8'>Até quando a sua empresa vai continuar rasgando dinheiro com impressões de documentos?</h2>
       <p className='text-sm font-medium text-white text-center w-80w sm:w-4/5 lg:w-45w 2xl:w-2/4 mb-24'>Fornecemos soluções completas para sua empresa parar de se preocupar com impressoras ou documentos impressos.</p>
       <ArrowDown className='mb-12'/>
-      <ButtonPrimary onClick={scrollToTop} text='Quero começar a economizar' color='ButtonPrimary' border='border-none' linkRef="/Contato"/>
+      <ButtonPrimary onClick={scrollToTop} text='Quero começar a economizar' color='ButtonPrimary' border='border-none' linkRef="/contato"/>
     </div>
     </div>
     </div>
@@ -85,7 +85,7 @@ const Home = () => {
             <span className='flex items-center text-sm text-titles font-light w-full lg:w-full 2xl:w-auto gap-3'><Fraudes className='w-9  lg:w-7 xl:w-9 2xl:w-auto'/> Seguro de fraudes</span>
             <span className='flex items-center text-sm text-titles font-light w-full lg:w-full 2xl:w-auto 2xl:mt-5 gap-3'><Certificado className='w-9  lg:w-7 xl:w-9 2xl:w-auto'/> Certificação ICP-Brasil</span>
           </div>
-          <ButtonPrimary onClick={scrollToTop} linkRef="/Contato" text='Quero começar a economizar' color='ButtonPrimary' border='border-none' />
+          <ButtonPrimary onClick={scrollToTop} linkRef="/contato" text='Quero começar a economizar' color='ButtonPrimary' border='border-none' />
         </div>
       
 
@@ -117,14 +117,14 @@ const Home = () => {
               <h3 className='text-xl text-titles font-medium my-5'>Maior segurança</h3>
               <p className='text-sm font-light'>Você quem libera os acessos aos documentos digitalizados e define quem poderá editá-los e acessar seus históricos. </p>
           </div>
-          <div className='block lg:hidden mt-12'><ButtonPrimary onClick={scrollToTop} text='Quero começar a economizar' color='ButtonPrimary' border='border-none' linkRef="/Contato"/></div>
+          <div className='block lg:hidden mt-12'><ButtonPrimary onClick={scrollToTop} text='Quero começar a economizar' color='ButtonPrimary' border='border-none' linkRef="/contato"/></div>
         </div>
 
         <div className='sm:w-full lg:w-40w xl:w-50w'>
           <div className='relative'>
             <h2 className='text-2xl text-titles font-medium mb-14'>Porque sua empresa precisa do Business Scan</h2>
             <img className='mb-12' src={GridImage} alt='' />
-            <div className='hidden lg:block'><ButtonPrimary onClick={scrollToTop} text='Quero começar a economizar' color='ButtonPrimary' border='border-none' linkRef="/Contato"/></div>
+            <div className='hidden lg:block'><ButtonPrimary onClick={scrollToTop} text='Quero começar a economizar' color='ButtonPrimary' border='border-none' linkRef="/contato"/></div>
           </div>
         </div>
       </div>
@@ -149,13 +149,13 @@ const Home = () => {
                 <div>
                   <span className='flex items-center text-xl font-medium gap-3'><GreenCheck />Business Scan</span>
                   <p className='text-sm font-light text-paragraphs leading-8 my-7'>A Comabe tem soluções personalizadas para as mais diversas áreas de atuação, desenvolvendo métodos eficientes para auxiliar a sua empresa.</p>
-                  <HashLink onClick={scrollToTop} to={'/Business-Scan'}><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </HashLink>
+                  <HashLink onClick={scrollToTop} to={'/business-scan'}><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </HashLink>
                   
                 </div>
                 <div className='mt-14 lg:mt-24'>
                   <span className='flex items-center text-xl font-medium gap-3'><GreenCheck />Outsourcing</span>
                   <p className='text-sm font-light text-paragraphs leading-8 my-7'>Com o aluguel de impressoras da Comabe, você conta com planos mensais personalizados que visam otimizar a estrutura de operação do seu negócio através de soluções ajustáveis, como o acesso de arquivos e de impressão.</p>
-                  <HashLink onClick={scrollToTop} to="/Solucoes"><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </HashLink>
+                  <HashLink onClick={scrollToTop} to="/solu%C3%A7%C3%B5es"><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </HashLink>
                   
                 </div>
             </div>
@@ -168,13 +168,13 @@ const Home = () => {
                 <div>
                   <span className='flex items-center text-xl font-medium gap-3'><GreenCheck />Revendas Comabe</span>
                   <p className='text-sm font-light text-paragraphs leading-8 my-7'>O revendedor Comabe tem vantagens exclusivas, ferramentas e informações que vão ajudá-lo a trazer mais valor e rentabilidade para o seu negócio!</p>
-                  <HashLink onClick={scrollToTop} to={'/Revendas'}><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </HashLink>
+                  <HashLink onClick={scrollToTop} to={'/revendas'}><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </HashLink>
                   
                 </div>
                 <div className='mt-14 lg:mt-24'>
                   <span className='flex items-center text-xl font-medium gap-3'><GreenCheck />Produtos</span>
                   <p className='text-sm font-light text-paragraphs leading-8 my-7'>Conheça as melhores linhas de produtos no ramo de impressão e digitalização oferecidas pela Comabe para atender às suas necessidades e otimizar o tempo do seu negócio.</p>
-                  <HashLink onClick={scrollToTop} to={'/Produtos'}><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </HashLink>
+                  <HashLink onClick={scrollToTop} to={'/produtos'}><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </HashLink>
                   
                 </div>
             </div>
@@ -187,7 +187,7 @@ const Home = () => {
           </div>
 
           <div className='xl:w-1/3 2xl:w-1/4'>
-            <ButtonPrimary onClick={scrollToTop} text='Fale com um consultor' color='tranparent' border='border' linkRef="/Contato" />
+            <ButtonPrimary onClick={scrollToTop} text='Fale com um consultor' color='tranparent' border='border' linkRef="/contato" />
           </div>
 
         </div>
@@ -222,25 +222,25 @@ const Home = () => {
             <div className='h-44 flex items-center justify-center'><img className='w-70w xl:w-4/5 2xl:w-auto' src={ImpressoraHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Impressoras</h3>
             
-            <HashLink onClick={scrollToTop} className='text-sm text-[#0F5197] font-medium' to={"/Produtos"}>VER IMPRESSORAS</HashLink>
+            <HashLink onClick={scrollToTop} className='text-sm text-[#0F5197] font-medium' to={"/produtos"}>VER IMPRESSORAS</HashLink>
           </div>
           <div className='w-full sm:w-2/4 lg:w-48w xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='w-70w xl:w-4/5 2xl:w-auto' src={MultifuncionalHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Multifuncionais</h3>
             
-            <HashLink onClick={scrollToTop} className='text-sm text-[#0F5197] font-medium' to={'/Produtos'}>VER MULTIFUNCIONAIS</HashLink>
+            <HashLink onClick={scrollToTop} className='text-sm text-[#0F5197] font-medium' to={'/produtos'}>VER MULTIFUNCIONAIS</HashLink>
           </div>
           <div className='w-full sm:w-2/4 lg:w-48w xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='w-70w xl:w-4/5 2xl:w-auto' src={ScannerHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Scanners</h3>
             
-            <HashLink onClick={scrollToTop} className='text-sm text-[#0F5197] font-medium' to={'/Produtos'}>VER SCANNERS</HashLink>
+            <HashLink onClick={scrollToTop} className='text-sm text-[#0F5197] font-medium' to={'/produtos'}>VER SCANNERS</HashLink>
           </div>
           <div className='w-full sm:w-2/4 lg:w-48w xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='w-70w xl:w-4/5 2xl:w-auto' src={RotuladorHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Rotuladores</h3>
             
-            <HashLink onClick={scrollToTop} className='text-sm text-[#0F5197] font-medium' to={'/Produtos'}>VER ROTULADORES</HashLink>
+            <HashLink onClick={scrollToTop} className='text-sm text-[#0F5197] font-medium' to={'/produtos'}>VER ROTULADORES</HashLink>
           </div>
         </div>
       </div>
@@ -306,7 +306,7 @@ const Home = () => {
 
       <Tarja 
       Background='bg-bg-tarja-home' 
-      Text='Interessados enviar currículo para: jordano@comabe.com.br ou preencher os dados do formulário através do botão ao lado' 
+      Text='Interessados enviar currículo para: jordano@comabe.com.br ou preencher os dados do formulário através do botão ao lado.' 
       Title='O que acha de fazer parte do grupo Comabe?' 
       ButtonText='Quero fazer parte'
       onClick={toggleTrabalhe}

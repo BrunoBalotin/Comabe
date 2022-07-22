@@ -627,7 +627,7 @@ function Revendas() {
           title="Gostou e quer saber mais sobre nossas soluções?"
           text="Muitos negócios e empresas estão passando por importantes mudanças, e a Comabe quer estar junto nesta transformação digital!"
           buttonText="Entre em contato e solicite uma cotação"
-          contactLink={'/Contato'}
+          contactLink={'/contato'}
           onClick={scrollToTop}
         />
       </div>

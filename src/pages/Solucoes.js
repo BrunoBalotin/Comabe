@@ -2,15 +2,14 @@ import React, { useState } from 'react'
 import {motion} from "framer-motion"
 import ButtonPrimary from '../components/ButtonPrimary'
 
-import ThumbYoutube from '../images/YoutubeThumb.png'
 import ModalYoutube from '../components/ModalYoutube'
 import HomemComCelular from '../images/Outsourcing/HomemComCelular.png'
 import Celular from '../images/Outsourcing/Celular.png'
 import HomemMechendoEmImpressora from '../images/Outsourcing/HomemMechendoEmImpressora.png'
 import ContactImageOutsourcing from '../images/Outsourcing/ContactImageOutsourcing.png'
 
-import {ReactComponent as YoutubeIcon} from '../images/YoutubeIcon.svg'
-import {ReactComponent as MiniYoutubeIcon} from '../images/MiniYoutubeIcon.svg'
+import '@vime/core/themes/default.css';
+import { Player, Youtube, DefaultUi } from '@vime/react';
 
 import {ReactComponent as DotsLeft} from '../images/Outsourcing/dotsLeft.svg'
 import {ReactComponent as DotsRight} from '../images/Outsourcing/dotsRight.svg'
@@ -62,8 +61,8 @@ function Solucoes() {
     <div className='container mx-auto'>
         <div className='w-full lg:w-[50%]'>
           <h1 className='text-4xl text-white font-medium mb-[30px]'>Impressão e gestão de documentos físicos e digitais</h1>
-          <p className='text-white text-sm font-light w-[85%] mb-[55px]'>A COMABE vem ao longo dos anos trabalhando para entregar a você o que há de melhor em tecnologia, buscando oferecer uma experiência única relacionada a soluções de impressão e gestão de documentos. </p>
-          <ButtonPrimary text='Conheça nosso fluxo de monitoramento' color='transparent' linkRef='/Solucoes#monitoramento'/>
+          <p className='text-white text-sm font-light w-[85%] mb-[55px]'>A Comabe vem ao longo dos anos trabalhando para entregar a você o que há de melhor em tecnologia, buscando oferecer uma experiência única relacionada a soluções de impressão e gestão de documentos. </p>
+          <ButtonPrimary text='Conheça nosso fluxo de monitoramento' color='transparent' linkRef='/solu%C3%A7%C3%B5es#monitoramento'/>
         </div>
 
       </div>
@@ -73,9 +72,12 @@ function Solucoes() {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row justify-between'>
             <div className='relative w-full lg:w-[45%] h-[385px]'>
-              <img className='w-full h-full absolute grayscale-[30%]' src={ThumbYoutube} alt='' />
-              <YoutubeIcon onClick={toggleVideo} className='absolute cursor-pointer left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] hover:scale-125 duration-1000' />
-              <div className='absolute bottom-5 left-0 bg-[#1E1E1E] py-3 px-8 opacity-60 cursor-pointer hover:opacity-100'><a target='_blank' href='https://www.youtube.com/watch?v=AzTuyu-zAGI' rel='noreferrer'> <span className='text-white flex items-center gap-[10px]'>Ver no <MiniYoutubeIcon className='mt-[5px]'/> Youtube</span></a></div>
+            <Player>
+            <Youtube videoId="wmSQIAWXXaM" />
+
+            <DefaultUi>
+            </DefaultUi>
+            </Player>
             </div>
 
             <ModalYoutube video="https://www.youtube.com/embed/AzTuyu-zAGI" onClick={toggleVideo} Close={`${openVideo? 'scale-1' : 'scale-0'}`}/>
@@ -84,7 +86,7 @@ function Solucoes() {
               <h2 className='text-3xl text-[#343434] font-medium w-[80%] mb-[40px] mt-10 lg:mt-0'>Outsourcing de impressão</h2>
               <p className='text-sm text-[#343434] font-light w-[95%]'>Aqui você conta com planos corporativos de impressão personalizados para sua empresa, que visam otimizar a estrutura de operação do seu negócio através de soluções simples e ajustáveis.</p>
               <p className='text-sm text-[#343434] font-light mt-[30px] mb-[40px]'>Contamos também com monitoramento remoto do seu equipamento,  onde avisamos para você antes que os seus suprimentos acabem, assim, você não tem a preocupação com a reposição e troca de seus suprimentos.</p>
-              <ButtonPrimary onClick={scrollToTop} text='Agendar visita' color='ButtonPrimary' linkRef={'/Contato'}/>
+              <ButtonPrimary onClick={scrollToTop} text='Agendar visita' color='ButtonPrimary' linkRef={'/contato'}/>
             </div>
         </div>
       </div>
@@ -133,7 +135,7 @@ function Solucoes() {
             <span className='flex w-full 2xl:w-auto items-center gap-[20px] text-sm text-[#575757] font-medium'><TonnerExclamation className='w-[13%] lg:w-auto'/>Problema no equipamento</span>
             <span className='flex w-full 2xl:w-auto items-center gap-[20px] text-sm text-[#575757] font-medium 2xl:mt-[50px]'><MultifuncionalExclamation className='w-[13%] lg:w-auto'/>Funcionário X imprimiu<br></br> sua cota mensal / semanal</span>
           </div>
-          <ButtonPrimary onClick={scrollToTop} text='Agendar visita' color='ButtonPrimary' linkRef={'/Contato'}/>
+          <ButtonPrimary onClick={scrollToTop} text='Agendar visita' color='ButtonPrimary' linkRef={'/contato'}/>
           </div>
         </div>
 
@@ -203,7 +205,7 @@ function Solucoes() {
 
     </div>
 
-    <ContactBox onClick={scrollToTop} contactLink="/Contato" imagem={ContactImageOutsourcing} title="Gostou e quer saber mais sobre nossas soluções?" text="Muitos negócios e empresas estão passando por importantes mudanças, e a Comabe quer estar junto nesta transformação digital!" buttonText="Entre em contato e solicite uma cotação"/>
+    <ContactBox onClick={scrollToTop} contactLink="/contato" imagem={ContactImageOutsourcing} title="Gostou e quer saber mais sobre nossas soluções?" text="Muitos negócios e empresas estão passando por importantes mudanças, e a Comabe quer estar junto nesta transformação digital!" buttonText="Entre em contato e solicite uma cotação"/>
     
     
     <Utilities />

@@ -29,9 +29,10 @@ import {ReactComponent as Orgão} from '../images/BusinessScan/Icones/Orgão.svg
 import {ReactComponent as Sindicatos} from '../images/BusinessScan/Icones/Sindicatos.svg'
 import {ReactComponent as Juridico} from '../images/BusinessScan/Icones/Juridico.svg'
 
+import '@vime/core/themes/default.css';
+import { Player, Youtube, DefaultUi } from '@vime/react';
 
-import ThumbYoutube from '../images/YoutubeThumb.png'
-import ModalYoutube from '../components/ModalYoutube'
+
 import ButtonPrimary from '../components/ButtonPrimary'
 import ICP from '../images/ICP.png'
 import Smartphone from '../images/Smartphone.png'
@@ -90,12 +91,14 @@ function BusinessScan() {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row justify-between'>
             <div className='relative w-full lg:w-[45%] h-[300px] lg:h-[385px]'>
-              <img className='w-full h-full absolute grayscale-[30%]' src={ThumbYoutube} alt='' />
-              <YoutubeIcon onClick={toggleVideo} className='absolute cursor-pointer left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] hover:scale-125 duration-1000' />
-              <div className='absolute bottom-5 left-0 bg-[#1E1E1E] py-3 px-8 opacity-60 cursor-pointer hover:opacity-100'><a target='_blank' href='https://www.youtube.com/watch?v=AzTuyu-zAGI' rel='noreferrer'> <span className='text-white flex items-center gap-[10px]'>Ver no <MiniYoutubeIcon className='mt-[5px]'/> Youtube</span></a></div>
+            <Player>
+            <Youtube videoId="AzTuyu-zAGI" />
+
+            <DefaultUi>
+            </DefaultUi>
+            </Player>
             </div>
 
-            <ModalYoutube video="https://www.youtube.com/embed/AzTuyu-zAGI" onClick={toggleVideo} Close={`${openVideo? 'scale-1' : 'scale-0'}`}/>
 
             <div className='w-[100%] lg:w-[48%] mt-10 lg:mt-0'>
               <h2 className='text-3xl text-[#343434] font-medium w-90w lg:w-[80%] mb-[40px]'>Reduza seus arquivos em até 96%</h2>
@@ -121,7 +124,7 @@ function BusinessScan() {
           </div>
 
           <div>
-            <img src={ICP} alt='' />
+            <img src={ICP} alt='icp' />
           </div>
         </div>
       </div>
@@ -131,7 +134,7 @@ function BusinessScan() {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row justify-between items-center'>
             <div className='w-80w lg:w-[40%]'>
-              <img src={Smartphone} alt='' />
+              <img src={Smartphone} alt='smartphone' />
             </div>
 
             <div className='w-full lg:w-[58%]'>
@@ -146,7 +149,7 @@ function BusinessScan() {
                 <span className='flex flex-col lg:flex-row lg:flex-nwrap justify-center lg:justify-start text-center lg:text-left items-center w-[40%] lg:w-[30%] text-sm font-medium gap-[10px]'><Security className='w-[30%]'/> Segurança dos dados</span>
                 <span className='flex flex-col lg:flex-row lg:flex-nwrap justify-center lg:justify-start text-center lg:text-left items-center w-[40%] lg:w-[24%] text-sm font-medium gap-[10px]'><Time className='w-[30%]'/> Otimização de tempo </span>
               </div>
-              <ButtonPrimary onClick={scrollToTop} text='Agendar visita' color='ButtonPrimary' linkRef='/Contato'/>
+              <ButtonPrimary onClick={scrollToTop} text='Agendar visita' color='ButtonPrimary' linkRef='/contato'/>
             </div>
         </div>
       </div>
@@ -156,7 +159,7 @@ function BusinessScan() {
       <div className='container mx-auto'>
           <div className='w-full lg:w-[38%]'>
           <h2 className='text-white text-2xl lg:text-3xl font-medium mb-[40px]'>Gerenciamento eletrônico de documentos</h2>
-          <p className='text-white text-sm font-light'>Em conjunto com a solução business scan, oferecemos para nossos clientes o serviço de GED (gerenciamento eletrônico de documentos) um serviço que garante ao cliente o reconhecimento automático dos documentos que estão sendo digitalizados, capturando no documento os campos e termos que facilitarão a busca ágil posteriormente. </p>
+          <p className='text-white text-sm font-light'>Em conjunto com a solução Business Scan, oferecemos para nossos clientes o serviço de GED (gerenciamento eletrônico de documentos) um serviço que garante ao cliente o reconhecimento automático dos documentos que estão sendo digitalizados, capturando no documento os campos e termos que facilitarão a busca ágil posteriormente. </p>
           </div>
       </div>
     </div>
@@ -221,14 +224,14 @@ function BusinessScan() {
        <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row justify-between'>
           <div>
-            <img src={HomemComCelular} alt='' />
+            <img src={HomemComCelular} alt='homem com celular' />
           </div>
 
           <div className='w-full lg:w-[51%]'>
             <h2 className='text-xl lg:text-3xl text-[#343434] font-medium mt-20 lg:mt-0'>Digitalize seu acervo de documentos, armazene-os de maneira estruturada e localize-os em poucos segundos com alguns cliques</h2>
             <p className='my-[30px] text-sm text-[#343434] font-light'>Você pode eliminar até 80% de documentos impressos do seu escritório com o nosso serviço de business scan.</p>
             <p className='text-sm text-[#343434] font-light mb-[50px]'>Entregamos para sua empresa o melhor serviço de digitalização de documentos do mercado, com agilidade e qualidade necessárias para você não se preocupar com nenhum detalhe.</p>
-            <ButtonPrimary onClick={scrollToTop} text='Solicitar um orçamento' linkRef='/Contato' color='ButtonPrimary' />
+            <ButtonPrimary onClick={scrollToTop} text='Solicitar um orçamento' linkRef='/contato' color='ButtonPrimary' />
           </div>
         </div>
        </div>

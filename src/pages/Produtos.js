@@ -42,7 +42,7 @@ const Produtos= () => {
       Text='Podemos te ajudar! Entre em contato com a nossa equipe e confira as melhores soluções!' 
       Title='Procura por algum equipamento específico? ' 
       ButtonText='Fazer cotação' 
-      link='/Contato'
+      link='/contato'
       onClick={scrollToTop}
       />
     </div>

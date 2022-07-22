@@ -62,17 +62,17 @@ function Footer() {
 
           <div className='flex w-49w flex-col lg:w-[20%] xl:w-[18%]'>
             <h2 className='text-white text-[18px] lg:text-[17px] xl:text-[18px] 2xl:text-[20px] font-medium mb-[30px] mt-[30px] lg:mt-0'>Institucional</h2>
-           <HashLink onClick={scrollToTop} className='w-max' to={'/Quem-Somos'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Quem Somos</p></HashLink> 
+           <HashLink onClick={scrollToTop} className='w-max' to={'/quem-somos'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Quem Somos</p></HashLink> 
             <p onClick={toggleTrabalhe} className='text-[#8e8d8d] cursor-pointer font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Trabalhe Conosco</p>
             <p onClick={toggleRevendas} className='text-[#8e8d8d] cursor-pointer font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Seja um Revendedor</p>
-            <HashLink onClick={scrollToTop} to={'/Contato'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Contato</p></HashLink>
+            <HashLink onClick={scrollToTop} to={'/contato'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Contato</p></HashLink>
           </div>
 
           <div className='flex w-49w flex-col xl:w-[18%] 2xl:w-[16%]'>
             <h2 className='text-white text-[18px] lg:text-[17px] xl:text-[18px] 2xl:text-[20px] font-medium mb-[30px] mt-[30px] lg:mt-0'>Soluções</h2>
-            <HashLink onClick={scrollToTop} to={'/Solucoes'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Outsourcing de impressão</p></HashLink> 
-            <HashLink onClick={scrollToTop} to={'/Solucoes'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Processo de monitoramento</p></HashLink>
-            <HashLink onClick={scrollToTop} to={'/Business-Scan'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Gerenciamento eletrônico de documentos</p></HashLink>
+            <HashLink onClick={scrollToTop} to={'/solu%C3%A7%C3%B5es'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Outsourcing de impressão</p></HashLink> 
+            <HashLink onClick={scrollToTop} to={'/solu%C3%A7%C3%B5es'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Processo de monitoramento</p></HashLink>
+            <HashLink onClick={scrollToTop} to={'/business-scan'}><p className='text-[#8e8d8d] font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Gerenciamento eletrônico de documentos</p></HashLink>
             <p onClick={toggleSuport} className='text-[#8e8d8d] cursor-pointer font-medium lg:text-[15px] xl:text-[16px] 2xl:text-[18px] mb-[15px]'>Assistência Técnica</p>
           </div>
 

@@ -8,9 +8,7 @@ import { AnimatePresence } from 'framer-motion'
 import QuemSomos from '../pages/QuemSomos'
 import BusinessScan from '../pages/BusinessScan'
 import Solucoes from '../pages/Solucoes'
-import TrabalheConosco from '../pages/TrabalheConosco'
 import Revendas from '../pages/Revendas'
-import Digitalizacao from '../pages/Digitalizacao'
 import Digitalizacao2 from '../pages/Digitalizacao copy'
 
 function AnimationRoutes() {
@@ -21,15 +19,13 @@ function AnimationRoutes() {
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
         <Route path='/' element={<Home/>} />
-        <Route path='/Quem-Somos' element={<QuemSomos/>} />
-        <Route path='/Business-Scan' element={<BusinessScan/>} />
-        <Route path='/Produtos' element={<Produtos/>} />
-        <Route path='/Solucoes' element={<Solucoes/>} />
-        <Route path='/Contato' element={<Contato/>} />
-        <Route path='/Trabalhe-Conosco' element={<TrabalheConosco/>} />
-        <Route path='/Revendas' element={<Revendas/>} />
-        <Route path='/Digitalizacao' element={<Digitalizacao/>} />
-        <Route path='/Digitalizacao2'  element={<Digitalizacao2/>} />
+        <Route path='/quem-somos' element={<QuemSomos/>} />
+        <Route path='/business-scan' element={<BusinessScan/>} />
+        <Route path='/produtos' element={<Produtos/>} />
+        <Route path='/solu%C3%A7%C3%B5es' element={<Solucoes/>} />
+        <Route path='/contato' element={<Contato/>} />
+        <Route path='/revendas' element={<Revendas/>} />
+        <Route path='/digitaliza%C3%A7%C3%A3o'  element={<Digitalizacao2/>} />
 
         
 
