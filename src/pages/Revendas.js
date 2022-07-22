@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 
 import EpsonLogo from "../images/epsonlogo.png";
@@ -33,6 +33,10 @@ import { ReactComponent as DocLaranja } from "../images/Revendas/Icones/DocLaran
 import { ReactComponent as ArrowDownload } from "../images/Revendas/Icones/ArrowDownload.svg";
 import Sedes from "../components/Sedes";
 import ContactBox from "../components/ContactBox";
+import ModalRevendas from "../components/ModalRevendas";
+import Navbar from "../components/Navbar";
+import Utilities from "../components/Utilities";
+import Footer from "../components/Footer";
 
 const maquinas = [
     
@@ -299,6 +303,24 @@ const maquinas = [
 ]
 
 function Revendas() {
+
+  const scrollToTop = () => {
+    setTimeout(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+    }, 200)
+}
+
+  
+  const [modalRevendas, setModalRevendas] = useState('scale-0')
+
+  const toggleRevendas = () => {
+    setModalRevendas(!modalRevendas)
+  }
+
+
   const carousel = useRef(null);
 
   const handleLeftClick = (e) => {
@@ -318,6 +340,7 @@ function Revendas() {
       animate={{ opacity: 1, transition: { duration: 0.8 } }}
       exit={{ opacity: 0, transition: { duration: 0.1 } }}
     >
+      <Navbar />
       <div className="bg-hero-bg-revendas w-full py-36 flex items-center">
         <div className="container mx-auto relative h-full flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-[50%]">
@@ -412,7 +435,7 @@ function Revendas() {
               <ButtonPrimary
                 text="Torne-se um revendedor"
                 color="ButtonPrimary"
-                linkRef=""
+                onClick={toggleRevendas}
               />
             </div>
           </div>
@@ -588,7 +611,7 @@ function Revendas() {
                 <ButtonPrimary
                   text="Torne-se um revendedor"
                   color="ButtonPrimary"
-                  linkRef=""
+                  onClick={toggleRevendas}
                 />
               </div>
             </div>
@@ -604,8 +627,16 @@ function Revendas() {
           title="Gostou e quer saber mais sobre nossas soluções?"
           text="Muitos negócios e empresas estão passando por importantes mudanças, e a Comabe quer estar junto nesta transformação digital!"
           buttonText="Entre em contato e solicite uma cotação"
+          contactLink={'/Contato'}
+          onClick={scrollToTop}
         />
       </div>
+
+      
+      <ModalRevendas onClick={toggleRevendas} classRef={`${modalRevendas ? 'scale-0' : 'scale-1'}`}/>
+
+      <Utilities />
+    <Footer />
     </motion.div>
   );
 }

@@ -30,11 +30,23 @@ import {ReactComponent as ImpressoraMoney} from '../images/Outsourcing/Impressor
 import {ReactComponent as NuvemCadeado} from '../images/Outsourcing/NuvemCadeado.svg'
 import {ReactComponent as DocUp} from '../images/Outsourcing/DocUp.svg'
 import ContactBox from '../components/ContactBox'
+import Navbar from '../components/Navbar'
+import Utilities from '../components/Utilities'
+import Footer from '../components/Footer'
 
 
 
 
 function Solucoes() {
+
+  const scrollToTop = () => {
+    setTimeout(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+    }, 200)
+}
 
   const [openVideo, setOpenVideo] = useState(0)
 
@@ -45,7 +57,7 @@ function Solucoes() {
 
   return (
     <motion.div  initial={{opacity: 0}} animate={{opacity: 1, transition: {duration: 0.8} }} exit={{opacity: 0, transition: {duration: 0.1} }}>
-    
+    <Navbar />
     <div className='bg-hero-bg-soluções w-full py-36 flex items-center'>
     <div className='container mx-auto'>
         <div className='w-full lg:w-[50%]'>
@@ -72,7 +84,7 @@ function Solucoes() {
               <h2 className='text-3xl text-[#343434] font-medium w-[80%] mb-[40px] mt-10 lg:mt-0'>Outsourcing de impressão</h2>
               <p className='text-sm text-[#343434] font-light w-[95%]'>Aqui você conta com planos corporativos de impressão personalizados para sua empresa, que visam otimizar a estrutura de operação do seu negócio através de soluções simples e ajustáveis.</p>
               <p className='text-sm text-[#343434] font-light mt-[30px] mb-[40px]'>Contamos também com monitoramento remoto do seu equipamento,  onde avisamos para você antes que os seus suprimentos acabem, assim, você não tem a preocupação com a reposição e troca de seus suprimentos.</p>
-              <ButtonPrimary text='Agendar visita' color='ButtonPrimary' linkRef={'/Contato#header'}/>
+              <ButtonPrimary onClick={scrollToTop} text='Agendar visita' color='ButtonPrimary' linkRef={'/Contato'}/>
             </div>
         </div>
       </div>
@@ -121,7 +133,7 @@ function Solucoes() {
             <span className='flex w-full 2xl:w-auto items-center gap-[20px] text-sm text-[#575757] font-medium'><TonnerExclamation className='w-[13%] lg:w-auto'/>Problema no equipamento</span>
             <span className='flex w-full 2xl:w-auto items-center gap-[20px] text-sm text-[#575757] font-medium 2xl:mt-[50px]'><MultifuncionalExclamation className='w-[13%] lg:w-auto'/>Funcionário X imprimiu<br></br> sua cota mensal / semanal</span>
           </div>
-          <ButtonPrimary text='Agendar visita' color='ButtonPrimary' linkRef={'/Contato#header'}/>
+          <ButtonPrimary onClick={scrollToTop} text='Agendar visita' color='ButtonPrimary' linkRef={'/Contato'}/>
           </div>
         </div>
 
@@ -191,10 +203,11 @@ function Solucoes() {
 
     </div>
 
-    <ContactBox contactLink="/Contato#header" imagem={ContactImageOutsourcing} title="Gostou e quer saber mais sobre nossas soluções?" text="Muitos negócios e empresas estão passando por importantes mudanças, e a Comabe quer estar junto nesta transformação digital!" buttonText="Entre em contato e solicite uma cotação"/>
+    <ContactBox onClick={scrollToTop} contactLink="/Contato" imagem={ContactImageOutsourcing} title="Gostou e quer saber mais sobre nossas soluções?" text="Muitos negócios e empresas estão passando por importantes mudanças, e a Comabe quer estar junto nesta transformação digital!" buttonText="Entre em contato e solicite uma cotação"/>
     
     
-    
+    <Utilities />
+    <Footer />
     </motion.div>
   )
 }

@@ -4,6 +4,8 @@ import AnimationRoutes from './components/AnimationRoutes'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Utilities from './components/Utilities'
+import { WhatsappButton } from './components/WhatsappButton'
+import { Context } from './contexts/MainContext'
 
 
 function RoutesDOM()  {
@@ -12,12 +14,10 @@ function RoutesDOM()  {
 
   return (
     <BrowserRouter>
-    <Navbar />
+    <Context>
     <AnimationRoutes />
-    <Utilities />
-    <Footer />
-    
-
+    </Context>
+    <WhatsappButton />
     </BrowserRouter>
     
   )

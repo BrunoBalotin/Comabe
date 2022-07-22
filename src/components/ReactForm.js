@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import ButtonPrimary from './ButtonPrimary';
 
 export default function ReactForm({fullWidth}) {
 

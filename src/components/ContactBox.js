@@ -2,7 +2,7 @@ import React from 'react'
 import ButtonPrimary from './ButtonPrimary'
 import {ReactComponent as UserAvatar} from '../images/Outsourcing/User.svg'
 
-function ContactBox({imagem, title, text, buttonText, contactLink}) {
+function ContactBox({imagem, title, text, buttonText, contactLink, onClick}) {
   return (
     <div className='container mx-auto py-5 lg:py-0 lg:pt-[100px] lg:pb-[150px]'>
         <div className='w-full py-20 bg-[#F8F8FA] rounded-2xl'>
@@ -14,7 +14,7 @@ function ContactBox({imagem, title, text, buttonText, contactLink}) {
                 <div className='w-full lg:w-[45%] lg:pr-[150px] flex flex-col justify-center h-full'>
                     <h2 className='text-2xl font-medium text-[#343434] w-[100%]'>{title}</h2>
                     <p className='text-sm text-[#575757] font-light my-[30px] w-[100%]'>{text}</p>
-                    <ButtonPrimary text={buttonText} color="ButtonPrimary" linkRef={contactLink} />
+                    <ButtonPrimary onClick={onClick} text={buttonText} color="ButtonPrimary" linkRef={contactLink} />
                     <span className='flex items-center gap-[20px] text-sm text-[#575757] font-medium mt-[30px]'><UserAvatar />Nosso time lhe retornará o mais breve possível </span>
                 </div>
             </div>

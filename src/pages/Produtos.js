@@ -3,10 +3,25 @@ import {ReactComponent as Mouse} from '../images/mouse.svg'
 import {motion} from "framer-motion"
 import Filtro from '../components/Filtro'
 import Tarja from '../components/Tarja'
+import Navbar from '../components/Navbar'
+import Utilities from '../components/Utilities'
+import Footer from '../components/Footer'
 
 const Produtos= () => {
+
+  const scrollToTop = () => {
+    setTimeout(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+    }, 200)
+}
+
+
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity: 1, transition: {duration: 0.8} }} exit={{opacity: 0, transition: {duration: 0.1} }} >
+      <Navbar />
       <div className='bg-hero-bg-produtos w-full py-40 flex items-center relative'>
       <div className='container mx-auto'>
         <div>
@@ -27,9 +42,12 @@ const Produtos= () => {
       Text='Podemos te ajudar! Entre em contato com a nossa equipe e confira as melhores soluções!' 
       Title='Procura por algum equipamento específico? ' 
       ButtonText='Fazer cotação' 
-      link='/Contato#header'
+      link='/Contato'
+      onClick={scrollToTop}
       />
     </div>
+    <Utilities />
+    <Footer />
     </motion.div>
   )
 }

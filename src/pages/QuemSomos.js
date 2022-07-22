@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {motion} from "framer-motion"
 import {ReactComponent as Mouse} from '../images/mouse.svg'
 import {ReactComponent as Check} from '../images/check.svg'
@@ -19,11 +19,32 @@ import ThumbJordano from '../images/thumbjordano.png'
 import ButtonPrimary from '../components/ButtonPrimary'
 import Sedes from '../components/Sedes'
 import Tarja from '../components/Tarja'
+import ModalTrabalheConosco from '../components/ModalTrabalheConosco'
+import Navbar from '../components/Navbar'
+import Utilities from '../components/Utilities'
+import Footer from '../components/Footer'
 
 function QuemSomos() {
+
+  const [modalTrabalhe, setModalTrabalhe] = useState('scale-0')
+
+  const toggleTrabalhe = () => {
+    setModalTrabalhe(!modalTrabalhe)
+  }
+
+  const scrollToTop = () => {
+    setTimeout(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+    }, 200)
+}
+
+
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity: 1, transition: {duration: 0.8} }} exit={{opacity: 0, transition: {duration: 0.1} }}>
-
+    <Navbar />
     <div className="bg-hero-bg-quem-somos w-full h-[500px] sm:h-[490px] md:h-[490px]  lg:h-[490px] bg-cover flex items-center 2xl:h-[720px] relative">
     <div className='container mx-auto'>
       <div>
@@ -41,7 +62,7 @@ function QuemSomos() {
         <div className='pt-[160px] lg:w-[45%]'>
           <h2 className='text-3xl text-[#343434] font-medium mb-[30px] leading-snug'>Somos especialistas em soluções para impressão e transformação digital de documentos</h2>
           <p className='text-sm font-light text-[#575757] leading-relaxed mb-[40px]'>Fornecemos soluções completas para sua empresa esquecer de vez de se preocupar com impressoras ou documentos impressos. Facilitamos ao máximo a sua experiência com os nossos serviços, para promover a sua empresa a praticidade necessária para você focar em outras áreas do seu negócio.</p>
-          <ButtonPrimary linkRef="/Contato#header" text="Agendar Visita" border='border-none' color="ButtonPrimary" />
+          <ButtonPrimary onClick={scrollToTop} linkRef="/Contato" text="Agendar Visita" border='border-none' color="ButtonPrimary" />
         </div>
         <div className='bg-[#ECA918] md:w-[100%] md:h-[230px] lg:w-[450px] lg:h-[500px] xl:w-[526px] xl:h-[591px] rounded-2xl sm:rounded-none sm:rounded-t-3xl flex flex-col mt-[20px] pb-[10px] sm:pb-0 pt-[20px] pl-[0px] sm:mt-[30px] md:mt-[50px] lg:mt-[160px] sm:pl-[40px] sm:pt-[30px] md:pt-[50px] lg:pt-[100px]'>
           <span className='text-white text-xl font-medium ml-[17px] mb-[50px]'>Números que nos orgulhamos:</span>
@@ -90,7 +111,7 @@ function QuemSomos() {
             <p className='text-sm text-[#343434] font-light mb-[30px]'>A Comabe, ao longo dos seus 55 anos de atuação, sempre buscou levar mais tecnologia e inovação para a rotina de seus clientes, trazendo mais praticidade e eficiência na gestão das suas atividades.</p>
             <p className='text-sm text-[#343434] font-light mb-[30px]'>Todos os nossos serviços buscam entregar para os nossos clientes soluções completas que visam agilizar os seus processos e facilitar o seu dia a dia na gestão de documentos.</p>
             <p className='text-sm text-[#343434] font-light mb-[40px]'>Contamos com uma equipe qualificada, que está sempre pronta para entregar aos nossos clientes um atendimento personalizado, atendendo empresas das mais variadas áreas e de portes distintos, sempre disponibilizando soluções que visam o aumento de produtividade e eficiência nos processos de impressão.</p>
-            <ButtonPrimary text='Agendar Visita' linkRef="/Contato#header" border='border-none' color='ButtonPrimary' />
+            <ButtonPrimary onClick={scrollToTop} text='Agendar Visita' linkRef="/Contato" border='border-none' color='ButtonPrimary' />
           </div>
           <div className='relative md:flex justify-center lg:block md:w-full md:h-[600px]  lg:w-[430px] lg:h-[500px] 2xl:w-[501px] 2xl:h-[575px]'>
             <img className='absolute md:w-[80%] md:h-[70%] lg:w-full lg:h-full object-fill' src='https://uploaddeimagens.com.br/images/003/908/865/full/Carlos.png?1655734142' alt='imagem da empresa comabe'/>
@@ -130,7 +151,7 @@ function QuemSomos() {
             <p className='mb-[30px] text-sm font-light'>Conte com as melhores marcas e equipamentos do mercado.</p>
             <p className='mb-[30px] text-sm font-light'>Com a Comabe, você trabalha com as melhores marcas do mercado e ainda tem ganho na produtividade e redução de custos.</p>
             <p className='mb-[50px] text-sm font-light'>Ficou interessado? Então venha conversar com um de nossos consultores e conferir as condições especiais que preparamos para você!</p>
-            <ButtonPrimary text='Tenho interesse' color='ButtonPrimary' border='border-none' linkRef='/Produtos#produtos' />
+            <ButtonPrimary onClick={scrollToTop} text='Tenho interesse' color='ButtonPrimary' border='border-none' linkRef='/Produtos' />
           </div>
         </div>
     </div>
@@ -144,10 +165,14 @@ function QuemSomos() {
       Text='Interessados enviar currículo para: jordano@comabe.com.br ou preencher os dados do formulário através do botão ao lado' 
       Title='O que acha de fazer parte do grupo Comabe?' 
       ButtonText='Quero fazer parte'
-      link=''
+      onClick={toggleTrabalhe}
       />
     </div>
+
+    <ModalTrabalheConosco onClick={toggleTrabalhe} classRef={`${modalTrabalhe ? 'scale-0' : 'scale-1'}`}/>
     
+    <Utilities />
+    <Footer />
     </motion.div>
   )
 }

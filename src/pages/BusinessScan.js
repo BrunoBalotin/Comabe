@@ -36,11 +36,21 @@ import ButtonPrimary from '../components/ButtonPrimary'
 import ICP from '../images/ICP.png'
 import Smartphone from '../images/Smartphone.png'
 import HomemComCelular from '../images/BusinessScan/HomemComCelular.png'
+import Navbar from '../components/Navbar'
+import Utilities from '../components/Utilities'
+import Footer from '../components/Footer'
 
 function BusinessScan() {
 
 
-  
+  const scrollToTop = () => {
+    setTimeout(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+    }, 200)
+}
     
 
 
@@ -54,6 +64,7 @@ function BusinessScan() {
 
   return (
     <motion.div  initial={{opacity: 0}} animate={{opacity: 1, transition: {duration: 0.8} }} exit={{opacity: 0, transition: {duration: 0.1} }}>
+    <Navbar />
     <div className='bg-hero-bg-business-scan w-full pt-36 lg:py-40 lg:h-[700px] flex items-center'>
       <div className='container mx-auto h-full'>
         <div className='flex flex-col lg:flex-row items-center justify-between relative h-full'>
@@ -135,7 +146,7 @@ function BusinessScan() {
                 <span className='flex flex-col lg:flex-row lg:flex-nwrap justify-center lg:justify-start text-center lg:text-left items-center w-[40%] lg:w-[30%] text-sm font-medium gap-[10px]'><Security className='w-[30%]'/> Segurança dos dados</span>
                 <span className='flex flex-col lg:flex-row lg:flex-nwrap justify-center lg:justify-start text-center lg:text-left items-center w-[40%] lg:w-[24%] text-sm font-medium gap-[10px]'><Time className='w-[30%]'/> Otimização de tempo </span>
               </div>
-              <ButtonPrimary text='Agendar visita' color='ButtonPrimary' linkRef='/Contato#header'/>
+              <ButtonPrimary onClick={scrollToTop} text='Agendar visita' color='ButtonPrimary' linkRef='/Contato'/>
             </div>
         </div>
       </div>
@@ -217,14 +228,15 @@ function BusinessScan() {
             <h2 className='text-xl lg:text-3xl text-[#343434] font-medium mt-20 lg:mt-0'>Digitalize seu acervo de documentos, armazene-os de maneira estruturada e localize-os em poucos segundos com alguns cliques</h2>
             <p className='my-[30px] text-sm text-[#343434] font-light'>Você pode eliminar até 80% de documentos impressos do seu escritório com o nosso serviço de business scan.</p>
             <p className='text-sm text-[#343434] font-light mb-[50px]'>Entregamos para sua empresa o melhor serviço de digitalização de documentos do mercado, com agilidade e qualidade necessárias para você não se preocupar com nenhum detalhe.</p>
-            <ButtonPrimary text='Solicitar um orçamento' linkRef='/Contato#header' color='ButtonPrimary' />
+            <ButtonPrimary onClick={scrollToTop} text='Solicitar um orçamento' linkRef='/Contato' color='ButtonPrimary' />
           </div>
         </div>
        </div>
     </div>
     
     
-    
+    <Utilities />
+    <Footer />
    
     </motion.div>
   )

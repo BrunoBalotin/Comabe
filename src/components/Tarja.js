@@ -1,7 +1,7 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
 
-function Tarja( { Background, Title, Text, ButtonText, link = '' } ) {
+function Tarja( { Background, Title, Text, ButtonText, link = '', onClick } ) {
   return (
       <div className='container mx-auto py-20 flex items-center mt-0 lg:mt-32'>
     <div className={`w-full flex flex-col lg:flex-row items-center py-10 lg:py-0 lg:h-[300px] xl:h-[360px] rounded-2xl bg-cover ${Background}`}>
@@ -12,7 +12,7 @@ function Tarja( { Background, Title, Text, ButtonText, link = '' } ) {
             </div>
 
             <div className='lg:w-[50%] flex lg:justify-end mt-10 lg:mt-0'>
-              <HashLink to={link}>  <button className='text-white lg:text-[15px] xl:text-[16px] 2xl:text-[18px] border px-11 py-3 rounded-full duration-700 hover:bg-[#0F5197] hover:border-[#0F5197]'>{ButtonText}</button></HashLink>
+              <HashLink onClick={onClick} to={link}>  <button className='text-white lg:text-[15px] xl:text-[16px] 2xl:text-[18px] border px-11 py-3 rounded-full duration-700 hover:bg-[#0F5197] hover:border-[#0F5197]'>{ButtonText}</button></HashLink>
             </div>
         </div>
     </div>

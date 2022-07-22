@@ -11,6 +11,7 @@ import Solucoes from '../pages/Solucoes'
 import TrabalheConosco from '../pages/TrabalheConosco'
 import Revendas from '../pages/Revendas'
 import Digitalizacao from '../pages/Digitalizacao'
+import Digitalizacao2 from '../pages/Digitalizacao copy'
 
 function AnimationRoutes() {
 
@@ -28,6 +29,7 @@ function AnimationRoutes() {
         <Route path='/Trabalhe-Conosco' element={<TrabalheConosco/>} />
         <Route path='/Revendas' element={<Revendas/>} />
         <Route path='/Digitalizacao' element={<Digitalizacao/>} />
+        <Route path='/Digitalizacao2'  element={<Digitalizacao2/>} />
 
         
 
