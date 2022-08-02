@@ -84,9 +84,9 @@ function Sedes() {
 
         <div className="flex flex-col-reverse lg:flex-row justify-between">
           <div className="w-full lg:w-[40%] relative">
-            <img className={`absolute duration-700 ${openSerra? 'opacity-1' : 'opacity-0'}`} src={SerraGaucha} alt="" />
-            <img className={`absolute duration-700 ${openFeevale? 'opacity-1' : 'opacity-0'}`} src={Feevale} alt="" />
-            <img className={`absolute duration-700 ${openSanta? 'opacity-1' : 'opacity-0'}`} src={SantaCatarina} alt="" />
+            <img className={`absolute duration-700 ${openSerra? 'opacity-1 block' : 'opacity-0 hidden'}`} src={SerraGaucha} alt="" />
+            <img className={`absolute duration-700 ${openFeevale? 'opacity-1 block' : 'opacity-0 hidden'}`} src={Feevale} alt="" />
+            <img className={`absolute duration-700 ${openSanta? 'opacity-1 block' : 'opacity-0 hidden'}`} src={SantaCatarina} alt="" />
           </div>
 
           <div className="w-full lg:w-[50%]">
