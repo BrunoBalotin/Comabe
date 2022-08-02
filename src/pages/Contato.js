@@ -52,7 +52,7 @@ const Contato = () => {
         <div className='flex flex-col lg:flex-row justify-between'>
           <div className='w-full lg:w-[50%]'>
           <span className='flex w-max bg-[#0088FF] py-2 px-5 text-white text-sm font-medium rounded-3xl'>ENTRE EM CONTATO</span>
-          <h1 className='text-2xl lg:text-4xl text-white font-medium mt-[20px]'>Temos um equipe especializada para atendê-lo da melhor maneira possível</h1>
+          <h1 className='text-2xl lg:text-4xl text-white font-medium mt-[20px]'>Temos uma equipe especializada para atendê-lo da melhor maneira possível</h1>
           <h3 className='text-xl text-white font-medium mt-[40px] mb-[30px]'>Nossos canais de atendimento</h3>
           <div className='flex flex-col gap-3'>
           <span className='font-light text-white text-sm flex items-center gap-3'><Whatsapp />+55 54 2621.2300</span>
