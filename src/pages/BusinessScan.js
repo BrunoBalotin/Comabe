@@ -114,7 +114,7 @@ function BusinessScan() {
         <div className='flex flex-col lg:flex-row justify-between items-center'>
           <div className='w-full lg:w-[45%]'>
             <h2 className='text-2xl text-[#343434] font-medium'>Utilizamos a digitalização de documentos no padrão ICP-Brasil</h2>
-            <p className='text-sm text-[#343434] font-light my-[30px]'>ICP-Brasil (Infraestrutura de Chaves Públicas Brasileira) faz com que os documentos ganhem validade jurídica e ainda simplifiquem a vida do usuário com fluxos documentais que auxiliam as empresas a otimizarem os processos de negócios e, ao mesmo tempo, atingir metas de conformidade e armazenamento de longo prazo.</p>
+            <p className='text-sm text-[#343434] font-light my-[30px]'>ICP-Brasil (Infraestrutura de Chaves Públicas Brasileira) faz com que os documentos ganhem validade jurídica e ainda simplifiquem a vida do usuário.</p>
             <span className='text-sm text-[#343434] font-medium flex items-center gap-[10px]'><BlueDocument /> Realize a digitalização dos diferentes tipos de documentos </span>
             <div className='flex gap-10 lg:gap-0 flex-wrap w-[100%] mt-[40px]'>
               <span className='text-sm text-[#343434] font-medium mr-[50px] flex items-center gap-[10px]'><GreenCheck /> Digitalização de acervo</span>

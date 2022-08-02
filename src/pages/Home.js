@@ -76,7 +76,7 @@ const Home = () => {
     <div className='container mx-auto py-48 flex items-center'>
       <div className='flex flex-col lg:flex-row lg:justify-between'>
         <div className='w-full lg:w-45w xl:w-50w'>
-          <h2 className='w-80w lg:w-auto mb-5 text-3xl text-titles font-medium'>Descubra o Business Scan</h2>
+          <h2 className='w-80w lg:w-auto mb-5 text-3xl text-titles font-medium'>Conheça o Business Scan</h2>
           <span className='text-xl text-[#0F5197] font-medium lg:w-70w 2xl:w-70w flex'>Nossa solução tecnológica para digitalização de documentos</span>
           <p className='mt-9 text-sm text-paragraphs font-light lg:w-80w 2xl:w-80w'>O Business Scan é o nosso serviço especializado de digitalização de documentos, através dele é possível reduzir o seu armazenamento de documentos em espaço físico com o processo de digitalização inteligente.</p>
 
@@ -110,7 +110,7 @@ const Home = () => {
           <div className='w-full xl:w-85w h-80 lg:h-64 xl:h-72 bg-white rounded-xl pt-8 xl:pt-10 px-14 shadow-shadow-card mt-8'>
               <CheckHome className='w-9 lg:w-8 xl:w-7 2xl:w-auto'/>
               <h3 className='text-xl text-titles font-medium my-5'>Maior qualidade</h3>
-              <p className='text-sm font-light'>A padronização de formatos dos seus documentos, com processos claros e definidos, traz para sua empresa uma maior qualidade na execução de tarefas simples do seu dia a dia. </p>
+              <p className='text-sm font-light'>A padronização de formatos dos seus documentos, com processos claros e definidos, traz para sua empresa uma maior agilidade na execução de tarefas simples do seu dia a dia. </p>
           </div>
           <div className='xl:w-85w h-80 lg:h-64 xl:h-72 bg-white rounded-xl pt-8 xl:pt-10 px-14 shadow-shadow-card mt-8'>
               <Shield className='w-9 lg:w-8 xl:w-7 2xl:w-auto'/>
@@ -148,7 +148,7 @@ const Home = () => {
             <div className='w-full lg:w-2/4 xl:w-1/3'>
                 <div>
                   <span className='flex items-center text-xl font-medium gap-3'><GreenCheck />Business Scan</span>
-                  <p className='text-sm font-light text-paragraphs leading-8 my-7'>A Comabe tem soluções personalizadas para as mais diversas áreas de atuação, desenvolvendo métodos eficientes para auxiliar a sua empresa.</p>
+                  <p className='text-sm font-light text-paragraphs leading-8 my-7'>A Comabe tem soluções personalizadas para as mais diversas áreas de atuação, desenvolvendo estratégias eficientes para auxiliar a sua empresa.</p>
                   <HashLink onClick={scrollToTop} to={'/business-scan'}><span className='flex items-center gap-2 text-[#0F5197] text-sm font-medium'>Saiba Mais <ArrowSaibaMais className='mt-2' /></span>  </HashLink>
                   
                 </div>

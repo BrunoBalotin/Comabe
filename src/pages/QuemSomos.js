@@ -61,7 +61,7 @@ function QuemSomos() {
       <div className='flex flex-col lg:flex-row justify-between'>
         <div className='pt-[160px] lg:w-[45%]'>
           <h2 className='text-3xl text-[#343434] font-medium mb-[30px] leading-snug'>Somos especialistas em soluções para impressão e transformação digital de documentos</h2>
-          <p className='text-sm font-light text-[#575757] leading-relaxed mb-[40px]'>Fornecemos soluções completas para sua empresa esquecer de vez de se preocupar com impressoras ou documentos impressos. Facilitamos ao máximo a sua experiência com os nossos serviços, para promover a sua empresa a praticidade necessária para você focar em outras áreas do seu negócio.</p>
+          <p className='text-sm font-light text-[#575757] leading-relaxed mb-[40px]'>Fornecemos soluções completas para sua empresa esquecer de vez de se preocupar com impressoras ou documentos impressos. Facilitamos ao máximo a sua experiência com os nossos serviços, para promover ao seu negócio a praticidade necessária para você focar em outras áreas.</p>
           <ButtonPrimary onClick={scrollToTop} linkRef="/contato" text="Agendar Visita" border='border-none' color="ButtonPrimary" />
         </div>
         <div className='bg-[#ECA918] md:w-[100%] md:h-[230px] lg:w-[450px] lg:h-[500px] xl:w-[526px] xl:h-[591px] rounded-2xl sm:rounded-none sm:rounded-t-3xl flex flex-col mt-[20px] pb-[10px] sm:pb-0 pt-[20px] pl-[0px] sm:mt-[30px] md:mt-[50px] lg:mt-[160px] sm:pl-[40px] sm:pt-[30px] md:pt-[50px] lg:pt-[100px]'>
@@ -94,7 +94,7 @@ function QuemSomos() {
 
         <div className='md:w-full mt-[50px] md:mt-[50px] lg:mt-0 lg:w-[47%]'>
           <h2 className='text-3xl text-[#343434] font-medium mb-[30px]'>Nosso maior desafio</h2>
-          <p className='text-sm text-[#343434] font-light mb-[40px]'>Fornecer aos nossos clientes as melhores soluções em equipamentos para impressoras, gestão de documentos físicos e digitais, aluguel de equipamentos de impressão, monitoramento e gerenciamento eletrônico de documentos, e migração digital.</p>
+          <p className='text-sm text-[#343434] font-light mb-[40px]'>Fornecer aos nossos clientes as melhores soluções em equipamentos para impressoras, gestão de documentos físicos e digitais, aluguel de equipamentos de impressão, monitoramento e gerenciamento eletrônico de documentos e migração digital.</p>
 
           <span className='text-xl text-[#343434] font-medium flex items-center gap-[15px]'><Check className='w-[22px] md:w-[26px] xl:w-[26px] 2xl:w-auto' /> As melhores soluções pra você</span>
           <p className='text-sm text-[#343434] font-light mt-[30px]'>Somos especialistas em proporcionar a migração digital de documentos dos nossos clientes, soluções completas de gestão de documentos físicos e transformação de materiais impressos em arquivos digitais através do business scan, o processo de digitalização de documentos acessível em poucos cliques.</p>
