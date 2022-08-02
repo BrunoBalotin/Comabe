@@ -65,8 +65,8 @@ const Home = () => {
 
     <div className='container mx-auto'>
     <div className='flex flex-col items-center'>
-      <h2 className='text-2xl lg:text-5xl text-white text-center font-medium lg:w-95w xl:w-4/5 mb-8'>Até quando a sua empresa vai continuar rasgando dinheiro com impressões de documentos?</h2>
-      <p className='text-sm font-medium text-white text-center w-80w sm:w-4/5 lg:w-45w 2xl:w-2/4 mb-24'>Fornecemos soluções completas para sua empresa parar de se preocupar com impressoras ou documentos impressos.</p>
+      <h2 className='text-2xl lg:text-5xl text-white text-center font-medium lg:w-95w xl:w-4/5 mb-8'>Especialistas em soluções para impressão e digitalização de documentos.</h2>
+      <p className='text-sm font-medium text-white text-center w-80w sm:w-4/5 lg:w-45w 2xl:w-2/4 mb-24'>Temos soluções completas para sua empresa parar de se preocupar com impressoras ou documentos impressos.</p>
       <ArrowDown className='mb-12'/>
       <ButtonPrimary onClick={scrollToTop} text='Quero começar a economizar' color='ButtonPrimary' border='border-none' linkRef="/contato"/>
     </div>
