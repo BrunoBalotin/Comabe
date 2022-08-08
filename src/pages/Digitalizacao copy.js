@@ -26,7 +26,7 @@ function Digitalizacao2() {
 
     setTimeout(() => {
       nameInput.current.focus()
-    }, 300)
+    }, 1000)
     
   }
 
