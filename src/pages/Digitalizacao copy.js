@@ -32,20 +32,39 @@ function Digitalizacao2() {
 
   const [message, setMessage] = useState('')
 
-  const onSubmitForm = () => {
-      setMessage("O download de seu E-book começará em breve!")
+  const selected = useRef(null)
 
-      setName('')
-      setEmail('')
-      setPhone('')
-      setBusiness('')
+  const onSubmitForm = (e) => {
+
+    if (selected.current.value === '0') {
+      console.log("Valor nulo")
+      e.preventDefault()
+
+      setMessage("Por favor escolha um setor")
 
       setTimeout(() => {
         setMessage('')
       }, 5000)
+
+    } else {
+      
+      setMessage("O download de seu E-book começará em breve!")
+
+      
+      setTimeout(() => {
+        setMessage('')
+        setName('')
+        setEmail('')
+        setPhone('')
+        setBusiness('')
+      }, 5000)
   }
+    }
+
+      
 
   const formBtn = useRef(null)
+
 
   const [countdown, setCountdown] = useState(5)
 
@@ -138,7 +157,7 @@ function Digitalizacao2() {
                       </div>
 
                       <div>
-                        <select name='Setor/Cargo' className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 bg-transparent focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]'>
+                        <select ref={selected} id='setor' name='Setor/Cargo' className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 bg-transparent focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]'>
                           <option value='0' className='hidden' selected disabled>
                             Setor/Cargo
                           </option>
