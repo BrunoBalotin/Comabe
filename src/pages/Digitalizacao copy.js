@@ -35,6 +35,11 @@ function Digitalizacao2() {
   const onSubmitForm = () => {
       setMessage("O download de seu E-book começará em breve!")
 
+      setName('')
+      setEmail('')
+      setPhone('')
+      setBusiness('')
+
       setTimeout(() => {
         setMessage('')
       }, 5000)
@@ -43,6 +48,11 @@ function Digitalizacao2() {
   const formBtn = useRef(null)
 
   const [countdown, setCountdown] = useState(5)
+
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
+  const [business, setBusiness] = useState('')
 
   const [buttonDisabled, setButtonDisabled] = useState(false)
 
@@ -107,15 +117,24 @@ function Digitalizacao2() {
                   <input type="hidden" name="_redirect" value='https://drive.google.com/u/0/uc?id=1OHGVk2AOl-WsKXWk2xB9G1t4L2NdGDGX&export=download' />
 
                       <div>
-                        <input ref={nameInput} className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]' type='text' name='Nome' placeholder='Nome' required/>
+                        <input
+                        onChange={event => setName(event.target.value)}
+                        value={name}
+                        ref={nameInput} className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]' type='text' name='Nome' placeholder='Nome' required/>
                       </div>
 
                       <div>
-                        <input className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]' type='email' name='Email' placeholder='Email' required/>
+                        <input
+                        onChange={event => setEmail(event.target.value)}
+                        value={email}
+                        className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]' type='email' name='Email' placeholder='Email' required/>
                       </div>
 
                       <div>
-                        <input className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]' type='tel' name='Telefone' placeholder='Telefone' required/>
+                        <input
+                        onChange={event => setPhone(event.target.value)}
+                        value={phone}
+                        className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]' type='tel' name='Telefone' placeholder='Telefone' required/>
                       </div>
 
                       <div>
@@ -142,7 +161,10 @@ function Digitalizacao2() {
                       </div>
 
                       <div>
-                        <input className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]' type='text' name='Empresa' placeholder='Empresa' required/>
+                        <input 
+                        onChange={event => setBusiness(event.target.value)}
+                        value={business}
+                        className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]' type='text' name='Empresa' placeholder='Empresa' required/>
                       </div>
 
                       <div className='mb-5'>
