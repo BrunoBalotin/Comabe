@@ -40,6 +40,34 @@ function Digitalizacao2() {
       }, 5000)
   }
 
+  const formBtn = useRef(null)
+
+  const [countdown, setCountdown] = useState(5)
+
+  const [buttonDisabled, setButtonDisabled] = useState(false)
+
+  const disableButton = () => {
+    setButtonDisabled(true)
+
+    setTimeout(() => {
+      setButtonDisabled(false)
+    }, 5000);
+
+   let interval = setInterval(function () {
+      
+        console.log("Ainda não é 0")
+        setCountdown(state => state - 1)
+
+        setTimeout(() => {
+          clearInterval(interval)
+          setCountdown(5)
+        }, 4000)
+      
+
+    }, 1000)
+   
+  }
+
 
 
   return (
@@ -92,7 +120,7 @@ function Digitalizacao2() {
 
                       <div>
                         <select name='Setor/Cargo' className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 bg-transparent focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]'>
-                          <option className='hidden' selected disabled>
+                          <option value='0' className='hidden' selected disabled>
                             Setor/Cargo
                           </option>
                           <option value='Direção'>
@@ -118,8 +146,8 @@ function Digitalizacao2() {
                       </div>
 
                       <div className='mb-5'>
-                        <button className='w-full flex justify-center items-center bg-green-600 h-[55px] text-white font-bold text-[1.125rem] rounded-lg' type='submit'>
-                          QUERO BAIXAR AGORA
+                        <button onClick={disableButton} ref={formBtn} className={`w-full flex justify-center items-center ${buttonDisabled? 'bg-gray-400' : 'bg-green-600'} h-[55px] text-white font-bold text-[1.125rem] rounded-lg`} type='submit' disabled={buttonDisabled}>
+                          {buttonDisabled? `Aguarde ${countdown} segundos` : 'QUERO BAIXAR AGORA'}
                         </button>
 
                         <div>
@@ -137,7 +165,7 @@ function Digitalizacao2() {
             <div className='lg:w-[45%] flex lg:block mt-16 lg:mt-0 justify-between'>
               <div className='sm:w-[60%] lg:w-full'>
               <h1 className='text-[2.75rem] text-white font-bold lg:w-[85%]'>CHEGA DE <strong className='text-[#fe7c1a]'>RASGAR</strong> DINHEIRO</h1>
-              <h2 className='text-[1.25rem] text-white font-light lg:w-[90%] mt-5'>Reduza até <strong className='font-bold'>R$50.000,00</strong> por ano dos seus custos com <strong className='font-bold'>IMPRESSÕES DE DOCUMENTOS</strong></h2>
+              <h2 className='text-[1.25rem] text-white font-light lg:w-[90%] mt-5'>Reduza até <strong className='font-bold'>R$50.000,00</strong> por ano dos custos com <strong className='font-bold'>IMPRESSÕES DE DOCUMENTOS</strong> da sua empresa</h2>
               </div>
               <div className='hidden sm:block lg:pt-10 max-w-[400px] lg:max-w-[585px] w-full'>
                 <img className='lg:max-w-[585px] w-full object-cover lg:h-[460px] relative right-8' src='https://static.wixstatic.com/media/0c951b_1e8ea8a00c85466195016e9eaf46bbb8~mv2.png/v1/fill/w_585,h_414,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0c951b_1e8ea8a00c85466195016e9eaf46bbb8~mv2.png' alt='ebook' />
