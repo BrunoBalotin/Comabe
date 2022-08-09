@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from 'react'
 import { ContainerLP } from '../components/ContainerLP'
 import { StyledBox } from '../components/StyledBox'
 
+import InputMask from 'react-input-mask';
+
 import Tinta from '../static/svg/Tinta'
 import DownloadArrow from '../static/svg/DownloadArrow'
 import Sicredi from '../static/svg/Sicredi'
@@ -150,7 +152,8 @@ function Digitalizacao2() {
                       </div>
 
                       <div>
-                        <input
+                        <InputMask
+                        mask='(99) 9999-9999'
                         onChange={event => setPhone(event.target.value)}
                         value={phone}
                         className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]' type='tel' name='Telefone' placeholder='Telefone' required/>
