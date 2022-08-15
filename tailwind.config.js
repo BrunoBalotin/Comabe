@@ -3,7 +3,8 @@
 module.exports = {
   important: true,
   content: ["./src/components/*.{html,js}",
-            "./src/pages/*.{html,js}"],
+            "./src/pages/*.{html,js}",
+            "./src/pages/blog/*.{html,js}"],
   theme: {
 
     fontSize: {

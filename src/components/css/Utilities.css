@@ -3,3 +3,16 @@
     background: transparent linear-gradient(90deg, #0F5197 0%, #0088FF 100%) 0% 0% no-repeat padding-box;
     background-size: 130%;
 }
+
+.blog-p {
+
+    font-size: 1.125rem;
+    color: #343434;
+}
+
+.blog-title {
+
+    font-size: 2.5rem;
+    color: #0F5197;
+    font-weight: 900;
+}

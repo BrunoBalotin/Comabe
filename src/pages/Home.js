@@ -13,8 +13,10 @@ import {ReactComponent as ArrowSaibaMais} from '../images/ArrowSaibaMais.svg'
 import {ReactComponent as GreenCheck} from '../images/GreenCheck.svg'
 import {ReactComponent as User} from '../images/User.svg'
 import {ReactComponent as UserNoBorder} from '../images/UserNoBorder.svg'
+import {ReactComponent as DocumentosBlog} from '../images/DocumentosBlog.svg'
 
 import ButtonPrimary from '../components/ButtonPrimary'
+import CardBlog from '../components/CardBlog'
 
 import GridImage from '../images/GridImage.png'
 import HomemSorrindo from '../images/HomemSorrindo.png'
@@ -50,7 +52,7 @@ const Home = () => {
             top: 0,
             behavior: "smooth"
           });
-    }, 200)
+    }, 300)
 }
 
 
@@ -284,7 +286,7 @@ const Home = () => {
         </div>
     </div>
 
-  {/*  <div className='w-full flex flex-col py-20 lg:py-0 lg:h-[1300px] xl:h-[1650px]'>
+      <div className='w-full flex flex-col py-20 lg:py-0'>
       <div className='container mx-auto'>
       <div className='flex flex-col gap-[20px] lg:pt-[200px] xl:pt-[250px]'>
             <span className='flex self-start bg-[#0088FF] py-2 px-5 text-white lg:text-[15px] xl:text-[16px] 2xl:text-sm font-medium rounded-3xl'>BLOG</span>
@@ -294,15 +296,14 @@ const Home = () => {
             </div>
         </div>
 
-        <div className='flex flex-col lg:flex-row justify-between mt-14'>
-          <CardBlog Image={BlogCardImage} Title='Monitoramento Comabe' Text='A Comabe ajuda sua empresa e ter mais controle sobre o seu parque de impressão e facilidade em diversos processos que vão tornar a rotina mais ágil e dinâmica'/>
-          <CardBlog Image={BlogCardImage} Title='Monitoramento Comabe' Text='A Comabe ajuda sua empresa e ter mais controle sobre o seu parque de impressão e facilidade em diversos processos que vão tornar a rotina mais ágil e dinâmica'/>
-          <CardBlog Image={BlogCardImage} Title='Monitoramento Comabe' Text='A Comabe ajuda sua empresa e ter mais controle sobre o seu parque de impressão e facilidade em diversos processos que vão tornar a rotina mais ágil e dinâmica'/>
+        <div className='flex flex-col lg:flex-row gap-12 mt-14'>
+          <CardBlog onClick={scrollToTop} BlogLink='/blog/um-metodo-de-gestao-empresarial-para-ganhar-tempo' Image="https://uploaddeimagens.com.br/images/003/975/887/full/capa_artigo%28_M%C3%A9todo_de_Gest%C3%A3o%29.png?1660152340" Title='Um método de gestão empresarial para ganhar tempo' Text='Conforme a tecnologia avança, diversos documentos tornam-se digitais. Bibliotecas inteiras podem ser encontradas na internet.'/>
+          <CardBlog onClick={scrollToTop} BlogLink='/blog/paperless-a-cultura-de-eficiencia' Image="https://uploaddeimagens.com.br/images/003/981/225/full/Componente_3_%E2%80%93_2.png?1660567162" Title='Paperless: A cultura da eficiência' Text='Nos últimos anos, diversas empresas depararam-se com a necessidade de se digitalizar.'/>
         </div>
 
       </div>
        </div>
-       */}
+      
 
       <Tarja 
       Background='bg-bg-tarja-home' 

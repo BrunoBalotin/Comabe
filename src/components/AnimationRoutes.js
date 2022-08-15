@@ -10,6 +10,8 @@ import BusinessScan from '../pages/BusinessScan'
 import Solucoes from '../pages/Solucoes'
 import Revendas from '../pages/Revendas'
 import Digitalizacao2 from '../pages/Digitalizacao copy'
+import { MetodoDeGestao } from '../pages/blog/MetodoDeGestao'
+import { Paperless } from '../pages/blog/Paperless'
 
 function AnimationRoutes() {
 
@@ -26,6 +28,9 @@ function AnimationRoutes() {
         <Route path='/contato' element={<Contato/>} />
         <Route path='/revendas' element={<Revendas/>} />
         <Route path='/digitaliza%C3%A7%C3%A3o'  element={<Digitalizacao2/>} />
+
+        <Route path='/blog/um-metodo-de-gestao-empresarial-para-ganhar-tempo' element={<MetodoDeGestao/>} />
+        <Route path='/blog/paperless-a-cultura-de-eficiencia' element={<Paperless/>} />
 
         
 
