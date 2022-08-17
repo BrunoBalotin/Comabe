@@ -38,7 +38,7 @@ function Digitalizacao2() {
 
   const onSubmitForm = (e) => {
 
-    if (selected.current.value === '0') {
+      if (selected.current.value === '0') {
       console.log("Valor nulo")
       e.preventDefault()
 
@@ -77,7 +77,7 @@ function Digitalizacao2() {
 
   const [buttonDisabled, setButtonDisabled] = useState(false)
 
-  const disableButton = () => {
+{/*   const disableButton = () => {
     setButtonDisabled(true)
 
     setTimeout(() => {
@@ -97,7 +97,7 @@ function Digitalizacao2() {
 
     }, 1000)
    
-  }
+  } */}
 
 
 
@@ -153,7 +153,7 @@ function Digitalizacao2() {
 
                       <div>
                         <InputMask
-                        mask='(99) 9999-9999'
+                        mask='(99) 9 9999-9999'
                         onChange={event => setPhone(event.target.value)}
                         value={phone}
                         className='w-full h-[55px] border border-[#6969699e] rounded-lg px-3 focus:border-[#fe7c1a] outline-none text-[#3a3a3a] text-[0.938rem]' type='tel' name='Telefone' placeholder='Telefone' required/>
@@ -190,8 +190,8 @@ function Digitalizacao2() {
                       </div>
 
                       <div className='mb-5'>
-                        <button onClick={disableButton} ref={formBtn} className={`w-full flex justify-center items-center ${buttonDisabled? 'bg-gray-400' : 'bg-green-600'} h-[55px] text-white font-bold text-[1.125rem] rounded-lg`} type='submit' disabled={buttonDisabled}>
-                          {buttonDisabled? `Aguarde ${countdown} segundos` : 'QUERO BAIXAR AGORA'}
+                        <button ref={formBtn} className={`w-full flex justify-center items-center  bg-green-600 h-[55px] text-white font-bold text-[1.125rem] rounded-lg`} type='submit'>
+                          {'QUERO BAIXAR AGORA'}
                         </button>
 
                         <div>
