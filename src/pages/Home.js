@@ -289,7 +289,7 @@ const Home = () => {
       <div className='w-full flex flex-col py-20 lg:py-0'>
       <div className='container mx-auto'>
       <div className='flex flex-col gap-[20px] lg:pt-[200px] xl:pt-[250px]'>
-            <span className='flex self-start bg-[#0088FF] py-2 px-5 text-white lg:text-[15px] xl:text-[16px] 2xl:text-sm font-medium rounded-3xl'>BLOG</span>
+            <span id='blog' className='flex self-start bg-[#0088FF] py-2 px-5 text-white lg:text-[15px] xl:text-[16px] 2xl:text-sm font-medium rounded-3xl'>BLOG</span>
             <div className='w-full gap-10 lg:gap-0 flex flex-col lg:flex-row lg:items-center justify-between'>
             <h2 className='text-3xl font-medium lg:w-[70%] text-titles]'>Veja nossas últimas publicações</h2>
             <span className='text-white bg-[#FF8800] w-50w lg:w-auto flex items-center p-3 pl-[20px] pr-[20px] rounded-full lg:text-[15px] xl:text-[16px] 2xl:text-sm font-medium gap-[10px]'><DocumentosBlog className='w-[18px] xl:w-[20px] 2xl:w-auto'/> Ver novidades</span>

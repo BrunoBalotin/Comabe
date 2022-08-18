@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import {ReactComponent as Logo} from '../images/logocomabe.svg'
 import { RiMenuAddFill } from 'react-icons/ri';
+import {HashLink} from 'react-router-hash-link'
 
 
 
@@ -11,6 +12,15 @@ function Navbar()  {
 
   const toggleMenu = () => {
     setOpenMenu(!openMenu)
+  }
+
+  const scrollToBlog = () => {
+    setTimeout(() => {
+      window.scrollTo({
+          top: 7200,
+          behavior: "smooth"
+        });
+  }, 300)
   }
 
   return (
@@ -27,6 +37,7 @@ function Navbar()  {
                         <Link className='lg:text-[15px] xl:text-[16px] 2xl:text-[18px] font-medium hover:text-[#0F5197] duration-500' to={'/business-scan'}>Business Scan</Link>
                         <Link className='lg:text-[15px] xl:text-[16px] 2xl:text-[18px] font-medium hover:text-[#0F5197] duration-500' to={'/produtos'}>Produtos</Link>
                         <Link className='lg:text-[15px] xl:text-[16px] 2xl:text-[18px] font-medium hover:text-[#0F5197] duration-500' to={'/solu%C3%A7%C3%B5es'}>Soluções</Link>
+                        <HashLink onClick={scrollToBlog} className='lg:text-[15px] xl:text-[16px] 2xl:text-[18px] font-medium hover:text-[#0F5197] duration-500' to={'/'}>Blog</HashLink>
                     </nav>
 
                     <div className='hidden sm:flex gap-[10px] items-center'>

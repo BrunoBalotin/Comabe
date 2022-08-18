@@ -38,7 +38,7 @@ function Footer() {
             top: 0,
             behavior: "smooth"
           });
-    }, 200)
+    }, 300)
 }
 
 
