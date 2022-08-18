@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 import { BlogCarousel } from '../../components/BlogCarousel'
 import Footer from '../../components/Footer'
@@ -8,6 +9,11 @@ export function Paperless() {
     
     return (
         <div className="bg-[#F6F6F6] w-full">
+            <Helmet>
+            <title>Blog - Paperless: A cultura da eficiência</title>
+            <meta name="description" content="Conforme a tecnologia avança, diversos documentos tornam-se digitais. Bibliotecas inteiras podem ser encontradas na internet." />
+            <meta name="keywords" content='gestão empresarial, fluxo documental, outsourcing, documentos digitais' />
+            </Helmet>
             <div className='max-w-[1138px] mx-auto'>
             <div className='flex py-10'>
                 <div className='flex-1'>

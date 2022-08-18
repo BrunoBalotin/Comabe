@@ -129,7 +129,7 @@ function Digitalizacao2() {
                   </p>
 
                   
-                  <form onSubmit={onSubmitForm} action='https://submit-form.com/W1mVX6hd' className='mt-8 flex flex-col gap-3'>
+                  <form onSubmit={onSubmitForm} action='https://submit-form.com/W1mVX6hd' className='mt-8 flex flex-col gap-3 form-lp'>
 
                   <input type="hidden" name="_email.template.title" value="Formulário - Landing Page - Digitalização" />
                   <input type="hidden" name="_email.template.footer" value="false" />
