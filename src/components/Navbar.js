@@ -9,7 +9,6 @@ import {HashLink} from 'react-router-hash-link'
 function Navbar()  {
 
   const [openMenu, setOpenMenu] = useState(0)
-  var responsiveBreakpoint = window.matchMedia("(max-width: 640px)")
 
   const toggleMenu = () => {
     setOpenMenu(!openMenu)
@@ -17,25 +16,11 @@ function Navbar()  {
 
   const scrollToBlog = () => {
 
-    if (responsiveBreakpoint.matches) {
-      setTimeout(() => {
-        window.scrollTo({
-            top: 9000,
-            behavior: "smooth"
-          });
-    }, 300)
-
-    } else {
-
-      setTimeout(() => {
-        window.scrollTo({
-            top: 7200,
-            behavior: "smooth"
-          });
-    }, 300)
-
-    }
-    
+    setTimeout(() => {
+      window.location.hash='blog'
+    }, 500)
+ 
+      
   }
 
   return (
