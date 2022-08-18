@@ -9,18 +9,33 @@ import {HashLink} from 'react-router-hash-link'
 function Navbar()  {
 
   const [openMenu, setOpenMenu] = useState(0)
+  var responsiveBreakpoint = window.matchMedia("(max-width: 640px)")
 
   const toggleMenu = () => {
     setOpenMenu(!openMenu)
   }
 
   const scrollToBlog = () => {
-    setTimeout(() => {
-      window.scrollTo({
-          top: 7200,
-          behavior: "smooth"
-        });
-  }, 300)
+
+    if (responsiveBreakpoint.matches) {
+      setTimeout(() => {
+        window.scrollTo({
+            top: 9000,
+            behavior: "smooth"
+          });
+    }, 300)
+
+    } else {
+
+      setTimeout(() => {
+        window.scrollTo({
+            top: 7200,
+            behavior: "smooth"
+          });
+    }, 300)
+
+    }
+    
   }
 
   return (
@@ -59,6 +74,7 @@ function Navbar()  {
     <Link className='text-[20px] sm:text-[24px] text-white font-medium hover:text-[#FF8800] duration-500' to={'/business-scan'}>Business Scan</Link>
     <Link className='text-[20px] sm:text-[24px] text-white font-medium hover:text-[#FF8800] duration-500' to={'/produtos'}>Produtos</Link>
     <Link className='text-[20px] sm:text-[24px] text-white font-medium hover:text-[#FF8800] duration-500' to={'/solu%C3%A7%C3%B5es'}>Soluções</Link>
+    <HashLink onClick={scrollToBlog} className='text-[20px] sm:text-[24px] text-white font-medium hover:text-[#FF8800] duration-500' to={'/'}>Blog</HashLink>
     <div className='flex sm:hidden flex-col gap-[10px] mt-[20px]'>
     <Link className='xl:text-[18px] sm:text-[24px] text-white font-medium border border-white px-[16px] py-[8px] rounded-full hover:bg-[#0F5197] hover:text-white duration-500' to={'/contato'}>Contato</Link>
     </div>
