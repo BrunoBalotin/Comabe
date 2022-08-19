@@ -19,7 +19,7 @@ const blogContent = [
     {
 
         "id": 2,
-        "imageurl": 'https://uploaddeimagens.com.br/images/003/981/236/full/capa_artigo_%28Paperless-Cultura_da_eficiencia%29.png?1660567572',
+        "imageurl": 'https://live.staticflickr.com/65535/52296114086_01e80c3a74_b.jpg',
         "title": 'Paperless: A cultura da eficiência',
         "description": 'Nos últimos anos, diversas empresas depararam-se com a necessidade de se digitalizar.',
         "link": '/blog/paperless-a-cultura-de-eficiencia',

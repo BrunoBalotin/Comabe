@@ -42,7 +42,7 @@ export function Paperless() {
                 <div className='mt-8'>
                     <div className='flex justify-between flex-col md:flex-row'>
                         <div className='md:w-[45%]'>
-                            <img src='https://uploaddeimagens.com.br/images/003/981/236/full/capa_artigo_%28Paperless-Cultura_da_eficiencia%29.png?1660567572' alt=''/>
+                            <img src='https://live.staticflickr.com/65535/52296114086_01e80c3a74_b.jpg' alt=''/>
                         </div>
 
                         <div className='md:w-[52%] flex flex-col gap-5'>

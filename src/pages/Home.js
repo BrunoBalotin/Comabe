@@ -298,7 +298,7 @@ const Home = () => {
 
         <div className='flex flex-col lg:flex-row gap-12 mt-14'>
           <CardBlog onClick={scrollToTop} BlogLink='/blog/um-metodo-de-gestao-empresarial-para-ganhar-tempo' Image="https://uploaddeimagens.com.br/images/003/975/887/full/capa_artigo%28_M%C3%A9todo_de_Gest%C3%A3o%29.png?1660152340" Title='Um método de gestão empresarial para ganhar tempo' Text='Conforme a tecnologia avança, diversos documentos tornam-se digitais. Bibliotecas inteiras podem ser encontradas na internet.'/>
-          <CardBlog onClick={scrollToTop} BlogLink='/blog/paperless-a-cultura-de-eficiencia' Image="https://uploaddeimagens.com.br/images/003/981/225/full/Componente_3_%E2%80%93_2.png?1660567162" Title='Paperless: A cultura da eficiência' Text='Nos últimos anos, diversas empresas depararam-se com a necessidade de se digitalizar.'/>
+          <CardBlog onClick={scrollToTop} BlogLink='/blog/paperless-a-cultura-de-eficiencia' Image="https://live.staticflickr.com/65535/52296114086_01e80c3a74_b.jpg" Title='Paperless: A cultura da eficiência' Text='Nos últimos anos, diversas empresas depararam-se com a necessidade de se digitalizar.'/>
           <CardBlog onClick={scrollToTop} BlogLink='/blog/organizacao-empresarial-maior-eficiencia-com-rotuladores' Image="https://uploaddeimagens.com.br/images/003/987/090/full/rotulador.png?1660910184" Title='Organização empresarial: Maior eficiência com rotuladores' Text='A organização é importante para eficiência e fluidez de processos em um ambiente profissional.'/>
         </div>
 
