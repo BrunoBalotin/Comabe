@@ -27,6 +27,17 @@ const blogContent = [
 
     },
 
+    {
+
+        "id": 3,
+        "imageurl": 'https://uploaddeimagens.com.br/images/003/987/090/full/rotulador.png?1660910184',
+        "title": 'Organização empresarial: Maior eficiência com rotuladores',
+        "description": 'A organização é importante para eficiência e fluidez de processos em um ambiente profissional.',
+        "link": '/blog/organizacao-empresarial-maior-eficiencia-com-rotuladores',
+        "data": "19/08/2022",
+
+    },
+
 
     
 ]

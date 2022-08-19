@@ -12,6 +12,7 @@ import Revendas from '../pages/Revendas'
 import Digitalizacao2 from '../pages/Digitalizacao copy'
 import { MetodoDeGestao } from '../pages/blog/MetodoDeGestao'
 import { Paperless } from '../pages/blog/Paperless'
+import { OrganizaoEmpresarial } from '../pages/blog/OrganizaçãoEmpresarial'
 
 function AnimationRoutes() {
 
@@ -31,6 +32,7 @@ function AnimationRoutes() {
 
         <Route path='/blog/um-metodo-de-gestao-empresarial-para-ganhar-tempo' element={<MetodoDeGestao/>} />
         <Route path='/blog/paperless-a-cultura-de-eficiencia' element={<Paperless/>} />
+        <Route path='/blog/organizacao-empresarial-maior-eficiencia-com-rotuladores' element={<OrganizaoEmpresarial/>} />
 
         
 
