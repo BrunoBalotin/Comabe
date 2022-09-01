@@ -88,11 +88,8 @@ export function BlogCarousel() {
                 ++ slideIndex
                 carousel.current.scrollLeft += slide.current.offsetWidth + margin
             }
-      
 
-        
-
-        
+            console.log(carousel.current.offsetWidth)
         
         
         console.log(slideIndex)
@@ -115,7 +112,7 @@ export function BlogCarousel() {
             <Link ref={slide} onClick={scrollToTop} key={blogcard.id} className='flex-none group w-[70.0%] sm:w-[32.8%] h-[320px] sm:h-[340px] lg:h-[430px] bg-white shadow-lg rounded-lg overflow-hidden' to={blogcard.link}>
             <div className="w-full h-full relative">
                 <div className="w-full sm:h-[160px] lg:h-[220px]">
-                    <img className="group-hover:scale-110 duration-300 h-full" src={blogcard.imageurl} alt=''/>
+                    <img className="group-hover:scale-110 duration-300" src={blogcard.imageurl} alt=''/>
                 </div>
 
             <div className="px-5 relative bottom-3">
