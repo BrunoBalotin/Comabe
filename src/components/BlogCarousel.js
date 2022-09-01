@@ -99,7 +99,7 @@ export function BlogCarousel() {
 
     return (
         <div className="max-w-[1138px] mx-auto">
-        <div className="flex justify-end gap-1 mb-3 mt-10">
+        <div className="justify-end gap-1 mb-3 mt-10 hidden sm:flex">
             <span onClick={handlePrevClick} className="cursor-pointer bg-[#FF8800] p-1 rounded-md">
                 <AiOutlineArrowLeft size={20} color="#FFF"/>
             </span>
