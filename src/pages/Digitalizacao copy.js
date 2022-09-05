@@ -46,10 +46,8 @@ function Digitalizacao2() {
       }, 5000)
 
     } else {
-
-      localStorage.setItem('token', 'valid')
       
-      setMessage("O download de seu E-book começará em breve!")
+      setMessage("Você será redirecionado para a página de download em breve!")
 
       
       setTimeout(() => {
@@ -134,7 +132,7 @@ function Digitalizacao2() {
                   <input type="hidden" name="_email.template.footer" value="false" />
                   <input type="hidden" name="_email.from" value="Comabe - Landing Page Digitalização" />
                   <input type="hidden" name="_email.subject" value="Novo Lead! - Digitalização" />
-                  <input type="hidden" name="_redirect" value='https://grupocomabe.com.br/obrigado' />
+                  <input type="hidden" name="_redirect" value={`https://grupocomabe.com.br/obrigado?=user-${email}`} />
 
                       <div>
                         <input
@@ -189,7 +187,7 @@ function Digitalizacao2() {
                       </div>
 
                       <div className='mb-5'>
-                        <button ref={formBtn} className={`w-full flex justify-center items-center  bg-green-600 h-[55px] text-white font-bold text-[1.125rem] rounded-lg`} type='submit'>
+                        <button onClick={() => localStorage.setItem('token', 'valid')} ref={formBtn} className={`w-full flex justify-center items-center  bg-green-600 h-[55px] text-white font-bold text-[1.125rem] rounded-lg`} type='submit'>
                           {'QUERO BAIXAR AGORA'}
                         </button>
 
