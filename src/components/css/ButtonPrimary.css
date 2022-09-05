@@ -18,6 +18,20 @@
     background: #00C140;
 }
 
+.orange {
+
+    background: #FF8800;
+    background-size: 100%;
+    background-position: 0px;
+    transition: 1s all;
+
+}
+
+.orange:hover {
+
+    background: #e67a00;
+}
+
 .transparent {
 
     background: transparent;

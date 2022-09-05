@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom'
 function Digitalizacao2() {
 
   useEffect(() => {
-    
+    localStorage.setItem('token', 'valid')
   }, [])
 
   const nameInput = useRef(null)
@@ -49,6 +49,8 @@ function Digitalizacao2() {
       }, 5000)
 
     } else {
+
+      localStorage.setItem('token', 'valid')
       
       setMessage("O download de seu E-book começará em breve!")
 
@@ -68,14 +70,14 @@ function Digitalizacao2() {
   const formBtn = useRef(null)
 
 
-  const [countdown, setCountdown] = useState(5)
+ // const [countdown, setCountdown] = useState(5)
 
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
   const [business, setBusiness] = useState('')
 
-  const [buttonDisabled, setButtonDisabled] = useState(false)
+ // const [buttonDisabled, setButtonDisabled] = useState(false)
 
 {/*   const disableButton = () => {
     setButtonDisabled(true)
@@ -135,7 +137,7 @@ function Digitalizacao2() {
                   <input type="hidden" name="_email.template.footer" value="false" />
                   <input type="hidden" name="_email.from" value="Comabe - Landing Page Digitalização" />
                   <input type="hidden" name="_email.subject" value="Novo Lead! - Digitalização" />
-                  <input type="hidden" name="_redirect" value='https://drive.google.com/u/0/uc?id=1OHGVk2AOl-WsKXWk2xB9G1t4L2NdGDGX&export=download' />
+                  <input type="hidden" name="_redirect" value='https://grupocomabe.com.br/obrigado' />
 
                       <div>
                         <input
