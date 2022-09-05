@@ -22,6 +22,10 @@ export function Obrigado() {
 
     useEffect(() => {
         checkToken()
+
+        setTimeout(() => {
+            localStorage.removeItem('token')
+        }, 5000)
     }, [])
 
 
