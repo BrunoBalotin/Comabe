@@ -13,9 +13,6 @@ import { Link } from 'react-router-dom'
 
 function Digitalizacao2() {
 
-  useEffect(() => {
-    localStorage.setItem('token', 'valid')
-  }, [])
 
   const nameInput = useRef(null)
   
