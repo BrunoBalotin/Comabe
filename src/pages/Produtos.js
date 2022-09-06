@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {ReactComponent as Mouse} from '../images/mouse.svg'
 import {motion} from "framer-motion"
 import Filtro from '../components/Filtro'
@@ -17,6 +17,30 @@ const Produtos= () => {
           });
     }, 200)
 }
+
+useEffect(() => {
+  if (document.location.hash === '#rotulador') {
+    setTimeout(() => {
+      document.querySelector("#rotulador").scrollIntoView( { behavior: "smooth", block: "start"})
+    }, 500)
+  } else if (document.location.hash === '#impressora') {
+    setTimeout(() => {
+      document.querySelector("#impressora").scrollIntoView( { behavior: "smooth", block: "start"})
+    }, 500)
+  } else if (document.location.hash === '#multifuncional') {
+    setTimeout(() => {
+      document.querySelector("#multifuncional").scrollIntoView( { behavior: "smooth", block: "start"})
+    }, 500)
+  } else if (document.location.hash === '#scanner') {
+    setTimeout(() => {
+      document.querySelector("#scanner").scrollIntoView( { behavior: "smooth", block: "start"})
+    }, 500)
+  } else if (document.location.hash === '#suprimento') {
+    setTimeout(() => {
+      document.querySelector("#suprimento").scrollIntoView( { behavior: "smooth", block: "start"})
+    }, 500)
+  }
+}, [])
 
 
   return (
