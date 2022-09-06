@@ -224,25 +224,25 @@ const Home = () => {
             <div className='h-44 flex items-center justify-center'><img className='w-70w xl:w-4/5 2xl:w-auto' src={ImpressoraHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Impressoras</h3>
             
-            <HashLink onClick={scrollToTop} className='text-sm text-[#0F5197] font-medium' to={"/produtos"}>VER IMPRESSORAS</HashLink>
+            <HashLink className='text-sm text-[#0F5197] font-medium' to={"/produtos#impressora"}>VER IMPRESSORAS</HashLink>
           </div>
           <div className='w-full sm:w-2/4 lg:w-48w xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='w-70w xl:w-4/5 2xl:w-auto' src={MultifuncionalHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Multifuncionais</h3>
             
-            <HashLink onClick={scrollToTop} className='text-sm text-[#0F5197] font-medium' to={'/produtos'}>VER MULTIFUNCIONAIS</HashLink>
+            <HashLink className='text-sm text-[#0F5197] font-medium' to={'/produtos#multifuncional'}>VER MULTIFUNCIONAIS</HashLink>
           </div>
           <div className='w-full sm:w-2/4 lg:w-48w xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='w-70w xl:w-4/5 2xl:w-auto' src={ScannerHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Scanners</h3>
             
-            <HashLink onClick={scrollToTop} className='text-sm text-[#0F5197] font-medium' to={'/produtos'}>VER SCANNERS</HashLink>
+            <HashLink className='text-sm text-[#0F5197] font-medium' to={'/produtos#scanner'}>VER SCANNERS</HashLink>
           </div>
           <div className='w-full sm:w-2/4 lg:w-48w xl:w-24w 2xl:w-24w py-5 shadow-shadow-card rounded-2xl flex flex-col items-center justify-center'>
             <div className='h-44 flex items-center justify-center'><img className='w-70w xl:w-4/5 2xl:w-auto' src={RotuladorHome} alt='' /></div>
             <h3 className='text-xl text-titles font-medium mb-8'>Rotuladores</h3>
             
-            <HashLink onClick={scrollToTop} className='text-sm text-[#0F5197] font-medium' to={'/produtos'}>VER ROTULADORES</HashLink>
+            <HashLink className='text-sm text-[#0F5197] font-medium' to={'/produtos#rotulador'}>VER ROTULADORES</HashLink>
           </div>
         </div>
       </div>
