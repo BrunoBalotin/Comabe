@@ -14,6 +14,7 @@ import { MetodoDeGestao } from '../pages/blog/MetodoDeGestao'
 import { Paperless } from '../pages/blog/Paperless'
 import { OrganizaoEmpresarial } from '../pages/blog/OrganizaçãoEmpresarial'
 import { Obrigado } from '../pages/Obrigado'
+import { ScannerBrother } from '../pages/blog/ScannerBrother'
 
 function AnimationRoutes() {
 
@@ -35,6 +36,7 @@ function AnimationRoutes() {
         <Route path='/blog/um-metodo-de-gestao-empresarial-para-ganhar-tempo' element={<MetodoDeGestao/>} />
         <Route path='/blog/paperless-a-cultura-de-eficiencia' element={<Paperless/>} />
         <Route path='/blog/organizacao-empresarial-maior-eficiencia-com-rotuladores' element={<OrganizaoEmpresarial/>} />
+        <Route path='/blog/4-vantagens-para-secretaria-escolar' element={<ScannerBrother/>} />
 
         
 

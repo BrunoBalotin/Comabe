@@ -8,6 +8,17 @@ const blogContent = [
     {
 
         "id": 1,
+        "imageurl": 'https://uploaddeimagens.com.br/images/004/016/366/full/Scanner_escola_2.png?1662745614',
+        "title": 'Scanner Brother: 4 vantagens para secretaria escolar',
+        "description": 'As mudanças de legislação oportunizam a digitalização dos documentos escolares em instituições de ensino.',
+        "link": '/blog/4-vantagens-para-secretaria-escolar',
+        "data": "09/09/2022",
+
+    },
+
+    {
+
+        "id": 2,
         "imageurl": 'https://uploaddeimagens.com.br/images/003/975/887/full/capa_artigo%28_M%C3%A9todo_de_Gest%C3%A3o%29.png?1660152340',
         "title": 'Um metódo de gestão empresarial para ganhar tempo',
         "description": 'Conforme a tecnologia avança, diversos documentos tornam-se digitais. Bibliotecas inteiras podem ser encontradas na internet.',
@@ -18,7 +29,7 @@ const blogContent = [
 
     {
 
-        "id": 2,
+        "id": 3,
         "imageurl": 'https://uploaddeimagens.com.br/images/003/993/154/full/capa_artigo_%28Paperless-Cultura_da_eficiencia%29.png?1661278376',
         "title": 'Paperless: A cultura da eficiência',
         "description": 'Nos últimos anos, diversas empresas depararam-se com a necessidade de se digitalizar.',
@@ -29,7 +40,7 @@ const blogContent = [
 
     {
 
-        "id": 3,
+        "id": 4,
         "imageurl": 'https://uploaddeimagens.com.br/images/003/987/090/full/rotulador.png?1660910184',
         "title": 'Organização empresarial: Maior eficiência com rotuladores',
         "description": 'A organização é importante para eficiência e fluidez de processos em um ambiente profissional.',
