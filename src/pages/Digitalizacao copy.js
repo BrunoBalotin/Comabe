@@ -15,6 +15,11 @@ function Digitalizacao2() {
 
 
   const nameInput = useRef(null)
+
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
+  const [business, setBusiness] = useState('')
   
   const scrollToForm = () => {
 
@@ -35,7 +40,15 @@ function Digitalizacao2() {
 
   const onSubmitForm = (e) => {
 
-      if (selected.current.value === '0') {
+   
+
+    if (phone.length < 16) {
+      console.log(phone.length)
+      setMessage("Por favor digite um número de telefone válido")
+      e.preventDefault()
+    }
+
+     else if (selected.current.value === '0') {
       console.log("Valor nulo")
       e.preventDefault()
 
@@ -67,10 +80,7 @@ function Digitalizacao2() {
 
  // const [countdown, setCountdown] = useState(5)
 
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [phone, setPhone] = useState('')
-  const [business, setBusiness] = useState('')
+
 
  // const [buttonDisabled, setButtonDisabled] = useState(false)
 
@@ -150,6 +160,8 @@ function Digitalizacao2() {
 
                       <div>
                         <InputMask
+                        maskChar={null}
+                        minlength="27"
                         mask='(99) 9 9999-9999'
                         onChange={event => setPhone(event.target.value)}
                         value={phone}
