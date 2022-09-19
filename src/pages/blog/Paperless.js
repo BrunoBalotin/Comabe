@@ -51,11 +51,11 @@ export function Paperless() {
                             </p>
 
                             <p className='blog-p'>
-                                O próprio governo brasileiro passou a resolver processos de maneira digital, buscando soluções modernas, como aplicativos e processos virtuais.
+                                A burocracia de escritórios de contabilidade tem reduzido drasticamente conforme organizações migram para o uso de arquivos digitais.
                             </p>
 
                             <p className='blog-p'>
-                                A documentação física, que sempre foi burocrática e demorada, tem se tornado cada vez mais simples, por exemplo, com a abertura de contas em bancos.
+                                Hospitais têm emitido laudos e prontuários rápidos, precisos e eficientes utilizando soluções virtuais para a emissão de documentos. 
                             </p>
 
                             
@@ -65,7 +65,7 @@ export function Paperless() {
                     <div className='mt-10'>
                         <div className='flex flex-col gap-5'>
                         <p className='blog-p'>
-                            A digitalização é importante. 
+                            A digitalização é fundamental.  
                         </p>
 
 
@@ -74,7 +74,7 @@ export function Paperless() {
                         </p>
 
                         <p className='blog-p'>
-                            Esta transição indica um coisa:
+                            Esta transformação proporciona melhorias na comunicação, organização e armazenamento de informações de negócios.
                         </p>
 
                         <p className='blog-p'>
@@ -82,11 +82,11 @@ export function Paperless() {
                         </p>
 
                         <p>
-                            Muitas empresas têm abraçado a cultura Paperless, o uso de menos papéis físicos, com documentos em um banco de dados exclusivo do negócio.
+                            Muitas empresas têm adotado a cultura Paperless, com menor utilização de papéis físicos e um melhor gerenciamento dos documentos digitais.
                         </p>
 
                         <p>
-                            Esta mudança oferece diversos benefícios às instituições, tais como:
+                            Esta mudança oferece diversos benefícios, tais como:
                         </p>
 
                         <p className='blog-p'>
@@ -94,7 +94,7 @@ export function Paperless() {
                         </p>
 
                         <p className='blog-p'>
-                            2. <strong>Impressão em qualquer lugar: </strong> documentos digitalizados podem ser impressos por pessoas autorizadas em qualquer lugar com um computador e uma impressora.
+                            2. <strong>Impressão em qualquer lugar: </strong> Documentos digitalizados podem ser impressos por pessoas autorizadas em qualquer lugar com um computador e uma impressora.
                         </p>
 
                         <p className='blog-p'>
@@ -106,7 +106,7 @@ export function Paperless() {
                         </p>
 
                         <p className='blog-p'>
-                        A Digitalização é um processo que exige um método definido e organizado. Para isto, empresas especializadas, como a Comabe, possuem soluções de gestão para fluxos documentais automatizados, digitalização estruturada de documentos de RH, contratos, notas fiscais e despesas. 
+                        A Digitalização pode ser um processo demorado e cansativo, exigindo um método definido e organizado. Para isto, empresas especializadas, como a Comabe, possuem soluções de gestão para fluxos documentais automatizados, digitalização estruturada de documentos de RH, contratos, notas fiscais e despesas.  
                         </p>
                         </div>
                     </div>
