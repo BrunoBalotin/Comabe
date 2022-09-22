@@ -15,6 +15,7 @@ import { Paperless } from '../pages/blog/Paperless'
 import { OrganizaoEmpresarial } from '../pages/blog/OrganizaçãoEmpresarial'
 import { Obrigado } from '../pages/Obrigado'
 import { ScannerBrother } from '../pages/blog/ScannerBrother'
+import { UFS } from '../pages/blog/UFS'
 
 function AnimationRoutes() {
 
@@ -37,6 +38,7 @@ function AnimationRoutes() {
         <Route path='/blog/paperless-a-cultura-de-eficiencia' element={<Paperless/>} />
         <Route path='/blog/organizacao-empresarial-maior-eficiencia-com-rotuladores' element={<OrganizaoEmpresarial/>} />
         <Route path='/blog/4-vantagens-para-secretaria-escolar' element={<ScannerBrother/>} />
+        <Route path='/blog/como-a-ufs-encontrou-documentos-perdidos-atraves-da-digitaliza%C3%A7%C3%A3o' element={<UFS/>} />
 
         
 
