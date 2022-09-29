@@ -16,6 +16,7 @@ import { OrganizaoEmpresarial } from '../pages/blog/OrganizaçãoEmpresarial'
 import { Obrigado } from '../pages/Obrigado'
 import { ScannerBrother } from '../pages/blog/ScannerBrother'
 import { UFS } from '../pages/blog/UFS'
+import { OitoCuidados } from '../pages/blog/OitoCuidados'
 
 function AnimationRoutes() {
 
@@ -39,6 +40,7 @@ function AnimationRoutes() {
         <Route path='/blog/organizacao-empresarial-maior-eficiencia-com-rotuladores' element={<OrganizaoEmpresarial/>} />
         <Route path='/blog/4-vantagens-para-secretaria-escolar' element={<ScannerBrother/>} />
         <Route path='/blog/como-a-ufs-encontrou-documentos-perdidos-atraves-da-digitaliza%C3%A7%C3%A3o' element={<UFS/>} />
+        <Route path='/blog/8-cuidados-que-você-precisa-ter-para-o-bom-funcionamento-de-sua-impressora' element={<OitoCuidados/>} />
 
         
 
