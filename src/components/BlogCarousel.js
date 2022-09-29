@@ -11,7 +11,7 @@ const blogContent = [
         "imageurl": 'https://uploaddeimagens.com.br/images/004/041/516/full/Bom_funcionamento.png?1664451506',
         "title": '8 Cuidados que você precisa ter para o bom funcionamento de sua impressora',
         "description": 'As impressoras facilitam muito a vida de quem trabalha constantemente com documentos físicos, seja em escritórios, setores públicos ou hospitais.',
-        "link": '/blog/8-cuidados-que-você-precisa-ter-para-o-bom-funcionamento-de-sua-impressora',
+        "link": '/blog/bom-funcionamento-de-sua-impressora',
         "data": "29/09/2022",
 
     },
@@ -154,14 +154,14 @@ export function BlogCarousel() {
                 </span>
             </div>
 
-            <div className="px-5 mt-2 h-[50px]">
+            <div className="px-5 mt-2 h-[75px]">
                 <h2 className="font-medium text-lg">
                     {blogcard.title}
                 </h2>
             </div>
 
             <div className="px-5 mt-5">
-                <p className="text-[#343434] font-thin ">
+                <p className="text-[#343434] font-thin text-ellipsis description-carousel">
                     {blogcard.description}
                 </p>
             </div>

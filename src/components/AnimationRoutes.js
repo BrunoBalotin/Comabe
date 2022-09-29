@@ -40,7 +40,7 @@ function AnimationRoutes() {
         <Route path='/blog/organizacao-empresarial-maior-eficiencia-com-rotuladores' element={<OrganizaoEmpresarial/>} />
         <Route path='/blog/4-vantagens-para-secretaria-escolar' element={<ScannerBrother/>} />
         <Route path='/blog/como-a-ufs-encontrou-documentos-perdidos-atraves-da-digitaliza%C3%A7%C3%A3o' element={<UFS/>} />
-        <Route path='/blog/8-cuidados-que-você-precisa-ter-para-o-bom-funcionamento-de-sua-impressora' element={<OitoCuidados/>} />
+        <Route path='/blog/bom-funcionamento-de-sua-impressora' element={<OitoCuidados/>} />
 
         
 
