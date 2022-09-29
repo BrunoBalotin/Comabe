@@ -200,6 +200,14 @@ border-radius: 8px;
     overflow: hidden;
 }
 
+.description-carousel {
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 .obrigado-bg {
 
     width: 100vw;
