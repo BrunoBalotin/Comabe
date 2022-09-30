@@ -217,8 +217,7 @@ function Digitalizacao2() {
 
             <div className='lg:w-[45%] flex lg:block mt-16 lg:mt-0 justify-between'>
               <div className='sm:w-[60%] lg:w-full'>
-              <h1 className='text-[2.75rem] text-white font-bold lg:w-[85%]'>CHEGA DE <strong className='text-[#fe7c1a]'>RASGAR</strong> DINHEIRO</h1>
-              <h2 className='text-[1.25rem] text-white font-light lg:w-[90%] mt-5'>Reduza até <strong className='font-bold'>R$50.000,00</strong> por ano dos custos com <strong className='font-bold'>IMPRESSÕES DE DOCUMENTOS</strong> da sua empresa</h2>
+              <h1 className='text-[2.75rem] text-white font-bold lg:w-[85%]'>DIGITALIZAÇÃO DE <strong className='text-[#fe7c1a]'>DOCUMENTOS</strong> PARA EMPRESAS</h1>
               </div>
               <div className='hidden sm:block lg:pt-10 max-w-[400px] lg:max-w-[585px] w-full'>
                 <img className='lg:max-w-[585px] w-full object-cover lg:h-[460px] relative right-8' src='https://static.wixstatic.com/media/0c951b_1e8ea8a00c85466195016e9eaf46bbb8~mv2.png/v1/fill/w_585,h_414,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0c951b_1e8ea8a00c85466195016e9eaf46bbb8~mv2.png' alt='ebook' />
