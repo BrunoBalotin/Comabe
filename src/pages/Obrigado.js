@@ -8,26 +8,6 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa"
 
 export function Obrigado() {
 
-    const navigate = useNavigate()
-
-    const token = localStorage.getItem('token')
-
-    console.log(token)
-
-    function checkToken() {
-        if (token === null) {
-            navigate('/digitaliza%C3%A7%C3%A3o')
-        }
-    }
-
-    useEffect(() => {
-        checkToken()
-
-        setTimeout(() => {
-            localStorage.removeItem('token')
-        }, 5000)
-    }, [])
-
 
     return (
         <main className="obrigado-bg">

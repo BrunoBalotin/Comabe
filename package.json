@@ -5,7 +5,10 @@
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.6.9",
+    "@chakra-ui/react": "^2.3.4",
     "@emailjs/browser": "^3.6.2",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "@graphql-codegen/cli": "^2.6.2",
     "@tabler/icons": "^1.76.0",
     "@testing-library/jest-dom": "^5.16.4",

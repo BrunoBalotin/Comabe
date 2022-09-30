@@ -9,7 +9,7 @@ import QuemSomos from '../pages/QuemSomos'
 import BusinessScan from '../pages/BusinessScan'
 import Solucoes from '../pages/Solucoes'
 import Revendas from '../pages/Revendas'
-import Digitalizacao2 from '../pages/Digitalizacao copy'
+import Digitalizacao from '../pages/Digitalizacao'
 import { MetodoDeGestao } from '../pages/blog/MetodoDeGestao'
 import { Paperless } from '../pages/blog/Paperless'
 import { OrganizaoEmpresarial } from '../pages/blog/OrganizaçãoEmpresarial'
@@ -17,6 +17,8 @@ import { Obrigado } from '../pages/Obrigado'
 import { ScannerBrother } from '../pages/blog/ScannerBrother'
 import { UFS } from '../pages/blog/UFS'
 import { OitoCuidados } from '../pages/blog/OitoCuidados'
+import Digitalizacao2 from '../pages/Digitalizacao2'
+import Digitalizacao3 from '../pages/Digitalizacao3'
 
 function AnimationRoutes() {
 
@@ -32,7 +34,9 @@ function AnimationRoutes() {
         <Route path='/solu%C3%A7%C3%B5es' element={<Solucoes/>} />
         <Route path='/contato' element={<Contato/>} />
         <Route path='/revendas' element={<Revendas/>} />
-        <Route path='/digitaliza%C3%A7%C3%A3o'  element={<Digitalizacao2/>} />
+        <Route path='/digitaliza%C3%A7%C3%A3o'  element={<Digitalizacao/>} />
+        <Route path='/digitaliza%C3%A7%C3%A3o$2' exact element={<Digitalizacao2/>} />
+        <Route path='/digitaliza%C3%A7%C3%A3o$3' exact element={<Digitalizacao3/>} />
         <Route path='/obrigado' element={<Obrigado/>} />
 
         <Route path='/blog/um-metodo-de-gestao-empresarial-para-ganhar-tempo' element={<MetodoDeGestao/>} />
