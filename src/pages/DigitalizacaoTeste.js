@@ -138,10 +138,10 @@ function DigitalizacaoTeste() {
                   
                   <form onSubmit={onSubmitForm} action='https://submit-form.com/UnpTkBCT' className='mt-8 flex flex-col gap-3 form-lp'>
 
-                  <input type="hidden" name="_email.template.title" value="Formulário - Landing Page - Digitalização" />
+                  <input type="hidden" name="_email.template.title" value="Formulário - !TESTE!" />
                   <input type="hidden" name="_email.template.footer" value="false" />
-                  <input type="hidden" name="_email.from" value="Comabe - Landing Page Digitalização" />
-                  <input type="hidden" name="_email.subject" value="Novo Lead! - Digitalização" />
+                  <input type="hidden" name="_email.from" value="Formulário - !TESTE!" />
+                  <input type="hidden" name="_email.subject" value="Formulário - !TESTE!" />
                   <input type="hidden" name="_redirect" value={`https://grupocomabe.com.br/obrigado-teste`} />
 
                       <div>
