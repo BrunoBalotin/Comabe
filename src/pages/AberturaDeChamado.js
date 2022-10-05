@@ -11,16 +11,16 @@ export const AberturaDeChamado = () => {
 
     return (
         <Box backgroundImage='/images/bg-chamado.png' backgroundSize='cover' w='100%' h='100vh' display='flex' justifyContent='center' alignItems='center'>
-            <Box bg='#FFF' boxShadow='0px 4px 15px 0px #00000020' w='600px' h={{'2xl':'800px'}} borderRadius='16px' overflow='auto'>
-                <Box backgroundImage='/images/bg-form.png' backgroundSize='cover' w='100%' h={{lg: '120px', '2xl': '160px'}} backgroundPosition='0px -140px' paddingBottom='30px' display='flex' flexDirection='column' justifyContent='center' paddingLeft='20px'>
-                    <Image w='200px' src='/images/logo.png' />
-                    <Text paddingLeft='16px' lineHeight='0' color='#FFF'>
+            <Box bg='#FFF' boxShadow='0px 4px 15px 0px #00000020' w={{sm: '360px', md: '600px'}} h={{sm: '600px', lg: 'auto', '2xl':'800px'}} borderRadius='16px' overflow='auto'>
+                <Box backgroundImage='/images/bg-form.png' backgroundSize='cover' w='100%' h={{sm: '90px', lg: '120px', '2xl': '160px'}} backgroundPosition={{md: '0px -140px'}} paddingBottom={{md: '30px'}} display='flex' flexDirection='column' justifyContent='center' paddingLeft='20px'>
+                    <Image w={{sm: '100px', md: '200px'}} src='/images/logo.png' />
+                    <Text paddingLeft={{sm: '8px', md: '16px'}} lineHeight={{sm: '1', md: '0'}} color='#FFF'>
                         Soluções <strong>personalizadas</strong> para simplificar a rotina da sua empresa
                     </Text>
                 </Box>
 
                 <Box padding='20px'>
-                    <Heading as='h1' fontSize='28px' textTransform='uppercase' fontWeight='900'>
+                    <Heading as='h1' fontSize={{sm: '20px', md: '28px'}} textTransform='uppercase' fontWeight='900'>
                         Abertura de Chamado
                     </Heading>
 
@@ -33,27 +33,27 @@ export const AberturaDeChamado = () => {
                             <input type="hidden" name="_redirect" value={`https://grupocomabe.com.br/abertura-de-chamado`} />
 
                             <Stack>
-                            <Input required value={cpfCnpj} onChange={(event, type) => { setCpfCnpj(event.target.value); setMask(type === "CPF") }} as={CpfCnpj} w='100%' h={{xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px'
+                            <Input required value={cpfCnpj} onChange={(event, type) => { setCpfCnpj(event.target.value); setMask(type === "CPF") }} as={CpfCnpj} w='100%' h={{sm: '36px', xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px'
                             placeholder="CNPJ/CPF"
                             name="CNPJ/CPF"
 
                             />
-                            <Input required w='100%' h={{xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px'
+                            <Input required w='100%' h={{sm: '36px', xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px'
                             placeholder="Nome Completo"
                             name="Nome Completo"
                             />
 
-                            <Input required mask='(99) 9 9999-9999' as={InputMask} w='100%' h={{xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px'
+                            <Input required mask='(99) 9 9999-9999' as={InputMask} w='100%' h={{sm: '36px', xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px'
                             placeholder="Telefone"
                             name="Telefone"
                             />
 
-                            <Input required w='100%' h={{xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px'
+                            <Input required w='100%' h={{sm: '36px', xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px'
                             placeholder="Local e Endereço"
                             name="Local e Endereço"
                             />
 
-                            <Select required name="Modelo da Impressora" w='100%' h={{xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' placeholder='Modelo da Impressora' size='lg'>
+                            <Select required name="Modelo da Impressora" w='100%' h={{sm: '36px', xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' placeholder='Modelo da Impressora' size='lg'>
                                 <option disabled></option>
                                 <option className="font-black" disabled>BROTHER</option>
                                 <option value='Brother DCP-8157DN'>Brother DCP-8157DN</option>
@@ -107,16 +107,16 @@ export const AberturaDeChamado = () => {
 
                             </Select>
 
-                            <Input required w='100%' h={{xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px'
+                            <Input required w='100%' h={{sm: '36px', xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px'
                             placeholder="Número de Série"
                             name="Número de Série"
                             />
 
-                            <Textarea placeholder="Descrição do Defeito" w='100%' h={{lg: '100px', '2xl':'120px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px' paddingTop='12px'/>
+                            <Textarea placeholder="Descrição do Defeito" w='100%' h={{sm: '100px', xl: '80px', '2xl':'120px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px' paddingTop='12px'/>
                             </Stack>
 
                             <Box display='flex' justifyContent='flex-end'>
-                            <Button type='submit' className="ButtonPrimary" color='#FFF' w='120px' h={{xl: '40px', '2xl':'52px'}} borderRadius='6px' marginTop='12px' fontSize='18px' fontWeight='600'> 
+                            <Button type='submit' className="ButtonPrimary" color='#FFF' w='120px' h={{sm: '36px', xl: '40px', '2xl':'52px'}} borderRadius='6px' marginTop='12px' fontSize='18px' fontWeight='600'> 
                                 Enviar
                             </Button>
                             </Box>
