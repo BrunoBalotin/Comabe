@@ -25,7 +25,13 @@ export const AberturaDeChamado = () => {
                     </Heading>
 
                     <Box marginTop='12px'>
-                        <form>
+                        <form action="https://submit-form.com/yjUTgExK">
+                            <input type="hidden" name="_email.template.title" value="Formulário - Abertura de Chamado" />
+                            <input type="hidden" name="_email.template.footer" value="false" />
+                            <input type="hidden" name="_email.from" value="https://grupocomabe.com.br/abertura-de-chamado" />
+                            <input type="hidden" name="_email.subject" value="Formulário - Abertura de Chamado" />
+                            <input type="hidden" name="_redirect" value={`https://grupocomabe.com.br/abertura-de-chamado`} />
+
                             <Stack>
                             <Input required value={cpfCnpj} onChange={(event, type) => { setCpfCnpj(event.target.value); setMask(type === "CPF") }} as={CpfCnpj} w='100%' h={{xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px'
                             placeholder="CNPJ/CPF"
@@ -50,53 +56,53 @@ export const AberturaDeChamado = () => {
                             <Select required name="Modelo da Impressora" w='100%' h={{xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' placeholder='Modelo da Impressora' size='lg'>
                                 <option disabled></option>
                                 <option className="font-black" disabled>BROTHER</option>
-                                <option>Brother DCP-8157DN</option>
-                                <option>Brother MFC-8952DW</option>
-                                <option>Brother HL-5452DN</option>
-                                <option>Brother DCP-7065DN</option>
-                                <option>Brother MFC-7460DN</option>
-                                <option>Brother HL-2270FW</option>
-                                <option>Brother DCP-L2540DW</option>
-                                <option>Brother HL-2360DW</option>
-                                <option>Brother-B7535DW</option>
-                                <option>Brother DCP-L5652DN</option>
-                                <option>Brother MFC-L6702DW</option>
-                                <option>Brother MFC-L6902DW</option>
-                                <option>Brother HL-L6202DW</option>
-                                <option>Brother MFC-T4500DW</option>
-                                <option>Brother DCP-T420W / DCP-T720W / DCP-T820W</option>
-                                <option>Brother DCP-T500W / DCP-T700W</option>
-                                <option>Brother DCP-T510W</option>
+                                <option value='Brother DCP-8157DN'>Brother DCP-8157DN</option>
+                                <option value='Brother MFC-8952DW'>Brother MFC-8952DW</option>
+                                <option value='Brother HL-5452DN'>Brother HL-5452DN</option>
+                                <option value='Brother DCP-7065DN'>Brother DCP-7065DN</option>
+                                <option value='Brother MFC-7460DN'>Brother MFC-7460DN</option>
+                                <option value='Brother HL-2270FW'>Brother HL-2270FW</option>
+                                <option value='Brother DCP-L2540DW'>Brother DCP-L2540DW</option>
+                                <option value='Brother HL-2360DW'>Brother HL-2360DW</option>
+                                <option value='Brother-B7535DW'>Brother-B7535DW</option>
+                                <option value='Brother DCP-L5652DN'>Brother DCP-L5652DN</option>
+                                <option value='Brother MFC-L6702DW'>Brother MFC-L6702DW</option>
+                                <option value='Brother MFC-L6902DW'>Brother MFC-L6902DW</option>
+                                <option value='Brother HL-L6202DW'>Brother HL-L6202DW</option>
+                                <option value='Brother MFC-T4500DW'>Brother MFC-T4500DW</option>
+                                <option value='Brother DCP-T420W / DCP-T720W / DCP-T820W'>Brother DCP-T420W / DCP-T720W / DCP-T820W</option>
+                                <option value='Brother DCP-T500W / DCP-T700W'>Brother DCP-T500W / DCP-T700W</option>
+                                <option value='Brother DCP-T510W'>Brother DCP-T510W</option>
                                 <option disabled></option>
                                 <option className="font-black" disabled>EPSON</option>
-                                <option>Epson M1180</option>
-                                <option>Epson M3180</option>
-                                <option>Epson WF-C5710</option>
-                                <option>Epson WF-C5790</option>
-                                <option>Epson WF-M5799</option>
-                                <option>Epson WF-M5299</option>
-                                <option>Epson L6191</option>
-                                <option>Epson L1455</option>
-                                <option>Epson L15150</option>
-                                <option>Epson L656</option>
+                                <option value='Epson M1180'>Epson M1180</option>
+                                <option value='Epson M3180'>Epson M3180</option>
+                                <option value='Epson WF-C5710'>Epson WF-C5710</option>
+                                <option value='Epson WF-C5790'>Epson WF-C5790</option>
+                                <option value='Epson WF-M5799'>Epson WF-M5799</option>
+                                <option value='Epson WF-M5299'>Epson WF-M5299</option>
+                                <option value='Epson L6191'>Epson L6191</option>
+                                <option value='Epson L1455'>Epson L1455</option>
+                                <option value='Epson L15150'>Epson L15150</option>
+                                <option value='Epson L656'>Epson L656</option>
                                 <option disabled></option>
                                 <option className="font-black" disabled>KYOCERA</option>
-                                <option>Kyocera M2040dn</option>
-                                <option>Kyocera KM-2810</option>
-                                <option>Kyocera KM-2820</option>
-                                <option>Kyocera M2035dn</option>
-                                <option>Kyocera M1035dn</option>
-                                <option>Kyocera M3640idn</option>
-                                <option>Kyocera M3655idn</option>
-                                <option>Kyocera FS4200dn</option>
+                                <option value='Kyocera M2040dn'>Kyocera M2040dn</option>
+                                <option value='Kyocera KM-2810'>Kyocera KM-2810</option>
+                                <option value='Kyocera KM-2820'>Kyocera KM-2820</option>
+                                <option value='Kyocera M2035dn'>Kyocera M2035dn</option>
+                                <option value='Kyocera M1035dn'>Kyocera M1035dn</option>
+                                <option value='Kyocera M3640idn'>Kyocera M3640idn</option>
+                                <option value='Kyocera M3655idn'>Kyocera M3655idn</option>
+                                <option value='Kyocera FS4200dn'>Kyocera FS4200dn</option>
                                 <option disabled></option>
                                 <option className="font-black" disabled>RICOH</option>
-                                <option>Ricoh M320F</option>
-                                <option>Ricoh P311</option>
-                                <option>Ricoh IM430F</option>
+                                <option value='Ricoh M320F'>Ricoh M320F</option>
+                                <option value='Ricoh P311'>Ricoh P311</option>
+                                <option value='Ricoh IM430F'>Ricoh IM430F</option>
                                 <option disabled></option>
                                 <option className="font-black" disabled>XEROX</option>
-                                <option>Xerox C7020</option>
+                                <option value='Xerox C7020'>Xerox C7020</option>
 
 
                             </Select>
@@ -110,7 +116,7 @@ export const AberturaDeChamado = () => {
                             </Stack>
 
                             <Box display='flex' justifyContent='flex-end'>
-                            <Button className="ButtonPrimary" color='#FFF' w='120px' h={{xl: '40px', '2xl':'52px'}} borderRadius='6px' marginTop='12px' fontSize='18px' fontWeight='600'> 
+                            <Button type='submit' className="ButtonPrimary" color='#FFF' w='120px' h={{xl: '40px', '2xl':'52px'}} borderRadius='6px' marginTop='12px' fontSize='18px' fontWeight='600'> 
                                 Enviar
                             </Button>
                             </Box>
