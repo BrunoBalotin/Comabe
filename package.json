@@ -10,6 +10,7 @@
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@graphql-codegen/cli": "^2.6.2",
+    "@react-br-forms/cpf-cnpj-mask": "^1.0.6",
     "@tabler/icons": "^1.76.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

@@ -21,6 +21,7 @@ import Digitalizacao2 from '../pages/Digitalizacao2'
 import Digitalizacao3 from '../pages/Digitalizacao3'
 import DigitalizacaoTeste from '../pages/DigitalizacaoTeste'
 import { ObrigadoTeste } from '../pages/ObrigadoTeste'
+import { AberturaDeChamado } from '../pages/AberturaDeChamado'
 
 function AnimationRoutes() {
 
@@ -42,6 +43,7 @@ function AnimationRoutes() {
         <Route path='/digitaliza%C3%A7%C3%A3o-teste' exact element={<DigitalizacaoTeste/>} />
         <Route path='/obrigado' element={<Obrigado/>} />
         <Route path='/obrigado-teste' element={<ObrigadoTeste/>} />
+        <Route path='/abertura-de-chamado' element={<AberturaDeChamado />} />
 
         <Route path='/blog/um-metodo-de-gestao-empresarial-para-ganhar-tempo' element={<MetodoDeGestao/>} />
         <Route path='/blog/paperless-a-cultura-de-eficiencia' element={<Paperless/>} />

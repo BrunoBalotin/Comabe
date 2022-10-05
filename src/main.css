@@ -21,6 +21,17 @@ body {
     max-width: 75%;
 }
 
+.chakra-select__icon {
+    display: none;
+}
+
+.chakra-select {
+
+    width: 100%!important;
+    padding-left: 10px;
+}
+
+
 .bg-lp {
 
     background-image: url(https://uploaddeimagens.com.br/images/003/950/654/full/Grupo_8.png?1658405306);
