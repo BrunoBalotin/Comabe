@@ -101,7 +101,7 @@ export const AberturaDeChamado = () => {
 
                             </Select>
 
-                            <Input required mask='(99) 9 9999-9999' as={InputMask} w='100%' h='52px' border='1px solid #000' borderRadius='6px' paddingLeft='12px'
+                            <Input required w='100%' h='52px' border='1px solid #000' borderRadius='6px' paddingLeft='12px'
                             placeholder="Número de Série"
                             name="Número de Série"
                             />
