@@ -3,6 +3,7 @@ import { ContainerLP } from '../components/ContainerLP'
 
 import InputMask from 'react-input-mask';
 import { Link } from 'react-router-dom'
+import { WhatsappButton } from '../components/WhatsappButton';
 
 function Digitalizacao3() {
 
@@ -179,6 +180,7 @@ function Digitalizacao3() {
     </ContainerLP>
     </div>
     </div>
+    <WhatsappButton />
    </>
   )
 }

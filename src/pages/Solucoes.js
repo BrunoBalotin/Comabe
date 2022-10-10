@@ -32,6 +32,7 @@ import ContactBox from '../components/ContactBox'
 import Navbar from '../components/Navbar'
 import Utilities from '../components/Utilities'
 import Footer from '../components/Footer'
+import { WhatsappButton } from '../components/WhatsappButton'
 
 
 
@@ -210,6 +211,7 @@ function Solucoes() {
     
     <Utilities />
     <Footer />
+    <WhatsappButton />
     </motion.div>
   )
 }

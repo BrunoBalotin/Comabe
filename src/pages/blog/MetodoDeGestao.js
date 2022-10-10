@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 import { BlogCarousel } from '../../components/BlogCarousel'
 import Footer from '../../components/Footer'
+import { WhatsappButton } from '../../components/WhatsappButton'
 import {ReactComponent as Logo} from '../../images/logocomabe.svg'
 
 export function MetodoDeGestao() {
@@ -109,6 +110,7 @@ export function MetodoDeGestao() {
             <BlogCarousel />
             </div>
             <Footer />
+            <WhatsappButton />
         </div>
     )
 }

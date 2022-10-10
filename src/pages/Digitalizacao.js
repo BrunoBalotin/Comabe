@@ -10,6 +10,7 @@ import Sicredi from '../static/svg/Sicredi'
 
 import { IconCheck } from '@tabler/icons';
 import { Link } from 'react-router-dom'
+import { WhatsappButton } from '../components/WhatsappButton';
 
 function Digitalizacao() {
 
@@ -543,7 +544,7 @@ function Digitalizacao() {
     </div>
 
   
-
+    <WhatsappButton />
    </>
   )
 }

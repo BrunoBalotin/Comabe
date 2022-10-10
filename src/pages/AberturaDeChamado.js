@@ -1,12 +1,19 @@
-import { Box, Button, Heading, Image, Input, Select, Stack, Text, Textarea } from "@chakra-ui/react"
+import { Box, Button, Heading, Image, Input, Select, Skeleton, Stack, Text, Textarea } from "@chakra-ui/react"
 import InputMask from 'react-input-mask'
 import CpfCnpj from "@react-br-forms/cpf-cnpj-mask";
 import { useState } from "react";
+import { WhatsappButton } from "../components/WhatsappButton";
 
 export const AberturaDeChamado = () => {
 
     const [cpfCnpj, setCpfCnpj] = useState("");
     const [mask, setMask] = useState("");
+
+    const [isLoading, setIsLoading] = useState(true)
+
+    const handleSubmit = () => {
+        setIsLoading(false)
+    }
 
 
     return (
@@ -25,12 +32,12 @@ export const AberturaDeChamado = () => {
                     </Heading>
 
                     <Box marginTop='12px'>
-                        <form action="https://submit-form.com/yjUTgExK">
+                        <form onSubmit={handleSubmit} action="https://submit-form.com/yjUTgExK">
                             <input type="hidden" name="_email.template.title" value="Formulário - Abertura de Chamado" />
                             <input type="hidden" name="_email.template.footer" value="false" />
                             <input type="hidden" name="_email.from" value="https://grupocomabe.com.br/abertura-de-chamado" />
                             <input type="hidden" name="_email.subject" value="Formulário - Abertura de Chamado" />
-                            <input type="hidden" name="_redirect" value={`https://grupocomabe.com.br/abertura-de-chamado`} />
+                            <input type="hidden" name="_redirect" value={`https://grupocomabe.com.br/enviado`} />
 
                             <Stack>
                             <Input required value={cpfCnpj} onChange={(event, type) => { setCpfCnpj(event.target.value); setMask(type === "CPF") }} as={CpfCnpj} w='100%' h={{sm: '36px', xl: '40px', '2xl':'52px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px'
@@ -112,18 +119,24 @@ export const AberturaDeChamado = () => {
                             name="Número de Série"
                             />
 
-                            <Textarea placeholder="Descrição do Defeito" w='100%' h={{sm: '100px', xl: '80px', '2xl':'120px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px' paddingTop='12px'/>
+                            <Textarea required name='Descrição do problema' placeholder="Descrição do Defeito" w='100%' h={{sm: '100px', xl: '80px', '2xl':'120px'}} border='1px solid #000' borderRadius='6px' paddingLeft='12px' paddingTop='12px'/>
                             </Stack>
 
-                            <Box display='flex' justifyContent='flex-end'>
+                            <Box display='flex' justifyContent='flex-end' alignItems='flex-end' gap='20px'>
+                            <Text display={isLoading? 'none' : 'block'}>
+                                Enviando...
+                            </Text>
+                            <Skeleton isLoaded={isLoading} marginTop='6px'>
                             <Button type='submit' className="ButtonPrimary" color='#FFF' w='120px' h={{sm: '36px', xl: '40px', '2xl':'52px'}} borderRadius='6px' marginTop='12px' fontSize='18px' fontWeight='600'> 
                                 Enviar
                             </Button>
+                            </Skeleton>
                             </Box>
                         </form>
                     </Box>
                 </Box>
             </Box>
+            <WhatsappButton number="555426212300"/>
         </Box>
     )
 }

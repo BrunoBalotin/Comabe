@@ -5,6 +5,7 @@ import ButtonPrimary from "../components/ButtonPrimary"
 
 import { BsInstagram, BsYoutube } from 'react-icons/bs'
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa"
+import { WhatsappButton } from "../components/WhatsappButton"
 
 export function Obrigado() {
 
@@ -56,6 +57,7 @@ export function Obrigado() {
                 </div>
             </footer>
             </div>
+            <WhatsappButton />
         </main>
     )
 }

@@ -37,6 +37,7 @@ import ModalRevendas from "../components/ModalRevendas";
 import Navbar from "../components/Navbar";
 import Utilities from "../components/Utilities";
 import Footer from "../components/Footer";
+import { WhatsappButton } from "../components/WhatsappButton";
 
 const maquinas = [
     
@@ -637,6 +638,7 @@ function Revendas() {
 
       <Utilities />
     <Footer />
+    <WhatsappButton />
     </motion.div>
   );
 }

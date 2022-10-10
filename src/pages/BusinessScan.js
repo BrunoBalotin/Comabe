@@ -40,6 +40,7 @@ import HomemComCelular from '../images/BusinessScan/HomemComCelular.png'
 import Navbar from '../components/Navbar'
 import Utilities from '../components/Utilities'
 import Footer from '../components/Footer'
+import { WhatsappButton } from '../components/WhatsappButton'
 
 function BusinessScan() {
 
@@ -240,7 +241,7 @@ function BusinessScan() {
     
     <Utilities />
     <Footer />
-   
+    <WhatsappButton />
     </motion.div>
   )
 }

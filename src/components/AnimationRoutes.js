@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 import Contato from '../pages/Contato'
 import Home from '../pages/Home'
 import Produtos from '../pages/Produtos'
+import { WhatsappButton } from '../components/WhatsappButton'
 
 import { AnimatePresence } from 'framer-motion'
 import QuemSomos from '../pages/QuemSomos'
@@ -22,6 +23,7 @@ import Digitalizacao3 from '../pages/Digitalizacao3'
 import DigitalizacaoTeste from '../pages/DigitalizacaoTeste'
 import { ObrigadoTeste } from '../pages/ObrigadoTeste'
 import { AberturaDeChamado } from '../pages/AberturaDeChamado'
+import { Enviado } from '../pages/Enviado'
 
 function AnimationRoutes() {
 
@@ -44,6 +46,7 @@ function AnimationRoutes() {
         <Route path='/obrigado' element={<Obrigado/>} />
         <Route path='/obrigado-teste' element={<ObrigadoTeste/>} />
         <Route path='/abertura-de-chamado' element={<AberturaDeChamado />} />
+        <Route path='/enviado' element={<Enviado />} />
 
         <Route path='/blog/um-metodo-de-gestao-empresarial-para-ganhar-tempo' element={<MetodoDeGestao/>} />
         <Route path='/blog/paperless-a-cultura-de-eficiencia' element={<Paperless/>} />
@@ -51,10 +54,7 @@ function AnimationRoutes() {
         <Route path='/blog/4-vantagens-para-secretaria-escolar' element={<ScannerBrother/>} />
         <Route path='/blog/como-a-ufs-encontrou-documentos-perdidos-atraves-da-digitaliza%C3%A7%C3%A3o' element={<UFS/>} />
         <Route path='/blog/bom-funcionamento-de-sua-impressora' element={<OitoCuidados/>} />
-
-        
-
-    </Routes>
+        </Routes>
     </AnimatePresence>
   )
 }

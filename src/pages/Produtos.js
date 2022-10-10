@@ -6,6 +6,7 @@ import Tarja from '../components/Tarja'
 import Navbar from '../components/Navbar'
 import Utilities from '../components/Utilities'
 import Footer from '../components/Footer'
+import { WhatsappButton } from '../components/WhatsappButton'
 
 const Produtos= () => {
 
@@ -72,6 +73,7 @@ useEffect(() => {
     </div>
     <Utilities />
     <Footer />
+    <WhatsappButton />
     </motion.div>
   )
 }

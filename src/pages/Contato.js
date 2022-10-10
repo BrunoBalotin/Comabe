@@ -13,6 +13,7 @@ import ReactForm from '../components/ReactForm'
 import Navbar from '../components/Navbar'
 import Utilities from '../components/Utilities'
 import Footer from '../components/Footer'
+import { WhatsappButton } from '../components/WhatsappButton'
 
 const locations = [
   
@@ -170,6 +171,7 @@ const Contato = () => {
     
     <Utilities />
     <Footer />
+    <WhatsappButton />
     </motion.div>
   )
 }
