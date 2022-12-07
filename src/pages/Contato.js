@@ -48,7 +48,7 @@ const Contato = () => {
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity: 1, transition: {duration: 0.8} }} exit={{opacity: 0, transition: {duration: 0.1} }}>
     <Navbar />
-    <div className="bg-hero-bg-contato w-full py-36 flex items-center relative">
+    <div className="bg-hero-bg-contato w-full py-48 flex items-center relative">
       <div className='container mx-auto relative'>
         <div className='flex flex-col lg:flex-row justify-between'>
           <div className='w-full lg:w-[50%]'>
