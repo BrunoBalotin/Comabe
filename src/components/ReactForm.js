@@ -60,7 +60,7 @@ export default function ReactForm({fullWidth}) {
 
       <input required className='border-b text-[16px] lg:text-[15px] xl:text-[16px] pb-[15px] lg:pb-[10px] xl:pb-[15px] 2xl:pb-[30px] mt-[20px] lg:mt-[20px] 2xl:mt-[30px] outline-none' type="text" name='Cidade' placeholder="Cidade"  />
  
-      <textarea required className='border text-[16px] lg:text-[15px] xl:text-[16px] mt-[20px] mb-[20px] rounded p-3 outline-none' name='Descrição do Problema' placeholder="Descrição do Problema"  />
+      <textarea required className='border text-[16px] lg:text-[15px] xl:text-[16px] mt-[20px] mb-[20px] rounded p-3 outline-none' name='Descrição do Problema' placeholder="Mensagem"  />
 
 
       <label className='flex flex-col'>
