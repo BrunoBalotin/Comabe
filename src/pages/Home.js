@@ -88,7 +88,7 @@ const Home = () => {
             <span className='flex items-center text-sm text-titles font-light w-full lg:w-full 2xl:w-auto gap-3'><Fraudes className='w-9  lg:w-7 xl:w-9 2xl:w-auto'/> Seguro de fraudes</span>
             <span className='flex items-center text-sm text-titles font-light w-full lg:w-full 2xl:w-auto 2xl:mt-5 gap-3'><Certificado className='w-9  lg:w-7 xl:w-9 2xl:w-auto'/> Certificação ICP-Brasil</span>
           </div>
-          <ButtonPrimary onClick={scrollToTop} linkRef="/contato" text='Quero começar a economizar' color='ButtonPrimary' border='border-none' />
+          <ButtonPrimary onClick={scrollToTop} linkRef="/contato" text='Quero começar a economizar.' color='ButtonPrimary' border='border-none' />
         </div>
       
 
